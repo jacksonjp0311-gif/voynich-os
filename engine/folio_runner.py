@@ -1,7 +1,7 @@
-﻿\"\"\"Voynich OS — Folio Runner v1.3
+﻿"""Voynich OS — Folio Runner v1.3
 
 Runs the Voynich-OS pipeline over every folio and produces JSON outputs.
-\"\"\"
+"""
 from __future__ import annotations
 import json
 from pathlib import Path

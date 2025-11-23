@@ -1,7 +1,7 @@
-﻿\"\"\"Voynich OS — Corpus Statistics v1.2
+﻿"""Voynich OS — Corpus Statistics v1.2
 
 Safe, deterministic corpus validators for the Voynich-OS project.
-\"\"\"
+"""
 from __future__ import annotations
 import json
 from pathlib import Path

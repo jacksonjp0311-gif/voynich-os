@@ -1,7 +1,7 @@
-﻿\"\"\"Voynich OS — Execution Engine v2.0
+﻿"""Voynich OS — Execution Engine v2.0
 
 Safe, deterministic interpreter mapping EVA tokens to structured objects.
-\"\"\"
+"""
 from __future__ import annotations
 from typing import List, Dict, Any
 
