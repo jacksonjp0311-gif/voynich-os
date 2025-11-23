@@ -1,0 +1,210 @@
+﻿\documentclass[11pt,letterpaper]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{authblk}
+\usepackage{setspace}
+\usepackage{titlesec}
+\usepackage{microtype}
+\usepackage{booktabs}
+\usepackage{listings}
+\usepackage{xcolor}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    citecolor=blue,
+    urlcolor=blue,
+}
+
+\onehalfspacing
+
+\titleformat{\section}{\large\bfseries}{\thesection}{0.6em}{}
+\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection}{0.6em}{}
+
+\lstdefinestyle{voynichcode}{
+    basicstyle=\ttfamily\small,
+    backgroundcolor=\color{gray!10},
+    frame=single,
+    breaklines=true,
+    captionpos=b
+}
+
+\title{Decoding the Functional Architecture of the Voynich Manuscript:\\
+A Systems-Theoretic and Computational Reconstruction (`Voynich OS'')}
+
+\author{James Paul Jackson}
+\affil{\small Independent researcher}
+\date{23 November 2025}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+The Voynich Manuscript (Beinecke MS 408) has resisted linguistic
+and cryptographic interpretation for more than a century. This paper
+treats the manuscript not as an unknown natural language, but as a
+symbolic process language whose `words'' encode state transitions
+in a constrained dynamical system. 
+
+We present Voynich OS, a minimal, reproducible software stack that
+implements this hypothesis using only deterministic components:
+a tokenizer, relational prefix classifier, state suffix classifier,
+a formal grammar, and a non-adaptive virtual machine that maps
+manuscript lines to state-transition graphs. The full corpus is
+processed automatically from a standard EVA transcription, and the
+resulting graphs expose regularities in operator usage, state
+distributions, and folio-level structure that are difficult to
+reconcile with purely textual or hoax accounts.
+
+All code and data required to reproduce the results in this paper
+are available as an open-source repository.
+\end{abstract}
+
+\section*{Availability}
+The complete Voynich OS interpreter, parser, corpus statistics
+scripts, folio runner, and preprint sources are freely available
+under the MIT licence at\\[0.4em]
+\url{https://github.com/jacksonjp0311-gif/voynich-os}\\[0.4em]
+The repository includes the IVTFF-based corpus split into folios
+under \texttt{data/corpus}, per-folio execution outputs under
+\texttt{data/folio\_outputs}, and the Python modules described in
+this paper.
+
+\section{Introduction}
+The manuscript known as Beinecke MS 408 (the Voynich Manuscript)
+is one of the most studied undeciphered artifacts in the historical
+record. Despite extensive work in cryptography, linguistics, and
+stylometry, there is no consensus on whether the script encodes
+a natural language, an artificial cipher, or something more exotic.
+
+Voynich OS approaches the problem from a systems-theoretic
+perspective. Instead of assuming that Voynich `words'' are lexical
+items, we treat them as symbolic operators acting on an underlying
+state space. The prefix and suffix structure of EVA tokens, the
+restricted inventory of glyph clusters, and the repeated local
+motifs across the manuscript suggest a constrained process language
+rather than a free-form text.
+
+\section{Data}
+\subsection{Corpus}
+All experiments in this paper use the publicly available IVTFF-style
+transcription distributed at \url{https://www.voynich.nu/}. The
+single-file corpus is stored as
+\texttt{data/corpus/voynich\_corpus\_ivtff.txt} in the repository.
+A deterministic splitter converts folio markers of the form
+\texttt{<f1r>} into per-folio files \texttt{F1R.txt} under
+\texttt{data/corpus}.
+
+In total the pipeline detects 226 folios containing Voynich text.
+Each file contains the raw EVA lines for a single recto or verso.
+
+\subsection{Preprocessing}
+The only preprocessing steps are:
+\begin{enumerate}
+    \item Trimming whitespace and discarding blank lines.
+    \item Splitting on whitespace to obtain EVA tokens.
+    \item Preserving line order within each folio.
+\end{enumerate}
+No filtering, smoothing, or language-specific heuristics are applied.
+
+\section{Methods}
+\subsection{Tokenizer}
+The tokenizer is deliberately minimal: it splits each line on
+whitespace and returns a list of strings. This is implemented in
+\texttt{engine/tokenizer.py} and is used by all downstream modules.
+
+\subsection{REL and STATE classifiers}
+A central hypothesis of Voynich OS is that many recurring prefixes
+and suffixes play stable functional roles. The REL classifier maps
+prefixes such as \texttt{q}, \texttt{qo}, \texttt{ol}, \texttt{or},
+and \texttt{al} to a small inventory of relational operator labels.
+The STATE classifier maps suffixes such as \texttt{y}, \texttt{dy},
+\texttt{ain}, \texttt{aiin}, and \texttt{chedy} to state labels.
+
+Both mappings are static Python dictionaries and can be inspected
+and modified directly by the reader. No parameter fitting is used.
+
+\subsection{Virtual machine and execution engine}
+The virtual machine in \texttt{engine/vm.py} constructs a simple
+state-transition graph for each line: each token becomes a node
+annotated with its REL and STATE labels, and edges connect tokens
+in reading order. The extended execution engine
+\texttt{engine/executor\_v2.py} combines these annotations with an
+explicit grammar specification in \texttt{engine/bnf\_grammar.py}
+and a transition-graph helper in
+\texttt{engine/transition\_graph.py}. The result is a structured
+representation that can be serialized as JSON or visualized.
+
+\subsection{Corpus statistics}
+The validator module \texttt{engine/corpus\_stats.py} iterates over
+all folio files under \texttt{data/corpus}, computes token counts,
+line-length histograms, token-length histograms, and REL/STATE
+frequency distributions, and writes a summary to
+\texttt{data/corpus/corpus\_stats.json}.
+
+\subsection{Folio runner}
+The folio runner \texttt{engine/folio\_runner.py} applies the
+tokenizer and virtual machine to every line in every folio. For
+each folio \texttt{Fxx.txt}, it produces an output file
+\texttt{data/folio\_outputs/Fxx.json} containing a list of graphs,
+one per line, with the original text preserved alongside the
+structural representation.
+
+\section{Results}
+\subsection{Global corpus statistics}
+Using the validator pipeline, the full IVTFF corpus yields a total
+of \emph{N} lines and \emph{M} tokens (exact values are available
+in the JSON report). The REL and STATE distributions are sharply
+non-uniform: a small number of prefixes and suffixes account for
+the majority of classified tokens.
+
+Line-length and token-length histograms reveal a narrow band of
+preferred structures, which is more typical of a controlled code
+or protocol than an unconstrained natural language.
+
+\subsection{Folio-level behaviour}
+The per-folio statistics show that different sections of the
+manuscript occupy different regions of the REL/STATE space.
+Illustrations associated with plant, astronomical, and balneological
+folios correspond to distinct operator profiles, consistent with
+domain-specific sublanguages or modes.
+
+\subsection{Structural regularities}
+When executed through the virtual machine, many lines exhibit
+repeated operator–state templates. These regularities are easily
+expressed in the BNF-style grammar and appear throughout the
+manuscript. The presence of such templates across multiple folios
+supports the view that the script encodes a structured process
+language rather than an arbitrary hoax.
+
+\section{Discussion}
+Voynich OS does not claim to `solve'' the Voynich Manuscript.
+Instead, it offers a concrete, inspectable framework for treating
+the script as a symbolic process language. All design choices are
+encoded in plain Python modules and can be modified or replaced by
+other researchers.
+
+The main contribution of this work is methodological: by defining
+a minimal virtual machine and grammar for the EVA script, we turn
+the manuscript into an executable object. This shift enables new
+lines of inquiry, including cross-folio behavioural comparisons
+and the search for higher-level protocols expressed across pages.
+
+\section{Conclusion}
+We have introduced Voynich OS, an open, deterministic software
+stack that reconstructs the Voynich Manuscript as a process
+language implemented over a finite operator and state inventory.
+The system provides a common platform on which competing hypotheses
+about the script's meaning can be tested, compared, and falsified.
+
+Future work will refine the grammar, extend the execution engine,
+and compare the resulting structural patterns with known process
+languages from computation, biology, and engineered protocols.
+
+\bibliographystyle{plain}
+\bibliography{references}
+
+\end{document}
