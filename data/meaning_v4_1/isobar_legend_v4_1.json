@@ -1,0 +1,30 @@
+{
+  "files": {
+    "isobar_field_v4_1.json": "Numeric field encoding of isobars over folio index.",
+    "isobar_legend_v4_1.json": "This explanatory legend.",
+    "isobar_map_v4_1.json": "Global map of bands, classes, and zones.",
+    "semantic_isobars_v4_1.json": "Per-folio isobar metrics (bands, classes, indices)."
+  },
+  "isobar_classes": {
+    "drift_basin": "Low continuity and low pressure; diffuse, drifting meaning regions.",
+    "mixed_band": "Intermediate or mixed conditions not dominated by a single regime.",
+    "shear_front": "Intermediate vorticity with rising storm; semantic shear fronts.",
+    "stable_isobar": "High continuity, high / mid-high pressure, low storm; stable meaning plateaus.",
+    "vortex_pocket": "High vorticity with strong storm; localized semantic vortices."
+  },
+  "meta": {
+    "description": "Legend for semantic_isobars_v4_1.json and related files.",
+    "version": "4.1"
+  },
+  "pressure_bands": {
+    "high": "High semantic pressure: dense thematic / motif fields with strong continuity.",
+    "low": "Low semantic pressure: sparse motif density and weak theme pressure.",
+    "mid_high": "Moderately high semantic pressure: strong themes with good continuity.",
+    "mid_low": "Moderately low semantic pressure: shallow but present theme anchoring."
+  },
+  "vorticity_bands": {
+    "calm": "Low vorticity: smooth semantic flow with minimal shear.",
+    "shear": "Intermediate vorticity: thematic shear / turning zones.",
+    "vortex": "High vorticity: tightly curved meaning flow (semantic vortices)."
+  }
+}
