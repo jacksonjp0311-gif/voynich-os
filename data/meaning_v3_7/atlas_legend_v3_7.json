@@ -1,0 +1,28 @@
+{
+  "atlas_files": {
+    "atlas_graph_v3_7.json": "Full node/edge graph of themes, clusters, and folios.",
+    "atlas_legend_v3_7.json": "This legend file.",
+    "meaning_atlas_v3_7.json": "High-level summary of themes, continuity, and hotspots."
+  },
+  "continuity_fields": {
+    "continuity_score": "Weighted combination of theme + motif overlap between adjacent folios.",
+    "motif_overlap_score": "Normalized overlap of motif-count vectors.",
+    "theme_overlap_score": "Normalized overlap of theme-score vectors."
+  },
+  "edge_types": {
+    "appears_in_folio": "Cluster appears in the given folio.",
+    "belongs_to_theme": "Cluster belongs to a given theme (if present in semantic_mesh).",
+    "dominant_theme_for": "Theme is the dominant theme for the given folio.",
+    "folio_continuity": "Adjacency between folios with continuity scores (from v3.6).",
+    "mesh_link": "Generic edge from semantic_mesh_v3_4 (theme\u2013cluster relationships)."
+  },
+  "meta": {
+    "description": "Legend for atlas_graph_v3_7.json and meaning_atlas_v3_7.json.",
+    "version": "3.7"
+  },
+  "node_types": {
+    "cluster": "Represents a cluster of folios in meaning-space.",
+    "folio": "Represents an individual Voynich folio (e.g., F1R, F42V).",
+    "theme": "Represents a semantic theme label derived from cluster + motif analysis."
+  }
+}
