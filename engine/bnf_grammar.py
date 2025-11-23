@@ -1,11 +1,11 @@
-﻿\"\"\"Voynich OS BNF-style grammar (public-safe stub).
+﻿"""Voynich OS BNF-style grammar (public-safe stub).
 
 This module exposes a simple BNF-like representation of
 a process language for Voynich lines. It DOES NOT claim
 to be the true underlying grammar of the manuscript; it
 serves as a working hypothesis and a convenient formalism
 for experimentation.
-\"\"\"
+"""
 
 from typing import Dict, List
 
@@ -47,5 +47,6 @@ GRAMMAR: Dict[str, List[List[str]]] = {
 }
 
 def get_grammar() -> Dict[str, List[List[str]]]:
-    \"\"\"Return the current BNF-style grammar hypothesis.\"\"\"
+    """Return the current BNF-style grammar hypothesis."""
     return GRAMMAR
+

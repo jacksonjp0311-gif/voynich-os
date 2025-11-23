@@ -1,16 +1,16 @@
-﻿\"\"\"Voynich OS virtual machine (public-safe).
+﻿"""Voynich OS virtual machine (public-safe).
 
 Builds a simple state-transition graph from tokens,
 REL labels, and STATE labels. Graph is represented as
 a plain Python dict; there is no recursion or learning.
-\"\"\"
+"""
 
 from typing import List, Dict, Any
 from .rel_classifier import classify_rel
 from .state_classifier import classify_state
 
 def run_vm(tokens: List[str]) -> Dict[str, Any]:
-    \"\"\"Return a basic graph describing token relations.\"\"\"
+    """Return a basic graph describing token relations."""
     nodes = []
     edges = []
 
@@ -38,3 +38,4 @@ def run_vm(tokens: List[str]) -> Dict[str, Any]:
         "nodes": nodes,
         "edges": edges,
     }
+

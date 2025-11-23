@@ -1,14 +1,14 @@
-﻿\"\"\"Voynich OS transition-graph utilities (public-safe).
+﻿"""Voynich OS transition-graph utilities (public-safe).
 
 Provides a helper to convert the VM output into a simple
 NetworkX directed graph for further analysis or visualization.
-\"\"\"
+"""
 
 from typing import Dict, Any
 import networkx as nx
 
 def vm_output_to_nx(vm_output: Dict[str, Any]) -> nx.DiGraph:
-    \"\"\"Convert a VM graph dict (nodes/edges) into a NetworkX DiGraph.\"\"\"
+    """Convert a VM graph dict (nodes/edges) into a NetworkX DiGraph."""
     g = nx.DiGraph()
 
     for node in vm_output.get("nodes", []):
@@ -21,3 +21,4 @@ def vm_output_to_nx(vm_output: Dict[str, Any]) -> nx.DiGraph:
         g.add_edge(src, tgt)
 
     return g
+

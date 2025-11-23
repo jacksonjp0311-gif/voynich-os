@@ -1,8 +1,8 @@
-﻿\"\"\"Command-line runner for Voynich OS (public-safe).
+﻿"""Command-line runner for Voynich OS (public-safe).
 
 Allows simple experiments from the terminal:
     python -m engine.vm_runner --line \"qokedy qokain\"
-\"\"\"
+"""
 
 import argparse
 from .tokenizer import tokenize
@@ -35,3 +35,4 @@ def main() -> None:
 
 if __name__ == \"__main__\":
     main()
+
