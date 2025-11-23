@@ -1,0 +1,257 @@
+﻿\documentclass[11pt,letterpaper]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{graphicx}
+\usepackage{authblk}
+\usepackage{hyperref}
+\usepackage{microtype}
+\usepackage{booktabs}
+\usepackage{setspace}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    citecolor=blue,
+    urlcolor=blue
+}
+
+\onehalfspacing
+
+\title{Voynich OS: A Process-Language Framework for the Voynich Manuscript}
+
+\author{James Paul Jackson}
+\affil{\small Independent researcher}
+\date{November 2025}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+The Voynich Manuscript (Beinecke MS 408) has resisted decipherment for more
+than a century. Most prior work assumes that the text encodes a natural
+language, a ciphered variant of one, or an exotic writing system. In this
+preprint I explore a different hypothesis: the manuscript can be modeled
+as a symbolic process language whose primary function is to encode
+structured operations rather than lexical meaning.
+
+I present \emph{Voynich OS}, a lightweight and fully reproducible software
+framework that treats Voynich lines as programs over a finite alphabet of
+relational operators (REL), stems, and state suffixes (STATE). The system
+includes a tokenizer, static REL/STATE classifiers, a BNF-style grammar,
+and a simple virtual machine that executes Voynich lines into directed
+state-transition graphs. The emphasis is methodological rather than
+interpretive: the goal is to expose the manuscript's operational structure
+in a way that other researchers can inspect, challenge, and extend.
+
+All code in this paper is deterministic, non-adaptive, and released under
+the MIT licence at
+\url{https://github.com/jacksonjp0311-gif/voynich-os}.
+\end{abstract}
+
+\section{Introduction}
+
+Despite extensive cryptanalytic and linguistic effort, the Voynich
+Manuscript continues to defy conventional reading. Frequency statistics
+and glyph distributions resemble language at a coarse level, but
+fine-grained patterns appear incompatible with known scripts and
+languages. This tension has motivated proposals ranging from cipher
+systems and glossolalia to hoaxes.
+
+This work explores a more conservative yet understudied possibility:
+the manuscript's primary text may be better modeled as a \emph{process
+notation}---a compact way of writing down procedures, transformations or
+stateful operations---rather than as a direct encoding of sentences in
+a spoken language. Under this view, the textual stream is closer to an
+instruction sequence or configuration language than to prose.
+
+\emph{Voynich OS} is an attempt to make this hypothesis precise in a
+computationally grounded and reproducible way. The system is not a
+`decoder'' in the traditional sense. Instead, it is a scaffold that
+lets us:
+
+\begin{itemize}
+    \item tokenize Voynich lines in a transparent, inspectable manner;
+    \item classify a small set of recurring prefixes as relational
+    operators (REL);
+    \item classify common suffix strings as state markers (STATE);
+    \item describe a BNF-style grammar over abstract categories;
+    \item execute Voynich lines into explicit state-transition graphs.
+\end{itemize}
+
+The resulting framework is deliberately modest. It does not claim to
+solve the manuscript or to yield semantic translations. Rather, it offers
+a concrete, versioned baseline that can be extended by other researchers
+using the same code base.
+
+\section{Related Work}
+
+The literature on the Voynich Manuscript is extensive; here I summarize
+only the strands most relevant to a process-language interpretation.
+
+Zipfian analysis and character-level statistics have been used to argue
+that the text is unlikely to be random, while morphological irregularities
+have been cited as evidence against a straightforward natural language.
+Various generative schemes---including verbose ciphers, substitution
+ciphers with homophones, and more exotic mechanisms---have been proposed
+to reconcile these findings.
+
+Closer to the present work are studies that focus on glyph sequences and
+position-dependent behavior. Prefixes such as \texttt{q-}, \texttt{qo-}
+and the so-called `gallows'' letters exhibit strong positional
+preferences and may encode structural relations rather than phonetic
+content. Similarly, recurring suffix families (e.g., \texttt{-y},
+\texttt{-dy}, \texttt{-ain}) may encode state-like distinctions.
+
+\section{Design Goals}
+
+Voynich OS is designed around four constraints:
+
+\begin{enumerate}
+    \item \textbf{Transparency.} Every transformation applied to the
+    text should be visible in code and easy to inspect.
+    \item \textbf{Determinism.} The system avoids learning algorithms
+    and adaptive behavior; given the same input it always produces the
+    same output.
+    \item \textbf{Modularity.} Tokenization, classification, grammar
+    definition and execution are separated into distinct modules.
+    \item \textbf{Reproducibility.} All components are implemented in
+    plain Python and released under an open licence.
+\end{enumerate}
+
+These constraints are intentionally conservative. They ensure that
+subsequent proposals---including more ambitious probabilistic or
+machine-learning models---can treat Voynich OS as a stable baseline.
+
+\section{System Components}
+
+The public repository currently exposes five main components:
+
+\subsection{Tokenizer}
+
+The tokenizer accepts lines of EVA transcription and returns a sequence
+of glyph tokens. The initial implementation uses whitespace as the
+segmenter. This is simple but adequate for a first pass, and can be
+refined later with context-sensitive rules if needed.
+
+\subsection{REL Classifier}
+
+The REL classifier assigns abstract relation labels to tokens that begin
+with specific prefixes. In the present implementation:
+
+\begin{itemize}
+    \item tokens starting with \texttt{q} are mapped to \texttt{REL\_Q};
+    \item \texttt{qo-}, \texttt{ol-}, \texttt{or-}, \texttt{al-}
+    receive corresponding \texttt{REL\_*} tags;
+    \item all other tokens receive no REL label.
+\end{itemize}
+
+This mapping is deliberately small and static. It encodes the hypothesis
+that a handful of prefixes act as operators that bind or modify what
+follows.
+
+\subsection{STATE Classifier}
+
+Analogously, the STATE classifier maps a finite set of suffixes to
+abstract state labels such as \texttt{STATE\_Y} or \texttt{STATE\_AIN}.
+Tokens that do not end in a recognized suffix receive no state label.
+
+Again, this should be read as a concrete hypothesis, not a final
+taxonomy. The purpose is to create a shared vocabulary for future
+refinement.
+
+\subsection{BNF-Style Grammar}
+
+The grammar module packages a simple BNF-like structure in Python. The
+top-level nonterminal, \texttt{LINE}, expands into one or more
+\texttt{PHRASE} units, each of which comprises one or more \texttt{WORD}
+units. Words themselves are combinations of REL, stems and STATE
+markers.
+
+This grammar is intentionally compact. It captures the intuition that
+Voynich lines are composed of operator--stem--state triplets and their
+combinations, without committing to a specific semantics for any of the
+categories.
+
+\subsection{Virtual Machine and Transition Graphs}
+
+The virtual machine consumes a token sequence and attaches REL and STATE
+labels using the classifiers. It then constructs a simple directed graph
+in which each token is a node and edges connect successive positions.
+The resulting graph is represented as a plain Python dictionary of
+nodes and edges. A helper module converts this structure into a NetworkX
+\texttt{DiGraph} for further analysis or visualization.
+
+\section{Example}
+
+As a minimal illustration, consider the toy line
+
+\begin{center}
+\texttt{qokedy qokain qokedy}
+\end{center}
+
+Tokenization yields three tokens. The REL classifier marks all of them
+as \texttt{REL\_Q}. The STATE classifier may assign \texttt{STATE\_Y}
+to \texttt{qokedy} and \texttt{STATE\_AIN} to \texttt{qokain}. The VM
+then builds a three-node chain with labelled nodes and simple edges
+linking successive positions.
+
+The resulting structure does not in itself decode the text, but it makes
+the `shape'' of the line explicit in a way that can be compared across
+folios and sections of the manuscript.
+
+\section{Limitations and Future Work}
+
+Voynich OS is intentionally modest. Among its limitations:
+
+\begin{itemize}
+    \item The tokenizer currently ignores intra-token structure and
+    does not attempt to resolve ligatures or ambiguity in the EVA
+    transcription.
+    \item The REL and STATE classifiers are hand-defined and
+    incomplete.
+    \item The grammar is coarse and omits many known positional
+    constraints.
+    \item The virtual machine is purely structural; no semantics are
+    assigned to states or transitions.
+\end{itemize}
+
+These constraints are not flaws so much as markers of scope. The system
+is designed to be expanded. Natural next steps include:
+
+\begin{itemize}
+    \item refining the set of REL and STATE categories using corpus
+    statistics;
+    \item enriching the grammar with positional information and
+    folio-specific behavior;
+    \item incorporating diagrammatic or layout cues from the manuscript
+    into the execution model;
+    \item comparing transition-graph statistics across sections
+    (botanical, astronomical, balneological, etc.).
+\end{itemize}
+
+\section{Availability}
+
+The full source code for Voynich OS, including the tokenizer, REL and
+STATE classifiers, BNF-style grammar, virtual machine, and example
+scripts, is available at:
+
+\begin{center}
+\url{https://github.com/jacksonjp0311-gif/voynich-os}
+\end{center}
+
+The repository is released under the MIT licence and is intended as an
+open, evolving resource for researchers interested in structural
+approaches to the Voynich Manuscript.
+
+\section{Conclusion}
+
+Voynich OS does not claim to decode the Voynich Manuscript. Instead, it
+offers a concrete, inspectable way to treat the text as a process
+language and to make that treatment reproducible in code. Whether the
+underlying hypothesis is ultimately confirmed, refined or refuted, the
+framework provides a shared starting point for more rigorous discussion
+of the manuscript's structural properties.
+
+\end{document}

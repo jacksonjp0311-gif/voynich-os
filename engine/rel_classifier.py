@@ -1,4 +1,4 @@
-﻿\"\"\"REL classifier (public-safe stub).
+﻿\"\"\"REL classifier (public-safe).
 
 Classifies common Voynich-style prefixes as relational
 operators (REL). Mapping is static and finite.

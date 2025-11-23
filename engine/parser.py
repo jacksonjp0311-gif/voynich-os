@@ -1,8 +1,7 @@
-﻿\"\"\"Voynich OS parser (public-safe stub).
+﻿\"\"\"Voynich OS parser (public-safe).
 
 Consumes tokens and produces a simple structural
-representation. This implementation is deterministic
-and rule-based, with no learning or adaptation.
+representation. Deterministic and non-adaptive.
 \"\"\"
 
 from typing import List, Dict
@@ -10,10 +9,11 @@ from typing import List, Dict
 def parse(tokens: List[str]) -> List[Dict]:
     \"\"\"Return a list of dicts with basic token metadata.\"\"\"
     result: List[Dict] = []
-    for t in tokens:
+    for index, t in enumerate(tokens):
         entry = {
+            "index": index,
             "text": t,
-            "length": len(t)
+            "length": len(t),
         }
         result.append(entry)
     return result

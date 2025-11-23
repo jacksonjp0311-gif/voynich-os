@@ -1,4 +1,4 @@
-﻿\"\"\"STATE classifier (public-safe stub).
+﻿\"\"\"STATE classifier (public-safe).
 
 Maps common Voynich-style suffixes to simple state
 labels. Mapping is static and non-adaptive.
