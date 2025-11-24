@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "description": "Semantic Attractor Map over Voynich meaning stack (flow, wave, resonance, harmony, field, vectors).",
+    "version": "4.9",
+    "timestamp": "2025-11-24T15:20:36.989615+00:00",
+    "source_layers": [
+      "v4.2",
+      "v4.3",
+      "v4.4",
+      "v4.5",
+      "v4.7",
+      "v4.8"
+    ]
+  },
+  "stages": {
+    "flow": {
+      "size_bytes": 153,
+      "length": 3,
+      "weight": 0.13858695652173914
+    },
+    "wave": {
+      "size_bytes": 2,
+      "length": 0,
+      "weight": 0.0018115942028985507
+    },
+    "resonance": {
+      "size_bytes": 129,
+      "length": 2,
+      "weight": 0.11684782608695653
+    },
+    "harmony": {
+      "size_bytes": 441,
+      "length": 2,
+      "weight": 0.39945652173913043
+    },
+    "field": {
+      "size_bytes": 110,
+      "length": 3,
+      "weight": 0.09963768115942029
+    },
+    "vectors": {
+      "size_bytes": 269,
+      "length": 2,
+      "weight": 0.24365942028985507
+    }
+  },
+  "attractors": [
+    {
+      "id": "A0",
+      "label": "global_meaning_field",
+      "coherence": 0.47118449709415133,
+      "num_vectors": 0,
+      "vector_dim": 0,
+      "notes": "A0 approximates the global attractor of Voynich semantic flow at v4.9 given available layers."
+    }
+  ]
+}
