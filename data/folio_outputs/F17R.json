@@ -1,0 +1,5942 @@
+{
+  "folio": "F17R",
+  "num_lines": 133,
+  "graphs": [
+    {
+      "line_index": 0,
+      "text": "\ufeff# Last edited on 1998-10-09 02:32:53 by stolfi",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "\ufeff#",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "Last",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n2",
+            "token": "edited",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n3",
+            "token": "on",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n4",
+            "token": "1998-10-09",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n5",
+            "token": "02:32:53",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n6",
+            "token": "by",
+            "rel": null,
+            "state": "STATE_Y"
+          },
+          {
+            "id": "n7",
+            "token": "stolfi",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          },
+          {
+            "source": "n1",
+            "target": "n2"
+          },
+          {
+            "source": "n2",
+            "target": "n3"
+          },
+          {
+            "source": "n3",
+            "target": "n4"
+          },
+          {
+            "source": "n4",
+            "target": "n5"
+          },
+          {
+            "source": "n5",
+            "target": "n6"
+          },
+          {
+            "source": "n6",
+            "target": "n7"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 1,
+      "text": "#",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": []
+      }
+    },
+    {
+      "line_index": 2,
+      "text": "# Identification:",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "Identification:",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 3,
+      "text": "#",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": []
+      }
+    },
+    {
+      "line_index": 4,
+      "text": "#   Title: \"Roots with eyes\"",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "Title:",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n2",
+            "token": "\"Roots",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n3",
+            "token": "with",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n4",
+            "token": "eyes\"",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          },
+          {
+            "source": "n1",
+            "target": "n2"
+          },
+          {
+            "source": "n2",
+            "target": "n3"
+          },
+          {
+            "source": "n3",
+            "target": "n4"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 5,
+      "text": "#   Page: f17r = CA (Rene) = p031 (Stolfi)",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "Page:",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n2",
+            "token": "f17r",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n3",
+            "token": "=",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n4",
+            "token": "CA",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n5",
+            "token": "(Rene)",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n6",
+            "token": "=",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n7",
+            "token": "p031",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n8",
+            "token": "(Stolfi)",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          },
+          {
+            "source": "n1",
+            "target": "n2"
+          },
+          {
+            "source": "n2",
+            "target": "n3"
+          },
+          {
+            "source": "n3",
+            "target": "n4"
+          },
+          {
+            "source": "n4",
+            "target": "n5"
+          },
+          {
+            "source": "n5",
+            "target": "n6"
+          },
+          {
+            "source": "n6",
+            "target": "n7"
+          },
+          {
+            "source": "n7",
+            "target": "n8"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 6,
+      "text": "#   Folio: f17",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "Folio:",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n2",
+            "token": "f17",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          },
+          {
+            "source": "n1",
+            "target": "n2"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 7,
+      "text": "#   Panels: f17r",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "Panels:",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n2",
+            "token": "f17r",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          },
+          {
+            "source": "n1",
+            "target": "n2"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 8,
+      "text": "#   Bifolio: bC1 = f17+f24",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "Bifolio:",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n2",
+            "token": "bC1",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n3",
+            "token": "=",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n4",
+            "token": "f17+f24",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          },
+          {
+            "source": "n1",
+            "target": "n2"
+          },
+          {
+            "source": "n2",
+            "target": "n3"
+          },
+          {
+            "source": "n3",
+            "target": "n4"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 9,
+      "text": "#   Quire: C (Rene) = III (Beinecke)",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "Quire:",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n2",
+            "token": "C",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n3",
+            "token": "(Rene)",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n4",
+            "token": "=",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n5",
+            "token": "III",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n6",
+            "token": "(Beinecke)",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          },
+          {
+            "source": "n1",
+            "target": "n2"
+          },
+          {
+            "source": "n2",
+            "target": "n3"
+          },
+          {
+            "source": "n3",
+            "target": "n4"
+          },
+          {
+            "source": "n4",
+            "target": "n5"
+          },
+          {
+            "source": "n5",
+            "target": "n6"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 10,
+      "text": "#",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": []
+      }
+    },
+    {
+      "line_index": 11,
+      "text": "#   First page of quire.",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "First",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n2",
+            "token": "page",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n3",
+            "token": "of",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n4",
+            "token": "quire.",
+            "rel": "REL_Q",
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          },
+          {
+            "source": "n1",
+            "target": "n2"
+          },
+          {
+            "source": "n2",
+            "target": "n3"
+          },
+          {
+            "source": "n3",
+            "target": "n4"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 12,
+      "text": "#",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": []
+      }
+    },
+    {
+      "line_index": 13,
+      "text": "# Attributes:",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "Attributes:",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 14,
+      "text": "#",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": []
+      }
+    },
+    {
+      "line_index": 15,
+      "text": "#   Language: A (Currier)",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "Language:",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n2",
+            "token": "A",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n3",
+            "token": "(Currier)",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          },
+          {
+            "source": "n1",
+            "target": "n2"
+          },
+          {
+            "source": "n2",
+            "target": "n3"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 16,
+      "text": "#   Hand: 1 (Currier)",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "Hand:",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n2",
+            "token": "1",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n3",
+            "token": "(Currier)",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          },
+          {
+            "source": "n1",
+            "target": "n2"
+          },
+          {
+            "source": "n2",
+            "target": "n3"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 17,
+      "text": "#   Subsets: H (Rene), hea (Stolfi)",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "Subsets:",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n2",
+            "token": "H",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n3",
+            "token": "(Rene),",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n4",
+            "token": "hea",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n5",
+            "token": "(Stolfi)",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          },
+          {
+            "source": "n1",
+            "target": "n2"
+          },
+          {
+            "source": "n2",
+            "target": "n3"
+          },
+          {
+            "source": "n3",
+            "target": "n4"
+          },
+          {
+            "source": "n4",
+            "target": "n5"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 18,
+      "text": "#   Subject: herbal",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "Subject:",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n2",
+            "token": "herbal",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          },
+          {
+            "source": "n1",
+            "target": "n2"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 19,
+      "text": "#   Colors: b,green (Reeds)",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "Colors:",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n2",
+            "token": "b,green",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n3",
+            "token": "(Reeds)",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          },
+          {
+            "source": "n1",
+            "target": "n2"
+          },
+          {
+            "source": "n2",
+            "target": "n3"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 20,
+      "text": "#",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": []
+      }
+    },
+    {
+      "line_index": 21,
+      "text": "# Description:",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "Description:",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 22,
+      "text": "#",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": []
+      }
+    },
+    {
+      "line_index": 23,
+      "text": "#   One plant, flush against the right margin,",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "One",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n2",
+            "token": "plant,",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n3",
+            "token": "flush",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n4",
+            "token": "against",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n5",
+            "token": "the",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n6",
+            "token": "right",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n7",
+            "token": "margin,",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          },
+          {
+            "source": "n1",
+            "target": "n2"
+          },
+          {
+            "source": "n2",
+            "target": "n3"
+          },
+          {
+            "source": "n3",
+            "target": "n4"
+          },
+          {
+            "source": "n4",
+            "target": "n5"
+          },
+          {
+            "source": "n5",
+            "target": "n6"
+          },
+          {
+            "source": "n6",
+            "target": "n7"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 24,
+      "text": "#   spanning from the bottom edge to a little below the top",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "spanning",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n2",
+            "token": "from",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n3",
+            "token": "the",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n4",
+            "token": "bottom",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n5",
+            "token": "edge",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n6",
+            "token": "to",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n7",
+            "token": "a",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n8",
+            "token": "little",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n9",
+            "token": "below",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n10",
+            "token": "the",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n11",
+            "token": "top",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          },
+          {
+            "source": "n1",
+            "target": "n2"
+          },
+          {
+            "source": "n2",
+            "target": "n3"
+          },
+          {
+            "source": "n3",
+            "target": "n4"
+          },
+          {
+            "source": "n4",
+            "target": "n5"
+          },
+          {
+            "source": "n5",
+            "target": "n6"
+          },
+          {
+            "source": "n6",
+            "target": "n7"
+          },
+          {
+            "source": "n7",
+            "target": "n8"
+          },
+          {
+            "source": "n8",
+            "target": "n9"
+          },
+          {
+            "source": "n9",
+            "target": "n10"
+          },
+          {
+            "source": "n10",
+            "target": "n11"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 25,
+      "text": "#   margin.",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "margin.",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 26,
+      "text": "#",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": []
+      }
+    },
+    {
+      "line_index": 27,
+      "text": "#   Three paragraphs (with 2.6, 2.5, 5.5 lines) at the top, left- and",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "Three",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n2",
+            "token": "paragraphs",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n3",
+            "token": "(with",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n4",
+            "token": "2.6,",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n5",
+            "token": "2.5,",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n6",
+            "token": "5.5",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n7",
+            "token": "lines)",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n8",
+            "token": "at",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n9",
+            "token": "the",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n10",
+            "token": "top,",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n11",
+            "token": "left-",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n12",
+            "token": "and",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          },
+          {
+            "source": "n1",
+            "target": "n2"
+          },
+          {
+            "source": "n2",
+            "target": "n3"
+          },
+          {
+            "source": "n3",
+            "target": "n4"
+          },
+          {
+            "source": "n4",
+            "target": "n5"
+          },
+          {
+            "source": "n5",
+            "target": "n6"
+          },
+          {
+            "source": "n6",
+            "target": "n7"
+          },
+          {
+            "source": "n7",
+            "target": "n8"
+          },
+          {
+            "source": "n8",
+            "target": "n9"
+          },
+          {
+            "source": "n9",
+            "target": "n10"
+          },
+          {
+            "source": "n10",
+            "target": "n11"
+          },
+          {
+            "source": "n11",
+            "target": "n12"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 28,
+      "text": "#   right-justified except for the last paragraph (which follows the",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "right-justified",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n2",
+            "token": "except",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n3",
+            "token": "for",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n4",
+            "token": "the",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n5",
+            "token": "last",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n6",
+            "token": "paragraph",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n7",
+            "token": "(which",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n8",
+            "token": "follows",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n9",
+            "token": "the",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          },
+          {
+            "source": "n1",
+            "target": "n2"
+          },
+          {
+            "source": "n2",
+            "target": "n3"
+          },
+          {
+            "source": "n3",
+            "target": "n4"
+          },
+          {
+            "source": "n4",
+            "target": "n5"
+          },
+          {
+            "source": "n5",
+            "target": "n6"
+          },
+          {
+            "source": "n6",
+            "target": "n7"
+          },
+          {
+            "source": "n7",
+            "target": "n8"
+          },
+          {
+            "source": "n8",
+            "target": "n9"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 29,
+      "text": "#   plant's outline on the right), extending down to mid-page.",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "plant's",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n2",
+            "token": "outline",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n3",
+            "token": "on",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n4",
+            "token": "the",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n5",
+            "token": "right),",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n6",
+            "token": "extending",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n7",
+            "token": "down",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n8",
+            "token": "to",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n9",
+            "token": "mid-page.",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          },
+          {
+            "source": "n1",
+            "target": "n2"
+          },
+          {
+            "source": "n2",
+            "target": "n3"
+          },
+          {
+            "source": "n3",
+            "target": "n4"
+          },
+          {
+            "source": "n4",
+            "target": "n5"
+          },
+          {
+            "source": "n5",
+            "target": "n6"
+          },
+          {
+            "source": "n6",
+            "target": "n7"
+          },
+          {
+            "source": "n7",
+            "target": "n8"
+          },
+          {
+            "source": "n8",
+            "target": "n9"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 30,
+      "text": "#   Paragraph 3 may actually be two paragraphs (with 2.9 and 2.5",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "Paragraph",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n2",
+            "token": "3",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n3",
+            "token": "may",
+            "rel": null,
+            "state": "STATE_Y"
+          },
+          {
+            "id": "n4",
+            "token": "actually",
+            "rel": null,
+            "state": "STATE_Y"
+          },
+          {
+            "id": "n5",
+            "token": "be",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n6",
+            "token": "two",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n7",
+            "token": "paragraphs",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n8",
+            "token": "(with",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n9",
+            "token": "2.9",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n10",
+            "token": "and",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n11",
+            "token": "2.5",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          },
+          {
+            "source": "n1",
+            "target": "n2"
+          },
+          {
+            "source": "n2",
+            "target": "n3"
+          },
+          {
+            "source": "n3",
+            "target": "n4"
+          },
+          {
+            "source": "n4",
+            "target": "n5"
+          },
+          {
+            "source": "n5",
+            "target": "n6"
+          },
+          {
+            "source": "n6",
+            "target": "n7"
+          },
+          {
+            "source": "n7",
+            "target": "n8"
+          },
+          {
+            "source": "n8",
+            "target": "n9"
+          },
+          {
+            "source": "n9",
+            "target": "n10"
+          },
+          {
+            "source": "n10",
+            "target": "n11"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 31,
+      "text": "#   lines).",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "lines).",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 32,
+      "text": "#",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": []
+      }
+    },
+    {
+      "line_index": 33,
+      "text": "#   There is one extra line of text above the top margin (unit",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "There",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n2",
+            "token": "is",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n3",
+            "token": "one",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n4",
+            "token": "extra",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n5",
+            "token": "line",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n6",
+            "token": "of",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n7",
+            "token": "text",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n8",
+            "token": "above",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n9",
+            "token": "the",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n10",
+            "token": "top",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n11",
+            "token": "margin",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n12",
+            "token": "(unit",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          },
+          {
+            "source": "n1",
+            "target": "n2"
+          },
+          {
+            "source": "n2",
+            "target": "n3"
+          },
+          {
+            "source": "n3",
+            "target": "n4"
+          },
+          {
+            "source": "n4",
+            "target": "n5"
+          },
+          {
+            "source": "n5",
+            "target": "n6"
+          },
+          {
+            "source": "n6",
+            "target": "n7"
+          },
+          {
+            "source": "n7",
+            "target": "n8"
+          },
+          {
+            "source": "n8",
+            "target": "n9"
+          },
+          {
+            "source": "n9",
+            "target": "n10"
+          },
+          {
+            "source": "n10",
+            "target": "n11"
+          },
+          {
+            "source": "n11",
+            "target": "n12"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 34,
+      "text": "#   f17r.H), apparently not in the same hand as the rest of the page.",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "f17r.H),",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n2",
+            "token": "apparently",
+            "rel": null,
+            "state": "STATE_Y"
+          },
+          {
+            "id": "n3",
+            "token": "not",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n4",
+            "token": "in",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n5",
+            "token": "the",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n6",
+            "token": "same",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n7",
+            "token": "hand",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n8",
+            "token": "as",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n9",
+            "token": "the",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n10",
+            "token": "rest",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n11",
+            "token": "of",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n12",
+            "token": "the",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n13",
+            "token": "page.",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          },
+          {
+            "source": "n1",
+            "target": "n2"
+          },
+          {
+            "source": "n2",
+            "target": "n3"
+          },
+          {
+            "source": "n3",
+            "target": "n4"
+          },
+          {
+            "source": "n4",
+            "target": "n5"
+          },
+          {
+            "source": "n5",
+            "target": "n6"
+          },
+          {
+            "source": "n6",
+            "target": "n7"
+          },
+          {
+            "source": "n7",
+            "target": "n8"
+          },
+          {
+            "source": "n8",
+            "target": "n9"
+          },
+          {
+            "source": "n9",
+            "target": "n10"
+          },
+          {
+            "source": "n10",
+            "target": "n11"
+          },
+          {
+            "source": "n11",
+            "target": "n12"
+          },
+          {
+            "source": "n12",
+            "target": "n13"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 35,
+      "text": "#   The letters are smalled than normal; some of them resemble",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "The",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n2",
+            "token": "letters",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n3",
+            "token": "are",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n4",
+            "token": "smalled",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n5",
+            "token": "than",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n6",
+            "token": "normal;",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n7",
+            "token": "some",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n8",
+            "token": "of",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n9",
+            "token": "them",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n10",
+            "token": "resemble",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          },
+          {
+            "source": "n1",
+            "target": "n2"
+          },
+          {
+            "source": "n2",
+            "target": "n3"
+          },
+          {
+            "source": "n3",
+            "target": "n4"
+          },
+          {
+            "source": "n4",
+            "target": "n5"
+          },
+          {
+            "source": "n5",
+            "target": "n6"
+          },
+          {
+            "source": "n6",
+            "target": "n7"
+          },
+          {
+            "source": "n7",
+            "target": "n8"
+          },
+          {
+            "source": "n8",
+            "target": "n9"
+          },
+          {
+            "source": "n9",
+            "target": "n10"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 36,
+      "text": "#   Voynichese charactersthey, others look more like Latin. One of the",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "Voynichese",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n2",
+            "token": "charactersthey,",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n3",
+            "token": "others",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n4",
+            "token": "look",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n5",
+            "token": "more",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n6",
+            "token": "like",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n7",
+            "token": "Latin.",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n8",
+            "token": "One",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n9",
+            "token": "of",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n10",
+            "token": "the",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          },
+          {
+            "source": "n1",
+            "target": "n2"
+          },
+          {
+            "source": "n2",
+            "target": "n3"
+          },
+          {
+            "source": "n3",
+            "target": "n4"
+          },
+          {
+            "source": "n4",
+            "target": "n5"
+          },
+          {
+            "source": "n5",
+            "target": "n6"
+          },
+          {
+            "source": "n6",
+            "target": "n7"
+          },
+          {
+            "source": "n7",
+            "target": "n8"
+          },
+          {
+            "source": "n8",
+            "target": "n9"
+          },
+          {
+            "source": "n9",
+            "target": "n10"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 37,
+      "text": "#   legible characters is an EVA \"y\" with macron; another, less",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "legible",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n2",
+            "token": "characters",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n3",
+            "token": "is",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n4",
+            "token": "an",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n5",
+            "token": "EVA",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n6",
+            "token": "\"y\"",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n7",
+            "token": "with",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n8",
+            "token": "macron;",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n9",
+            "token": "another,",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n10",
+            "token": "less",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          },
+          {
+            "source": "n1",
+            "target": "n2"
+          },
+          {
+            "source": "n2",
+            "target": "n3"
+          },
+          {
+            "source": "n3",
+            "target": "n4"
+          },
+          {
+            "source": "n4",
+            "target": "n5"
+          },
+          {
+            "source": "n5",
+            "target": "n6"
+          },
+          {
+            "source": "n6",
+            "target": "n7"
+          },
+          {
+            "source": "n7",
+            "target": "n8"
+          },
+          {
+            "source": "n8",
+            "target": "n9"
+          },
+          {
+            "source": "n9",
+            "target": "n10"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 38,
+      "text": "#   legible, could be an EVA \"r\". The right half of the line is almost",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "legible,",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n2",
+            "token": "could",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n3",
+            "token": "be",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n4",
+            "token": "an",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n5",
+            "token": "EVA",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n6",
+            "token": "\"r\".",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n7",
+            "token": "The",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n8",
+            "token": "right",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n9",
+            "token": "half",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n10",
+            "token": "of",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n11",
+            "token": "the",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n12",
+            "token": "line",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n13",
+            "token": "is",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n14",
+            "token": "almost",
+            "rel": "REL_AL",
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          },
+          {
+            "source": "n1",
+            "target": "n2"
+          },
+          {
+            "source": "n2",
+            "target": "n3"
+          },
+          {
+            "source": "n3",
+            "target": "n4"
+          },
+          {
+            "source": "n4",
+            "target": "n5"
+          },
+          {
+            "source": "n5",
+            "target": "n6"
+          },
+          {
+            "source": "n6",
+            "target": "n7"
+          },
+          {
+            "source": "n7",
+            "target": "n8"
+          },
+          {
+            "source": "n8",
+            "target": "n9"
+          },
+          {
+            "source": "n9",
+            "target": "n10"
+          },
+          {
+            "source": "n10",
+            "target": "n11"
+          },
+          {
+            "source": "n11",
+            "target": "n12"
+          },
+          {
+            "source": "n12",
+            "target": "n13"
+          },
+          {
+            "source": "n13",
+            "target": "n14"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 39,
+      "text": "#   completely erased, and may extend beyond the normal right margin;",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "completely",
+            "rel": null,
+            "state": "STATE_Y"
+          },
+          {
+            "id": "n2",
+            "token": "erased,",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n3",
+            "token": "and",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n4",
+            "token": "may",
+            "rel": null,
+            "state": "STATE_Y"
+          },
+          {
+            "id": "n5",
+            "token": "extend",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n6",
+            "token": "beyond",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n7",
+            "token": "the",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n8",
+            "token": "normal",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n9",
+            "token": "right",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n10",
+            "token": "margin;",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          },
+          {
+            "source": "n1",
+            "target": "n2"
+          },
+          {
+            "source": "n2",
+            "target": "n3"
+          },
+          {
+            "source": "n3",
+            "target": "n4"
+          },
+          {
+            "source": "n4",
+            "target": "n5"
+          },
+          {
+            "source": "n5",
+            "target": "n6"
+          },
+          {
+            "source": "n6",
+            "target": "n7"
+          },
+          {
+            "source": "n7",
+            "target": "n8"
+          },
+          {
+            "source": "n8",
+            "target": "n9"
+          },
+          {
+            "source": "n9",
+            "target": "n10"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 40,
+      "text": "#   the left half is not quite readable.",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "the",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n2",
+            "token": "left",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n3",
+            "token": "half",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n4",
+            "token": "is",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n5",
+            "token": "not",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n6",
+            "token": "quite",
+            "rel": "REL_Q",
+            "state": null
+          },
+          {
+            "id": "n7",
+            "token": "readable.",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          },
+          {
+            "source": "n1",
+            "target": "n2"
+          },
+          {
+            "source": "n2",
+            "target": "n3"
+          },
+          {
+            "source": "n3",
+            "target": "n4"
+          },
+          {
+            "source": "n4",
+            "target": "n5"
+          },
+          {
+            "source": "n5",
+            "target": "n6"
+          },
+          {
+            "source": "n6",
+            "target": "n7"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 41,
+      "text": "#",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": []
+      }
+    },
+    {
+      "line_index": 42,
+      "text": "# Comments:",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "Comments:",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 43,
+      "text": "#",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": []
+      }
+    },
+    {
+      "line_index": 44,
+      "text": "#   The extra line of text at the top of the page looks similar to the",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "The",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n2",
+            "token": "extra",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n3",
+            "token": "line",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n4",
+            "token": "of",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n5",
+            "token": "text",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n6",
+            "token": "at",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n7",
+            "token": "the",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n8",
+            "token": "top",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n9",
+            "token": "of",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n10",
+            "token": "the",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n11",
+            "token": "page",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n12",
+            "token": "looks",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n13",
+            "token": "similar",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n14",
+            "token": "to",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n15",
+            "token": "the",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          },
+          {
+            "source": "n1",
+            "target": "n2"
+          },
+          {
+            "source": "n2",
+            "target": "n3"
+          },
+          {
+            "source": "n3",
+            "target": "n4"
+          },
+          {
+            "source": "n4",
+            "target": "n5"
+          },
+          {
+            "source": "n5",
+            "target": "n6"
+          },
+          {
+            "source": "n6",
+            "target": "n7"
+          },
+          {
+            "source": "n7",
+            "target": "n8"
+          },
+          {
+            "source": "n8",
+            "target": "n9"
+          },
+          {
+            "source": "n9",
+            "target": "n10"
+          },
+          {
+            "source": "n10",
+            "target": "n11"
+          },
+          {
+            "source": "n11",
+            "target": "n12"
+          },
+          {
+            "source": "n12",
+            "target": "n13"
+          },
+          {
+            "source": "n13",
+            "target": "n14"
+          },
+          {
+            "source": "n14",
+            "target": "n15"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 45,
+      "text": "#   hand of f116v (especially the characters shaped like \"l\"s). The",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "hand",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n2",
+            "token": "of",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n3",
+            "token": "f116v",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n4",
+            "token": "(especially",
+            "rel": null,
+            "state": "STATE_Y"
+          },
+          {
+            "id": "n5",
+            "token": "the",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n6",
+            "token": "characters",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n7",
+            "token": "shaped",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n8",
+            "token": "like",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n9",
+            "token": "\"l\"s).",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n10",
+            "token": "The",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          },
+          {
+            "source": "n1",
+            "target": "n2"
+          },
+          {
+            "source": "n2",
+            "target": "n3"
+          },
+          {
+            "source": "n3",
+            "target": "n4"
+          },
+          {
+            "source": "n4",
+            "target": "n5"
+          },
+          {
+            "source": "n5",
+            "target": "n6"
+          },
+          {
+            "source": "n6",
+            "target": "n7"
+          },
+          {
+            "source": "n7",
+            "target": "n8"
+          },
+          {
+            "source": "n8",
+            "target": "n9"
+          },
+          {
+            "source": "n9",
+            "target": "n10"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 46,
+      "text": "#   letters are probably Latin, or possibly Greek; the EVA-\"y\" with macron",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "letters",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n2",
+            "token": "are",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n3",
+            "token": "probably",
+            "rel": null,
+            "state": "STATE_Y"
+          },
+          {
+            "id": "n4",
+            "token": "Latin,",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n5",
+            "token": "or",
+            "rel": "REL_OR",
+            "state": null
+          },
+          {
+            "id": "n6",
+            "token": "possibly",
+            "rel": null,
+            "state": "STATE_Y"
+          },
+          {
+            "id": "n7",
+            "token": "Greek;",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n8",
+            "token": "the",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n9",
+            "token": "EVA-\"y\"",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n10",
+            "token": "with",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n11",
+            "token": "macron",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          },
+          {
+            "source": "n1",
+            "target": "n2"
+          },
+          {
+            "source": "n2",
+            "target": "n3"
+          },
+          {
+            "source": "n3",
+            "target": "n4"
+          },
+          {
+            "source": "n4",
+            "target": "n5"
+          },
+          {
+            "source": "n5",
+            "target": "n6"
+          },
+          {
+            "source": "n6",
+            "target": "n7"
+          },
+          {
+            "source": "n7",
+            "target": "n8"
+          },
+          {
+            "source": "n8",
+            "target": "n9"
+          },
+          {
+            "source": "n9",
+            "target": "n10"
+          },
+          {
+            "source": "n10",
+            "target": "n11"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 47,
+      "text": "#   would then be an abbreviation.",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "would",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n2",
+            "token": "then",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n3",
+            "token": "be",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n4",
+            "token": "an",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n5",
+            "token": "abbreviation.",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          },
+          {
+            "source": "n1",
+            "target": "n2"
+          },
+          {
+            "source": "n2",
+            "target": "n3"
+          },
+          {
+            "source": "n3",
+            "target": "n4"
+          },
+          {
+            "source": "n4",
+            "target": "n5"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 48,
+      "text": "#",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": []
+      }
+    },
+    {
+      "line_index": 49,
+      "text": "#   The eyes in the roots seem to be the result of \"enhancing\" two",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "The",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n2",
+            "token": "eyes",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n3",
+            "token": "in",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n4",
+            "token": "the",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n5",
+            "token": "roots",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n6",
+            "token": "seem",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n7",
+            "token": "to",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n8",
+            "token": "be",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n9",
+            "token": "the",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n10",
+            "token": "result",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n11",
+            "token": "of",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n12",
+            "token": "\"enhancing\"",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n13",
+            "token": "two",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          },
+          {
+            "source": "n1",
+            "target": "n2"
+          },
+          {
+            "source": "n2",
+            "target": "n3"
+          },
+          {
+            "source": "n3",
+            "target": "n4"
+          },
+          {
+            "source": "n4",
+            "target": "n5"
+          },
+          {
+            "source": "n5",
+            "target": "n6"
+          },
+          {
+            "source": "n6",
+            "target": "n7"
+          },
+          {
+            "source": "n7",
+            "target": "n8"
+          },
+          {
+            "source": "n8",
+            "target": "n9"
+          },
+          {
+            "source": "n9",
+            "target": "n10"
+          },
+          {
+            "source": "n10",
+            "target": "n11"
+          },
+          {
+            "source": "n11",
+            "target": "n12"
+          },
+          {
+            "source": "n12",
+            "target": "n13"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 50,
+      "text": "#   eye-like gaps in the roots.",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "eye-like",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n2",
+            "token": "gaps",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n3",
+            "token": "in",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n4",
+            "token": "the",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n5",
+            "token": "roots.",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          },
+          {
+            "source": "n1",
+            "target": "n2"
+          },
+          {
+            "source": "n2",
+            "target": "n3"
+          },
+          {
+            "source": "n3",
+            "target": "n4"
+          },
+          {
+            "source": "n4",
+            "target": "n5"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 51,
+      "text": "#",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": []
+      }
+    },
+    {
+      "line_index": 52,
+      "text": "# # <f17r.H> {}",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "#",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n2",
+            "token": "<f17r.H>",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n3",
+            "token": "{}",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          },
+          {
+            "source": "n1",
+            "target": "n2"
+          },
+          {
+            "source": "n2",
+            "target": "n3"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 53,
+      "text": "# Extraneous writing at the top (almost certainly not Voynichese).",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "Extraneous",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n2",
+            "token": "writing",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n3",
+            "token": "at",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n4",
+            "token": "the",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n5",
+            "token": "top",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n6",
+            "token": "(almost",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n7",
+            "token": "certainly",
+            "rel": null,
+            "state": "STATE_Y"
+          },
+          {
+            "id": "n8",
+            "token": "not",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n9",
+            "token": "Voynichese).",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          },
+          {
+            "source": "n1",
+            "target": "n2"
+          },
+          {
+            "source": "n2",
+            "target": "n3"
+          },
+          {
+            "source": "n3",
+            "target": "n4"
+          },
+          {
+            "source": "n4",
+            "target": "n5"
+          },
+          {
+            "source": "n5",
+            "target": "n6"
+          },
+          {
+            "source": "n6",
+            "target": "n7"
+          },
+          {
+            "source": "n7",
+            "target": "n8"
+          },
+          {
+            "source": "n8",
+            "target": "n9"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 54,
+      "text": "# Last edited on 1998-12-23 04:24:18 by stolfi",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "Last",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n2",
+            "token": "edited",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n3",
+            "token": "on",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n4",
+            "token": "1998-12-23",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n5",
+            "token": "04:24:18",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n6",
+            "token": "by",
+            "rel": null,
+            "state": "STATE_Y"
+          },
+          {
+            "id": "n7",
+            "token": "stolfi",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          },
+          {
+            "source": "n1",
+            "target": "n2"
+          },
+          {
+            "source": "n2",
+            "target": "n3"
+          },
+          {
+            "source": "n3",
+            "target": "n4"
+          },
+          {
+            "source": "n4",
+            "target": "n5"
+          },
+          {
+            "source": "n5",
+            "target": "n6"
+          },
+          {
+            "source": "n6",
+            "target": "n7"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 55,
+      "text": "#",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": []
+      }
+    },
+    {
+      "line_index": 56,
+      "text": "# \"U\" transcription by J. Stolfi from scanned image",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "\"U\"",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n2",
+            "token": "transcription",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n3",
+            "token": "by",
+            "rel": null,
+            "state": "STATE_Y"
+          },
+          {
+            "id": "n4",
+            "token": "J.",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n5",
+            "token": "Stolfi",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n6",
+            "token": "from",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n7",
+            "token": "scanned",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n8",
+            "token": "image",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          },
+          {
+            "source": "n1",
+            "target": "n2"
+          },
+          {
+            "source": "n2",
+            "target": "n3"
+          },
+          {
+            "source": "n3",
+            "target": "n4"
+          },
+          {
+            "source": "n4",
+            "target": "n5"
+          },
+          {
+            "source": "n5",
+            "target": "n6"
+          },
+          {
+            "source": "n6",
+            "target": "n7"
+          },
+          {
+            "source": "n7",
+            "target": "n8"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 57,
+      "text": "#",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": []
+      }
+    },
+    {
+      "line_index": 58,
+      "text": "# Reading in Latin alphabet:",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "Reading",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n2",
+            "token": "in",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n3",
+            "token": "Latin",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n4",
+            "token": "alphabet:",
+            "rel": "REL_AL",
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          },
+          {
+            "source": "n1",
+            "target": "n2"
+          },
+          {
+            "source": "n2",
+            "target": "n3"
+          },
+          {
+            "source": "n3",
+            "target": "n4"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 59,
+      "text": "# <f17r.H.0;U>     mallior.allor.*u*{9-with-macron}.ha*.umi***.o.***al.****{rest erased}=",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "<f17r.H.0;U>",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n2",
+            "token": "mallior.allor.*u*{9-with-macron}.ha*.umi***.o.***al.****{rest",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n3",
+            "token": "erased}=",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          },
+          {
+            "source": "n1",
+            "target": "n2"
+          },
+          {
+            "source": "n2",
+            "target": "n3"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 60,
+      "text": "#",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": []
+      }
+    },
+    {
+      "line_index": 61,
+      "text": "# # <f17r.P> {}",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "#",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n2",
+            "token": "<f17r.P>",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n3",
+            "token": "{}",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          },
+          {
+            "source": "n1",
+            "target": "n2"
+          },
+          {
+            "source": "n2",
+            "target": "n3"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 62,
+      "text": "# text",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "text",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 63,
+      "text": "# Last edited on 1998-12-11 12:32:16 by stolfi",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "Last",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n2",
+            "token": "edited",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n3",
+            "token": "on",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n4",
+            "token": "1998-12-11",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n5",
+            "token": "12:32:16",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n6",
+            "token": "by",
+            "rel": null,
+            "state": "STATE_Y"
+          },
+          {
+            "id": "n7",
+            "token": "stolfi",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          },
+          {
+            "source": "n1",
+            "target": "n2"
+          },
+          {
+            "source": "n2",
+            "target": "n3"
+          },
+          {
+            "source": "n3",
+            "target": "n4"
+          },
+          {
+            "source": "n4",
+            "target": "n5"
+          },
+          {
+            "source": "n5",
+            "target": "n6"
+          },
+          {
+            "source": "n6",
+            "target": "n7"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 64,
+      "text": "#",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": []
+      }
+    },
+    {
+      "line_index": 65,
+      "text": "# \"U\" transcription by J. Stolfi from scanned image",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "\"U\"",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n2",
+            "token": "transcription",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n3",
+            "token": "by",
+            "rel": null,
+            "state": "STATE_Y"
+          },
+          {
+            "id": "n4",
+            "token": "J.",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n5",
+            "token": "Stolfi",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n6",
+            "token": "from",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n7",
+            "token": "scanned",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n8",
+            "token": "image",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          },
+          {
+            "source": "n1",
+            "target": "n2"
+          },
+          {
+            "source": "n2",
+            "target": "n3"
+          },
+          {
+            "source": "n3",
+            "target": "n4"
+          },
+          {
+            "source": "n4",
+            "target": "n5"
+          },
+          {
+            "source": "n5",
+            "target": "n6"
+          },
+          {
+            "source": "n6",
+            "target": "n7"
+          },
+          {
+            "source": "n7",
+            "target": "n8"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 66,
+      "text": "#",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": []
+      }
+    },
+    {
+      "line_index": 67,
+      "text": "# The \"9\" looks like an EVA \"y\" with an overbar.",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "The",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n2",
+            "token": "\"9\"",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n3",
+            "token": "looks",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n4",
+            "token": "like",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n5",
+            "token": "an",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n6",
+            "token": "EVA",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n7",
+            "token": "\"y\"",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n8",
+            "token": "with",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n9",
+            "token": "an",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n10",
+            "token": "overbar.",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          },
+          {
+            "source": "n1",
+            "target": "n2"
+          },
+          {
+            "source": "n2",
+            "target": "n3"
+          },
+          {
+            "source": "n3",
+            "target": "n4"
+          },
+          {
+            "source": "n4",
+            "target": "n5"
+          },
+          {
+            "source": "n5",
+            "target": "n6"
+          },
+          {
+            "source": "n6",
+            "target": "n7"
+          },
+          {
+            "source": "n7",
+            "target": "n8"
+          },
+          {
+            "source": "n8",
+            "target": "n9"
+          },
+          {
+            "source": "n9",
+            "target": "n10"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 68,
+      "text": "# Line 0 roman:    malliar.al*or.lu9.hav.vin*******a.o.***al.***=",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "Line",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n2",
+            "token": "0",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n3",
+            "token": "roman:",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n4",
+            "token": "malliar.al*or.lu9.hav.vin*******a.o.***al.***=",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          },
+          {
+            "source": "n1",
+            "target": "n2"
+          },
+          {
+            "source": "n2",
+            "target": "n3"
+          },
+          {
+            "source": "n3",
+            "target": "n4"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 69,
+      "text": "#",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": []
+      }
+    },
+    {
+      "line_index": 70,
+      "text": "<f17r.1,@P0;H>     fshody.daram.ydar!chom.opydy.ypod.chop.otchy.dody.oldckhy",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "<f17r.1,@P0;H>",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "fshody.daram.ydar!chom.opydy.ypod.chop.otchy.dody.oldckhy",
+            "rel": null,
+            "state": "STATE_Y"
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 71,
+      "text": "<f17r.1,@P0;C>     fshody.daram.ydar.chom.opydy.ypod.!!!!!otchy.dody.oldckhy",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "<f17r.1,@P0;C>",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "fshody.daram.ydar.chom.opydy.ypod.!!!!!otchy.dody.oldckhy",
+            "rel": null,
+            "state": "STATE_Y"
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 72,
+      "text": "<f17r.1,@P0;F>     fshody.daram.ydar.chom.opydy.ypod.chop.otchy.dody.oldckhy",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "<f17r.1,@P0;F>",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "fshody.daram.ydar.chom.opydy.ypod.chop.otchy.dody.oldckhy",
+            "rel": null,
+            "state": "STATE_Y"
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 73,
+      "text": "<f17r.1,@P0;U>     fshody.daram.ydar,chom.opydy.ypod,chop.otchy.dody.oldckhy",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "<f17r.1,@P0;U>",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "fshody.daram.ydar,chom.opydy.ypod,chop.otchy.dody.oldckhy",
+            "rel": null,
+            "state": "STATE_Y"
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 74,
+      "text": "#",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": []
+      }
+    },
+    {
+      "line_index": 75,
+      "text": "<f17r.2,+P0;H>     ydair.sho!!ky.okshy.qodar.ckhody.dor.otchol.qodcthy.ods",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "<f17r.2,+P0;H>",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "ydair.sho!!ky.okshy.qodar.ckhody.dor.otchol.qodcthy.ods",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 76,
+      "text": "<f17r.2,+P0;C>     odair.cho!!ky.okshy.qodar.ckhody.dor.otchol.qodcthy.ods",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "<f17r.2,+P0;C>",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "odair.cho!!ky.okshy.qodar.ckhody.dor.otchol.qodcthy.ods",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 77,
+      "text": "<f17r.2,+P0;F>     ydair.chokoky.okshy.qodar.ckhody.dor.otchol.qodcthy.ods",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "<f17r.2,+P0;F>",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "ydair.chokoky.okshy.qodar.ckhody.dor.otchol.qodcthy.ods",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 78,
+      "text": "<f17r.2,+P0;U>     ydair.cho!!ky.okshy.qodar.ckhody.dor.otchol.qodcthy.ods",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "<f17r.2,+P0;U>",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "ydair.cho!!ky.okshy.qodar.ckhody.dor.otchol.qodcthy.ods",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 79,
+      "text": "#",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": []
+      }
+    },
+    {
+      "line_index": 80,
+      "text": "<f17r.3,+P0;H>     chol.or.chy.qodam.okor.chor.okchom<$>",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "<f17r.3,+P0;H>",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "chol.or.chy.qodam.okor.chor.okchom<$>",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 81,
+      "text": "<f17r.3,+P0;C>     chol.or.chy.qodam.okor.chor.okchom<$>",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "<f17r.3,+P0;C>",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "chol.or.chy.qodam.okor.chor.okchom<$>",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 82,
+      "text": "<f17r.3,+P0;F>     chol.or.chy.qodam.okor.chor.okchom<$>",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "<f17r.3,+P0;F>",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "chol.or.chy.qodam.okor.chor.okchom<$>",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 83,
+      "text": "<f17r.3,+P0;U>     chol,or,chy.qodam.okor.chor.okchom<$>",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "<f17r.3,+P0;U>",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "chol,or,chy.qodam.okor.chor.okchom<$>",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 84,
+      "text": "#",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": []
+      }
+    },
+    {
+      "line_index": 85,
+      "text": "<f17r.4,+P0;H>     tcho?.shol.qokol.qor.olaiin.opydg<-><!plant>som.ypchy.ypaim",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "<f17r.4,+P0;H>",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "tcho?.shol.qokol.qor.olaiin.opydg<-><!plant>som.ypchy.ypaim",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 86,
+      "text": "<f17r.4,+P0;C>     tchom.shol.qokol.qor.olaiin.otydd<-><!plant>som.ypchy.ypaim",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "<f17r.4,+P0;C>",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "tchom.shol.qokol.qor.olaiin.otydd<-><!plant>som.ypchy.ypaim",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 87,
+      "text": "<f17r.4,+P0;F>     tcho?.shol.qokol.qor.olaiin.opydm<-><!plant>som.ypchy.ypaim",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "<f17r.4,+P0;F>",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "tcho?.shol.qokol.qor.olaiin.opydm<-><!plant>som.ypchy.ypaim",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 88,
+      "text": "<f17r.4,+P0;U>     tchom.shol.qokol.qor.olaiin.opydm<-><!plant>som.ypchy.ypaim",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "<f17r.4,+P0;U>",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "tchom.shol.qokol.qor.olaiin.opydm<-><!plant>som.ypchy.ypaim",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 89,
+      "text": "#",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": []
+      }
+    },
+    {
+      "line_index": 90,
+      "text": "<f17r.5,+P0;H>     ychekchy.cthy.chor.shor.cphor.cphaldy<-><!plant>dair.cthey.qody",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "<f17r.5,+P0;H>",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "ychekchy.cthy.chor.shor.cphor.cphaldy<-><!plant>dair.cthey.qody",
+            "rel": null,
+            "state": "STATE_Y"
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 91,
+      "text": "<f17r.5,+P0;C>     ychekchy.cthy.chor.shor.cphor.cphaldy<-><!plant>dair.ota!y.qody",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "<f17r.5,+P0;C>",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "ychekchy.cthy.chor.shor.cphor.cphaldy<-><!plant>dair.ota!y.qody",
+            "rel": null,
+            "state": "STATE_Y"
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 92,
+      "text": "<f17r.5,+P0;F>     ychekchy.cthy.chor.shor.cphor.cphaldy<-><!plant>dair.cthey.qody",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "<f17r.5,+P0;F>",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "ychekchy.cthy.chor.shor.cphor.cphaldy<-><!plant>dair.cthey.qody",
+            "rel": null,
+            "state": "STATE_Y"
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 93,
+      "text": "<f17r.5,+P0;U>     ychekchy.cthy.chor.shor.cphor.cphaldy<-><!plant>dair.cthey.qody",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "<f17r.5,+P0;U>",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "ychekchy.cthy.chor.shor.cphor.cphaldy<-><!plant>dair.cthey.qody",
+            "rel": null,
+            "state": "STATE_Y"
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 94,
+      "text": "#",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": []
+      }
+    },
+    {
+      "line_index": 95,
+      "text": "<f17r.6,+P0;H>     tsho.qof!cho.qokcheor.chekeg<$>",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "<f17r.6,+P0;H>",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "tsho.qof!cho.qokcheor.chekeg<$>",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 96,
+      "text": "<f17r.6,+P0;C>     tsho.qof.cho.qokcheor.choto?<$>",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "<f17r.6,+P0;C>",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "tsho.qof.cho.qokcheor.choto?<$>",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 97,
+      "text": "<f17r.6,+P0;F>     tsho.qof!cho.qokcheor.chekem<$>",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "<f17r.6,+P0;F>",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "tsho.qof!cho.qokcheor.chekem<$>",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 98,
+      "text": "<f17r.6,+P0;U>     tsho.qof,cho.qokcheor.chetom<$>",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "<f17r.6,+P0;U>",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "tsho.qof,cho.qokcheor.chetom<$>",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 99,
+      "text": "#",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": []
+      }
+    },
+    {
+      "line_index": 100,
+      "text": "<f17r.7,+P0;H>     ksheo.qokchy.choldshy.!zepchy<-><!plant>ds<!@S>!a<-><!plant>opchordy<-><!plant>",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "<f17r.7,+P0;H>",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "ksheo.qokchy.choldshy.!zepchy<-><!plant>ds<!@S>!a<-><!plant>opchordy<-><!plant>",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 101,
+      "text": "<f17r.7,+P0;C>     ksheo.qokchy.choldshy.!!mpchy<-><!plant>d?!!!!!!<-><!plant>opchordy<-><!plant>",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "<f17r.7,+P0;C>",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "ksheo.qokchy.choldshy.!!mpchy<-><!plant>d?!!!!!!<-><!plant>opchordy<-><!plant>",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 102,
+      "text": "<f17r.7,+P0;F>     ksheo.qokchy.choldshy.??!pchy<-><!plant>dsh!!!!y<-><!plant>opchordy<-><!plant>",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "<f17r.7,+P0;F>",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "ksheo.qokchy.choldshy.??!pchy<-><!plant>dsh!!!!y<-><!plant>opchordy<-><!plant>",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 103,
+      "text": "<f17r.7,+P0;U>     ksheo.qokchy.choldshy.??epchy<-><!plant>dsh!!!!y<-><!plant>opchordy<-><!plant>",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "<f17r.7,+P0;U>",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "ksheo.qokchy.choldshy.??epchy<-><!plant>dsh!!!!y<-><!plant>opchordy<-><!plant>",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 104,
+      "text": "#",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": []
+      }
+    },
+    {
+      "line_index": 105,
+      "text": "<f17r.8,+P0;H>     dchchy.dychear.schar.ykchy<-><!plant>",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "<f17r.8,+P0;H>",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "dchchy.dychear.schar.ykchy<-><!plant>",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 106,
+      "text": "<f17r.8,+P0;C>     dchchy.dychear.schar.ykchy<-><!plant>",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "<f17r.8,+P0;C>",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "dchchy.dychear.schar.ykchy<-><!plant>",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 107,
+      "text": "<f17r.8,+P0;F>     dchchy.dychear.schar.ykchy<-><!plant>",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "<f17r.8,+P0;F>",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "dchchy.dychear.schar.ykchy<-><!plant>",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 108,
+      "text": "<f17r.8,+P0;U>     dchchy.dychear.schar.ykchy<-><!plant>",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "<f17r.8,+P0;U>",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "dchchy.dychear.schar.ykchy<-><!plant>",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 109,
+      "text": "#",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": []
+      }
+    },
+    {
+      "line_index": 110,
+      "text": "# paragraph break here?",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "paragraph",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n2",
+            "token": "break",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n3",
+            "token": "here?",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          },
+          {
+            "source": "n1",
+            "target": "n2"
+          },
+          {
+            "source": "n2",
+            "target": "n3"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 111,
+      "text": "<f17r.9,+P0;H>     soy.chckhy.o.dar.chypcham<-><!plant>",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "<f17r.9,+P0;H>",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "soy.chckhy.o.dar.chypcham<-><!plant>",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 112,
+      "text": "<f17r.9,+P0;C>     soy.chckhy.o.das.chypcham<-><!plant>",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "<f17r.9,+P0;C>",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "soy.chckhy.o.das.chypcham<-><!plant>",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 113,
+      "text": "<f17r.9,+P0;F>     soy.chckho.o!dar.chypcham<-><!plant>",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "<f17r.9,+P0;F>",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "soy.chckho.o!dar.chypcham<-><!plant>",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 114,
+      "text": "<f17r.9,+P0;U>     soy.chckhy.o,dar.chypcham<-><!plant>",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "<f17r.9,+P0;U>",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "soy.chckhy.o,dar.chypcham<-><!plant>",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 115,
+      "text": "#",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": []
+      }
+    },
+    {
+      "line_index": 116,
+      "text": "# ... or here?",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "...",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n2",
+            "token": "or",
+            "rel": "REL_OR",
+            "state": null
+          },
+          {
+            "id": "n3",
+            "token": "here?",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          },
+          {
+            "source": "n1",
+            "target": "n2"
+          },
+          {
+            "source": "n2",
+            "target": "n3"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 117,
+      "text": "<f17r.10,+P0;H>    dar.chear.dsheor.?!ain.y.mol<-><!plant>",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "<f17r.10,+P0;H>",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "dar.chear.dsheor.?!ain.y.mol<-><!plant>",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 118,
+      "text": "<f17r.10,+P0;C>    dar.chear.dcheor.?!ain.y!dol<-><!plant>",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "<f17r.10,+P0;C>",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "dar.chear.dcheor.?!ain.y!dol<-><!plant>",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 119,
+      "text": "<f17r.10,+P0;F>    dar.chear.dsheor.d!ain.y!mol<-><!plant>",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "<f17r.10,+P0;F>",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "dar.chear.dsheor.d!ain.y!mol<-><!plant>",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 120,
+      "text": "<f17r.10,+P0;U>    dar.chear.dsheor.r,ain.y,mol<-><!plant>",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "<f17r.10,+P0;U>",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "dar.chear.dsheor.r,ain.y,mol<-><!plant>",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 121,
+      "text": "#",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": []
+      }
+    },
+    {
+      "line_index": 122,
+      "text": "<f17r.11,+P0;H>    otchol.cthar.okaiin.chol.daiiin",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "<f17r.11,+P0;H>",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "otchol.cthar.okaiin.chol.daiiin",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 123,
+      "text": "<f17r.11,+P0;C>    otchol.cthar.okaiin.chol.doiiin",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "<f17r.11,+P0;C>",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "otchol.cthar.okaiin.chol.doiiin",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 124,
+      "text": "<f17r.11,+P0;F>    otchol.cthar.okaiin.chol.daii!n",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "<f17r.11,+P0;F>",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "otchol.cthar.okaiin.chol.daii!n",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 125,
+      "text": "<f17r.11,+P0;U>    otchol.cthar.okaiin.chol.daiiin",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "<f17r.11,+P0;U>",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "otchol.cthar.okaiin.chol.daiiin",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 126,
+      "text": "#",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": []
+      }
+    },
+    {
+      "line_index": 127,
+      "text": "<f17r.12,+P0;H>    ychod!y.chotom<$>",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "<f17r.12,+P0;H>",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "ychod!y.chotom<$>",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 128,
+      "text": "<f17r.12,+P0;C>    ychod!y.chotom<$>",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "<f17r.12,+P0;C>",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "ychod!y.chotom<$>",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 129,
+      "text": "<f17r.12,+P0;F>    ychod!y.chotom<$>",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "<f17r.12,+P0;F>",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "ychod!y.chotom<$>",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 130,
+      "text": "<f17r.12,+P0;U>    ychod,y,chotom<$>",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "<f17r.12,+P0;U>",
+            "rel": null,
+            "state": null
+          },
+          {
+            "id": "n1",
+            "token": "ychod,y,chotom<$>",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": [
+          {
+            "source": "n0",
+            "target": "n1"
+          }
+        ]
+      }
+    },
+    {
+      "line_index": 131,
+      "text": "#",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": []
+      }
+    },
+    {
+      "line_index": 132,
+      "text": "#",
+      "graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "token": "#",
+            "rel": null,
+            "state": null
+          }
+        ],
+        "edges": []
+      }
+    }
+  ]
+}
