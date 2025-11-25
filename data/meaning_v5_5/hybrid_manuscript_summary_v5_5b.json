@@ -1,0 +1,110 @@
+{
+  "version": "v5_5b",
+  "timestamp_utc": "2025-11-25T17:37:20.524129+00:00",
+  "num_pages": 1,
+  "num_fields": 1,
+  "glyph_seed": {
+    "mode": "external_image_signature",
+    "tag": "hybrid_corpus_seed_v1_0",
+    "note": "Image used as glyph seed only; no effect on tokens or coherence metrics."
+  },
+  "pages": {
+    "coherence_index": {
+      "mean": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "delta_phi_mean": {
+      "mean": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "coverage_ratio": {
+      "mean": 1.0,
+      "min": 1.0,
+      "max": 1.0
+    },
+    "eva_tokens": {
+      "mean": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "takahashi_tokens": {
+      "mean": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "delta_tokens": {
+      "mean": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "edge_degree": {
+      "mean": 1.0,
+      "min": 1.0,
+      "max": 1.0
+    }
+  },
+  "fields": {
+    "num_pages": {
+      "mean": 1.0,
+      "min": 1.0,
+      "max": 1.0
+    },
+    "field_resonance_index": {
+      "mean": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "delta_phi_field": {
+      "mean": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    }
+  },
+  "top_pages_by_eva_tokens": [
+    {
+      "page_id": "GLOBAL_PAGE",
+      "num_sentences": 3,
+      "num_fields": 1,
+      "coverage_ratio": 1.0,
+      "coherence_index": 0.0,
+      "delta_phi_mean": 0.0,
+      "hybrid_eva_lines": 0,
+      "hybrid_eva_tokens": 0,
+      "hybrid_taka_lines": 0,
+      "hybrid_taka_tokens": 0,
+      "hybrid_delta_lines": 0,
+      "hybrid_delta_tokens": 0,
+      "edge_degree": 1
+    }
+  ],
+  "top_pages_by_takahashi_tokens": [
+    {
+      "page_id": "GLOBAL_PAGE",
+      "num_sentences": 3,
+      "num_fields": 1,
+      "coverage_ratio": 1.0,
+      "coherence_index": 0.0,
+      "delta_phi_mean": 0.0,
+      "hybrid_eva_lines": 0,
+      "hybrid_eva_tokens": 0,
+      "hybrid_taka_lines": 0,
+      "hybrid_taka_tokens": 0,
+      "hybrid_delta_lines": 0,
+      "hybrid_delta_tokens": 0,
+      "edge_degree": 1
+    }
+  ],
+  "top_fields_by_spread": [
+    {
+      "field_id": "meta",
+      "num_pages": 1,
+      "page_ids": [
+        "GLOBAL_PAGE"
+      ],
+      "delta_phi_field": 0.0,
+      "field_resonance_index": 0.0
+    }
+  ]
+}
