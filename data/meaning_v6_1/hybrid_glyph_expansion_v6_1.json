@@ -1,0 +1,94 @@
+{
+  "version": "v6_1",
+  "timestamp_utc": "2025-11-25T17:55:04.084537+00:00",
+  "glyph_seed": {
+    "mode": "external_image_signature",
+    "tag": "voynich_hybrid_seed_v6_1",
+    "source_image_hint": "voynich_glyph_seed_v6_1.png",
+    "note": "External image acts as symbolic glyph seed; no direct pixel data used here."
+  },
+  "pages": [
+    {
+      "page_id": "GLOBAL_PAGE",
+      "num_glyph_seeds": 4,
+      "glyph_seed_ids": [
+        "GLOBAL_PAGE_g000",
+        "GLOBAL_PAGE_g001",
+        "GLOBAL_PAGE_g002",
+        "GLOBAL_PAGE_g003"
+      ],
+      "glyph_grid_score": 2.8667473750380923,
+      "coverage_ratio": 1.0,
+      "coherence_index": 0.0,
+      "delta_phi_mean": 0.0,
+      "hybrid_eva_tokens": 0,
+      "hybrid_takahashi_tokens": 0,
+      "hybrid_delta_tokens": 0
+    }
+  ],
+  "glyph_seeds": [
+    {
+      "glyph_id": "GLOBAL_PAGE_g000",
+      "page_id": "GLOBAL_PAGE",
+      "fields": [
+        "meta"
+      ],
+      "rank_in_page": 0,
+      "normalized_index": 0.125,
+      "intensity": 0.5662720425066876,
+      "coverage_ratio": 1.0,
+      "coherence_index": 0.0,
+      "delta_phi_mean": 0.0
+    },
+    {
+      "glyph_id": "GLOBAL_PAGE_g001",
+      "page_id": "GLOBAL_PAGE",
+      "fields": [
+        "meta"
+      ],
+      "rank_in_page": 1,
+      "normalized_index": 0.375,
+      "intensity": 3.3004753325314047,
+      "coverage_ratio": 1.0,
+      "coherence_index": 0.0,
+      "delta_phi_mean": 0.0
+    },
+    {
+      "glyph_id": "GLOBAL_PAGE_g002",
+      "page_id": "GLOBAL_PAGE",
+      "fields": [
+        "meta"
+      ],
+      "rank_in_page": 2,
+      "normalized_index": 0.625,
+      "intensity": 3.3004753325314047,
+      "coverage_ratio": 1.0,
+      "coherence_index": 0.0,
+      "delta_phi_mean": 0.0
+    },
+    {
+      "glyph_id": "GLOBAL_PAGE_g003",
+      "page_id": "GLOBAL_PAGE",
+      "fields": [
+        "meta"
+      ],
+      "rank_in_page": 3,
+      "normalized_index": 0.875,
+      "intensity": 0.5662720425066876,
+      "coverage_ratio": 1.0,
+      "coherence_index": 0.0,
+      "delta_phi_mean": 0.0
+    }
+  ],
+  "fields": [
+    {
+      "field_id": "meta",
+      "num_pages": 1,
+      "page_ids": [
+        "GLOBAL_PAGE"
+      ],
+      "delta_phi_field": 0.0,
+      "field_resonance_index": 0.0
+    }
+  ]
+}
