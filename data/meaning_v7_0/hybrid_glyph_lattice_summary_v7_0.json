@@ -1,0 +1,202 @@
+{
+  "version": "v7_0",
+  "timestamp_utc": "2025-11-25T18:01:50.131039+00:00",
+  "num_nodes": 4,
+  "num_edges": 4,
+  "num_pages": 1,
+  "num_fields": 1,
+  "glyph_seed": {
+    "mode": "external_image_signature",
+    "tag": "voynich_hybrid_seed_v6_1",
+    "source_image_hint": "voynich_glyph_seed_v6_1.png",
+    "note": "External image acts as symbolic glyph seed; no direct pixel data used here."
+  },
+  "nodes": {
+    "intensity": {
+      "mean": 1.9333736875190461,
+      "min": 0.5662720425066876,
+      "max": 3.3004753325314047
+    },
+    "degree": {
+      "mean": 2.0,
+      "min": 2.0,
+      "max": 2.0
+    },
+    "local_gradient": {
+      "mean": 1.3671016450123585,
+      "min": 1.3671016450123585,
+      "max": 1.3671016450123585
+    }
+  },
+  "edges": {
+    "weight_intensity": {
+      "mean": 1.3671016450123585,
+      "min": 0.0,
+      "max": 2.734203290024717
+    },
+    "phase_distance": {
+      "mean": 0.375,
+      "min": 0.25,
+      "max": 0.75
+    }
+  },
+  "pages": {
+    "lattice_harmonic_index": {
+      "mean": 0.2677947402251314,
+      "min": 0.2677947402251314,
+      "max": 0.2677947402251314
+    }
+  },
+  "fields": {
+    "num_pages": {
+      "mean": 1.0,
+      "min": 1.0,
+      "max": 1.0
+    },
+    "field_resonance_index": {
+      "mean": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "delta_phi_field": {
+      "mean": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    }
+  },
+  "top_nodes_by_intensity": [
+    {
+      "glyph_id": "GLOBAL_PAGE_g001",
+      "page_id": "GLOBAL_PAGE",
+      "fields": [
+        "meta"
+      ],
+      "rank_in_page": 1,
+      "normalized_index": 0.375,
+      "intensity": 3.3004753325314047,
+      "coverage_ratio": 1.0,
+      "coherence_index": 0.0,
+      "delta_phi_mean": 0.0,
+      "degree": 2,
+      "local_gradient": 1.3671016450123585
+    },
+    {
+      "glyph_id": "GLOBAL_PAGE_g002",
+      "page_id": "GLOBAL_PAGE",
+      "fields": [
+        "meta"
+      ],
+      "rank_in_page": 2,
+      "normalized_index": 0.625,
+      "intensity": 3.3004753325314047,
+      "coverage_ratio": 1.0,
+      "coherence_index": 0.0,
+      "delta_phi_mean": 0.0,
+      "degree": 2,
+      "local_gradient": 1.3671016450123585
+    },
+    {
+      "glyph_id": "GLOBAL_PAGE_g000",
+      "page_id": "GLOBAL_PAGE",
+      "fields": [
+        "meta"
+      ],
+      "rank_in_page": 0,
+      "normalized_index": 0.125,
+      "intensity": 0.5662720425066876,
+      "coverage_ratio": 1.0,
+      "coherence_index": 0.0,
+      "delta_phi_mean": 0.0,
+      "degree": 2,
+      "local_gradient": 1.3671016450123585
+    },
+    {
+      "glyph_id": "GLOBAL_PAGE_g003",
+      "page_id": "GLOBAL_PAGE",
+      "fields": [
+        "meta"
+      ],
+      "rank_in_page": 3,
+      "normalized_index": 0.875,
+      "intensity": 0.5662720425066876,
+      "coverage_ratio": 1.0,
+      "coherence_index": 0.0,
+      "delta_phi_mean": 0.0,
+      "degree": 2,
+      "local_gradient": 1.3671016450123585
+    }
+  ],
+  "top_nodes_by_gradient": [
+    {
+      "glyph_id": "GLOBAL_PAGE_g000",
+      "page_id": "GLOBAL_PAGE",
+      "fields": [
+        "meta"
+      ],
+      "rank_in_page": 0,
+      "normalized_index": 0.125,
+      "intensity": 0.5662720425066876,
+      "coverage_ratio": 1.0,
+      "coherence_index": 0.0,
+      "delta_phi_mean": 0.0,
+      "degree": 2,
+      "local_gradient": 1.3671016450123585
+    },
+    {
+      "glyph_id": "GLOBAL_PAGE_g001",
+      "page_id": "GLOBAL_PAGE",
+      "fields": [
+        "meta"
+      ],
+      "rank_in_page": 1,
+      "normalized_index": 0.375,
+      "intensity": 3.3004753325314047,
+      "coverage_ratio": 1.0,
+      "coherence_index": 0.0,
+      "delta_phi_mean": 0.0,
+      "degree": 2,
+      "local_gradient": 1.3671016450123585
+    },
+    {
+      "glyph_id": "GLOBAL_PAGE_g002",
+      "page_id": "GLOBAL_PAGE",
+      "fields": [
+        "meta"
+      ],
+      "rank_in_page": 2,
+      "normalized_index": 0.625,
+      "intensity": 3.3004753325314047,
+      "coverage_ratio": 1.0,
+      "coherence_index": 0.0,
+      "delta_phi_mean": 0.0,
+      "degree": 2,
+      "local_gradient": 1.3671016450123585
+    },
+    {
+      "glyph_id": "GLOBAL_PAGE_g003",
+      "page_id": "GLOBAL_PAGE",
+      "fields": [
+        "meta"
+      ],
+      "rank_in_page": 3,
+      "normalized_index": 0.875,
+      "intensity": 0.5662720425066876,
+      "coverage_ratio": 1.0,
+      "coherence_index": 0.0,
+      "delta_phi_mean": 0.0,
+      "degree": 2,
+      "local_gradient": 1.3671016450123585
+    }
+  ],
+  "top_pages_by_harmonic_index": [
+    {
+      "page_id": "GLOBAL_PAGE",
+      "num_glyph_seeds": 4,
+      "glyph_grid_score": 2.8667473750380923,
+      "coverage_ratio": 1.0,
+      "coherence_index": 0.0,
+      "delta_phi_mean": 0.0,
+      "lattice_harmonic_index": 0.2677947402251314
+    }
+  ]
+}
