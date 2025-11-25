@@ -1,0 +1,75 @@
+{
+  "version": "v5_6",
+  "timestamp_utc": "2025-11-25T17:20:30.252709+00:00",
+  "num_pages": 1,
+  "num_fields": 1,
+  "pages": {
+    "coherence_index": {
+      "mean": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "delta_phi_mean": {
+      "mean": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "force_potential": {
+      "mean": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "degree": {
+      "mean": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "field_degree": {
+      "mean": 1.0,
+      "min": 1.0,
+      "max": 1.0
+    }
+  },
+  "fields": {
+    "num_pages": {
+      "mean": 1.0,
+      "min": 1.0,
+      "max": 1.0
+    },
+    "field_resonance_index": {
+      "mean": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "delta_phi_field": {
+      "mean": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    }
+  },
+  "top_pages_by_force": [
+    {
+      "page_id": "GLOBAL_PAGE",
+      "neighbors": [],
+      "num_neighbors": 0,
+      "fields": [
+        "meta"
+      ],
+      "num_fields": 1,
+      "coherence_index": 0.0,
+      "delta_phi_mean": 0.0,
+      "force_potential": 0.0
+    }
+  ],
+  "top_fields_by_spread": [
+    {
+      "field_id": "meta",
+      "page_ids": [
+        "GLOBAL_PAGE"
+      ],
+      "num_pages": 1,
+      "delta_phi_field": 0.0,
+      "field_resonance_index": 0.0
+    }
+  ]
+}
