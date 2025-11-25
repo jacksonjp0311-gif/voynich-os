@@ -1,9 +1,106 @@
 {
   "version": "v1_0",
-  "timestamp_utc": "2025-11-25T15:46:26.991322+00:00",
+  "timestamp_utc": "2025-11-25T15:49:45.145347+00:00",
   "sources": {
-    "eva": null,
-    "takahashi": null
+    "eva": {
+      "total_pages": 4,
+      "total_lines": 4,
+      "total_tokens": 17,
+      "pages": {
+        "﻿F1R": {
+          "num_lines": 1,
+          "num_tokens": 5
+        },
+        "F1V": {
+          "num_lines": 1,
+          "num_tokens": 4
+        },
+        "F2R": {
+          "num_lines": 1,
+          "num_tokens": 4
+        },
+        "F2V": {
+          "num_lines": 1,
+          "num_tokens": 4
+        }
+      }
+    },
+    "takahashi": {
+      "total_pages": 4,
+      "total_lines": 4,
+      "total_tokens": 19,
+      "pages": {
+        "﻿F1R": {
+          "num_lines": 1,
+          "num_tokens": 7
+        },
+        "F1V": {
+          "num_lines": 1,
+          "num_tokens": 4
+        },
+        "F2R": {
+          "num_lines": 1,
+          "num_tokens": 4
+        },
+        "F2V": {
+          "num_lines": 1,
+          "num_tokens": 4
+        }
+      }
+    }
   },
-  "pages": []
+  "pages": [
+    {
+      "page_id": "F1V",
+      "eva": {
+        "num_lines": 1,
+        "num_tokens": 4
+      },
+      "takahashi": {
+        "num_lines": 1,
+        "num_tokens": 4
+      },
+      "delta_lines": 0,
+      "delta_tokens": 0
+    },
+    {
+      "page_id": "F2R",
+      "eva": {
+        "num_lines": 1,
+        "num_tokens": 4
+      },
+      "takahashi": {
+        "num_lines": 1,
+        "num_tokens": 4
+      },
+      "delta_lines": 0,
+      "delta_tokens": 0
+    },
+    {
+      "page_id": "F2V",
+      "eva": {
+        "num_lines": 1,
+        "num_tokens": 4
+      },
+      "takahashi": {
+        "num_lines": 1,
+        "num_tokens": 4
+      },
+      "delta_lines": 0,
+      "delta_tokens": 0
+    },
+    {
+      "page_id": "﻿F1R",
+      "eva": {
+        "num_lines": 1,
+        "num_tokens": 5
+      },
+      "takahashi": {
+        "num_lines": 1,
+        "num_tokens": 7
+      },
+      "delta_lines": 0,
+      "delta_tokens": -2
+    }
+  ]
 }
