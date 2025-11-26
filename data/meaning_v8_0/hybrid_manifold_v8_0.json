@@ -1,0 +1,190 @@
+{
+  "version": "v8_0",
+  "timestamp_utc": "2025-11-26T07:24:52.928915+00:00",
+  "glyph_seed": {},
+  "image_signature": {
+    "exists": false,
+    "path": "C:\\Users\\jacks\\Voynich-OS\\data\\images\\voynich_hybrid_seed_v8_0.png",
+    "size_bytes": 0,
+    "mtime_utc": null,
+    "hash_sha256": null,
+    "coupling_scalar": 0.5,
+    "note": "File not found; neutral symbolic signature used."
+  },
+  "num_nodes": 4,
+  "num_edges": 4,
+  "nodes": [
+    {
+      "glyph_id": "GLOBAL_PAGE_g000",
+      "page_id": "GLOBAL_PAGE",
+      "fields": [
+        "meta"
+      ],
+      "rank_in_page": 0,
+      "normalized_index": 0.125,
+      "intensity": 1.0,
+      "coverage_ratio": 1.0,
+      "coherence_index": 0.0,
+      "delta_phi_mean": 0.0,
+      "degree": 2,
+      "local_gradient": 0.5,
+      "image_coupling": 0.375,
+      "image_band": "mid",
+      "manifold_radius": 1.09375,
+      "manifold_theta": 0.7853981633974483,
+      "manifold_x": 0.7733980419227864,
+      "manifold_y": 0.7733980419227864,
+      "manifold_band_index": 1,
+      "manifold_band_label": "low",
+      "image_coupling_scalar": 0.5
+    },
+    {
+      "glyph_id": "GLOBAL_PAGE_g001",
+      "page_id": "GLOBAL_PAGE",
+      "fields": [
+        "meta"
+      ],
+      "rank_in_page": 1,
+      "normalized_index": 0.375,
+      "intensity": 2.0,
+      "coverage_ratio": 1.0,
+      "coherence_index": 0.0,
+      "delta_phi_mean": 0.0,
+      "degree": 2,
+      "local_gradient": 0.5,
+      "image_coupling": 0.75,
+      "image_band": "high",
+      "manifold_radius": 1.9375,
+      "manifold_theta": 2.356194490192345,
+      "manifold_x": -1.3700193885489358,
+      "manifold_y": 1.370019388548936,
+      "manifold_band_index": 8,
+      "manifold_band_label": "high",
+      "image_coupling_scalar": 0.5
+    },
+    {
+      "glyph_id": "GLOBAL_PAGE_g002",
+      "page_id": "GLOBAL_PAGE",
+      "fields": [
+        "meta"
+      ],
+      "rank_in_page": 2,
+      "normalized_index": 0.625,
+      "intensity": 2.0,
+      "coverage_ratio": 1.0,
+      "coherence_index": 0.0,
+      "delta_phi_mean": 0.0,
+      "degree": 2,
+      "local_gradient": 0.5,
+      "image_coupling": 0.75,
+      "image_band": "high",
+      "manifold_radius": 1.9375,
+      "manifold_theta": 3.9269908169872414,
+      "manifold_x": -1.3700193885489362,
+      "manifold_y": -1.3700193885489358,
+      "manifold_band_index": 8,
+      "manifold_band_label": "high",
+      "image_coupling_scalar": 0.5
+    },
+    {
+      "glyph_id": "GLOBAL_PAGE_g003",
+      "page_id": "GLOBAL_PAGE",
+      "fields": [
+        "meta"
+      ],
+      "rank_in_page": 3,
+      "normalized_index": 0.875,
+      "intensity": 1.0,
+      "coverage_ratio": 1.0,
+      "coherence_index": 0.0,
+      "delta_phi_mean": 0.0,
+      "degree": 2,
+      "local_gradient": 0.5,
+      "image_coupling": 0.375,
+      "image_band": "mid",
+      "manifold_radius": 1.09375,
+      "manifold_theta": 5.497787143782138,
+      "manifold_x": 0.7733980419227862,
+      "manifold_y": -0.7733980419227865,
+      "manifold_band_index": 1,
+      "manifold_band_label": "low",
+      "image_coupling_scalar": 0.5
+    }
+  ],
+  "edges": [
+    {
+      "edge_id": "GLOBAL_PAGE_e0000",
+      "page_id": "GLOBAL_PAGE",
+      "glyph_a": "GLOBAL_PAGE_g000",
+      "glyph_b": "GLOBAL_PAGE_g001",
+      "intensity_a": 1.0,
+      "intensity_b": 2.0,
+      "weight_intensity": 1.0,
+      "phase_distance": 0.25,
+      "mean_intensity": 1.5,
+      "image_coupling_mean": 0.5625
+    },
+    {
+      "edge_id": "GLOBAL_PAGE_e0001",
+      "page_id": "GLOBAL_PAGE",
+      "glyph_a": "GLOBAL_PAGE_g001",
+      "glyph_b": "GLOBAL_PAGE_g002",
+      "intensity_a": 2.0,
+      "intensity_b": 2.0,
+      "weight_intensity": 0.0,
+      "phase_distance": 0.25,
+      "mean_intensity": 2.0,
+      "image_coupling_mean": 0.75
+    },
+    {
+      "edge_id": "GLOBAL_PAGE_e0002",
+      "page_id": "GLOBAL_PAGE",
+      "glyph_a": "GLOBAL_PAGE_g002",
+      "glyph_b": "GLOBAL_PAGE_g003",
+      "intensity_a": 2.0,
+      "intensity_b": 1.0,
+      "weight_intensity": 1.0,
+      "phase_distance": 0.25,
+      "mean_intensity": 1.5,
+      "image_coupling_mean": 0.5625
+    },
+    {
+      "edge_id": "GLOBAL_PAGE_e0003",
+      "page_id": "GLOBAL_PAGE",
+      "glyph_a": "GLOBAL_PAGE_g003",
+      "glyph_b": "GLOBAL_PAGE_g000",
+      "intensity_a": 1.0,
+      "intensity_b": 1.0,
+      "weight_intensity": 0.0,
+      "phase_distance": 0.75,
+      "mean_intensity": 1.0,
+      "image_coupling_mean": 0.375
+    }
+  ],
+  "pages_manifold": [
+    {
+      "page_id": "GLOBAL_PAGE",
+      "num_glyph_seeds": 4,
+      "glyph_grid_score": 1.0,
+      "coverage_ratio": 1.0,
+      "coherence_index": 0.0,
+      "delta_phi_mean": 0.0,
+      "lattice_harmonic_index": 0.5,
+      "image_coupling_mean": 0.5625,
+      "manifold_radius_mean": 1.515625,
+      "manifold_radius_var": 0.177978515625,
+      "manifold_coherence": 0.8489119170984456
+    }
+  ],
+  "fields": [
+    {
+      "field_id": "meta",
+      "num_pages": 1,
+      "page_ids": [
+        "GLOBAL_PAGE"
+      ],
+      "delta_phi_field": 0.0,
+      "field_resonance_index": 0.0
+    }
+  ]
+}
