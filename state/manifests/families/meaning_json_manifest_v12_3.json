@@ -1,0 +1,2794 @@
+{
+  "family_id": "meaning_json",
+  "title": "Meaning/vector JSON files",
+  "current_path": "data/meaning",
+  "professional_alias": "outputs/semantic_diagnostics/",
+  "role": "Generated meaning/vector/cluster diagnostic artifacts.",
+  "claim_boundary": "Meaning vectors and clusters are diagnostics, not literal meanings.",
+  "file_count": 546,
+  "total_bytes": 5224973,
+  "sample_hashes": [
+    {
+      "path": "data/meaning/meaning_v3_1/F100R.json",
+      "bytes": 33366,
+      "sha256": "a6ac6b7090625323e10587b4a77ef16e789d2897b880e2b140a395434338fa6b"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F100V.json",
+      "bytes": 20363,
+      "sha256": "b32601035a14bf87b0ea6da9fa0156c6250521f3e872bf5669cd37daddbc395d"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F101R.json",
+      "bytes": 8612,
+      "sha256": "9196220a726755b48c95f5a9e798acffdee43e198979c9e83459b5aa26637e1b"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F101V.json",
+      "bytes": 74379,
+      "sha256": "5c6b61c68027353e19a2e329abd0aba01c9dea2a382d686f1649ce74dcbb970e"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F102R1.json",
+      "bytes": 16780,
+      "sha256": "248a06823cd7502da30f830b40ccc02e8ddb3bb370f93220aa8d22260d8c5970"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F102R2.json",
+      "bytes": 19671,
+      "sha256": "aca7a6328f7ecc04744c8fc48c9c0282e2dcd08e14d291cf48a3def837162058"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F102V1.json",
+      "bytes": 21313,
+      "sha256": "730608d1742eff231b71ad2d993e25c899d4d903ed3e93d17d600b71807c11e5"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F102V2.json",
+      "bytes": 33087,
+      "sha256": "4213ea9c72178ba6d255a467da4080f391f67c7dd82ebeff149c0ae579fd12c4"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F103R.json",
+      "bytes": 28296,
+      "sha256": "b3b1e7d1bfa3b6e914da73712c03d6ea6ee22ca0ef7b8128f4227a88daeddf4f"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F103V.json",
+      "bytes": 24500,
+      "sha256": "083066de5170506b4e97fe6e86dfd734ff4b7d422eeafdf43513750a7c1dbdfe"
+    }
+  ],
+  "all_files": [
+    {
+      "path": "data/meaning/meaning_v3_1/F100R.json",
+      "bytes": 33366,
+      "sha256": "a6ac6b7090625323e10587b4a77ef16e789d2897b880e2b140a395434338fa6b"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F100V.json",
+      "bytes": 20363,
+      "sha256": "b32601035a14bf87b0ea6da9fa0156c6250521f3e872bf5669cd37daddbc395d"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F101R.json",
+      "bytes": 8612,
+      "sha256": "9196220a726755b48c95f5a9e798acffdee43e198979c9e83459b5aa26637e1b"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F101V.json",
+      "bytes": 74379,
+      "sha256": "5c6b61c68027353e19a2e329abd0aba01c9dea2a382d686f1649ce74dcbb970e"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F102R1.json",
+      "bytes": 16780,
+      "sha256": "248a06823cd7502da30f830b40ccc02e8ddb3bb370f93220aa8d22260d8c5970"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F102R2.json",
+      "bytes": 19671,
+      "sha256": "aca7a6328f7ecc04744c8fc48c9c0282e2dcd08e14d291cf48a3def837162058"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F102V1.json",
+      "bytes": 21313,
+      "sha256": "730608d1742eff231b71ad2d993e25c899d4d903ed3e93d17d600b71807c11e5"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F102V2.json",
+      "bytes": 33087,
+      "sha256": "4213ea9c72178ba6d255a467da4080f391f67c7dd82ebeff149c0ae579fd12c4"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F103R.json",
+      "bytes": 28296,
+      "sha256": "b3b1e7d1bfa3b6e914da73712c03d6ea6ee22ca0ef7b8128f4227a88daeddf4f"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F103V.json",
+      "bytes": 24500,
+      "sha256": "083066de5170506b4e97fe6e86dfd734ff4b7d422eeafdf43513750a7c1dbdfe"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F104R.json",
+      "bytes": 22070,
+      "sha256": "dbbe31462c881e5434f8c9513227ae9dd52e56affa00be8eed7f31050a119d14"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F104V.json",
+      "bytes": 20592,
+      "sha256": "45ed3ed6169c0583feda65c52555a46a0e1cbef393325497c80bebd0f8cf2fa6"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F105R.json",
+      "bytes": 20835,
+      "sha256": "8955ff84249a30559b42be99291be8cbdd4fba53bb0a71b45483bf03e8325ab1"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F105V.json",
+      "bytes": 23528,
+      "sha256": "cbc88b8519a6191c44beab187393daeb801e52bea19e0a651d5c0b7d2b376b54"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F106R.json",
+      "bytes": 28738,
+      "sha256": "449870b4854647a42cea5aba2932779ee24a39c1384d41da893a556aba98d226"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F106V.json",
+      "bytes": 35869,
+      "sha256": "eb84bae7bc82e089216195b022ae50f98ea7e2dd01321367755104a640cc8ada"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F107R.json",
+      "bytes": 30482,
+      "sha256": "5b00c6b8cd2c52d6d5b5f979cd0dfdb9ab034c110010786b2af1942ad4ba03ac"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F107V.json",
+      "bytes": 29574,
+      "sha256": "319e3e9c8fd7ff769d230262eacadef8cb6b938e7026bd5c24ff24bb7f1a7836"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F108R.json",
+      "bytes": 30464,
+      "sha256": "c8f55c124e3b79c6bc57ac4055eb4dcdad88206f27bfc38ff8ef310a9071e990"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F108V.json",
+      "bytes": 33245,
+      "sha256": "24e81033c67c89ae6b88b6a83e23bf1d826dea0b8fd8f998ae179af160cb37be"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F10R.json",
+      "bytes": 11662,
+      "sha256": "bc21b6f9b0ca1b8298e4506dd796d8dd92dfb5c46943025a74a3e7b5fc47cce0"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F10V.json",
+      "bytes": 9707,
+      "sha256": "751c98ce807632ab7a5fa7cf0735037b704b36ce33cde97433c5a24b515d3480"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F111R.json",
+      "bytes": 33182,
+      "sha256": "f76ad757869c7c246249225c0b5078999088229222b898a3c6ff143f4f8b2323"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F111V.json",
+      "bytes": 38612,
+      "sha256": "d3aa8bbf5d2e7de3ca84d9e4d31a70874f3acb3c81591f8fb81d4d20a775d869"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F112R.json",
+      "bytes": 33520,
+      "sha256": "e20360ecabc90b68ba2fea6a665b9e079c8da0d19fbb47c56efa1f3bcd516668"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F112V.json",
+      "bytes": 35811,
+      "sha256": "64a24990664c25f25460471bedfdb32a6a7edc89ec385dace164660f6c752e8e"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F113R.json",
+      "bytes": 35124,
+      "sha256": "caa82708785a2504e023e95db19f93e280917e57148b1addd0b438af845b7479"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F113V.json",
+      "bytes": 29518,
+      "sha256": "47e9ce739217f1a62ca9c1ebd21bb7b534ac44828e65f0dce2eb8b30532506ae"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F114R.json",
+      "bytes": 28908,
+      "sha256": "18986736997adccdd81e64409b34f9c7cbc18fa64c7f3d4a0289d60c68e32e87"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F114V.json",
+      "bytes": 20950,
+      "sha256": "d25cf066c35fbb55eec293a7dbe6fd97578281bc84057dcf2cd7c1f4fa77ef61"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F115R.json",
+      "bytes": 22015,
+      "sha256": "b4fdcab87ef74461dae2db7c3910a28885388454f3c25821758bac441d3a5f23"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F115V.json",
+      "bytes": 21440,
+      "sha256": "4bf47132bc2c17c165df35b3566fc82e819580e371f2754bd79db1e21ed7bba7"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F116R.json",
+      "bytes": 25196,
+      "sha256": "97d2148503e9d6b705b71cf0d117c717d064ecd13e2824db656d3167e8b0a478"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F116V.json",
+      "bytes": 32796,
+      "sha256": "a02a7762057e31d9d585a63b1610d30871fd22e1dcded14bed651673c22c6df1"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F11R.json",
+      "bytes": 9089,
+      "sha256": "a7e28f185e47f87d72de7179137df46b756d1e842abf87022a3d3a2255f223fc"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F11V.json",
+      "bytes": 9312,
+      "sha256": "f8a854c7a5cb053dfb1012ec462ab051d1328755555721de4195955adf68275b"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F13R.json",
+      "bytes": 9446,
+      "sha256": "6f099161528b607bfad06eb2d6e0b38b7cbeddcd371d252ea40ae14cafa285d9"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F13V.json",
+      "bytes": 9378,
+      "sha256": "6f8d42ce50dab6fa6e2e66576e1c435599e5c051470c36b3e69fa58c0b6c60db"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F14R.json",
+      "bytes": 10857,
+      "sha256": "bc90e706030ca3166b04d4e8392613964c2b6c915e500f3a6e4a0bf08bbf3df3"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F14V.json",
+      "bytes": 10159,
+      "sha256": "27e40b3d371b75b580f7a045df48d84fb06ff32280b559d9488a1aff17143234"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F15R.json",
+      "bytes": 14250,
+      "sha256": "cfc6dd56f49fa8bf0218345577a4b9dbd2c634f5d369bfee84c8b0f11d39c6ce"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F15V.json",
+      "bytes": 11804,
+      "sha256": "48eddcf450d90ddb9f149b9288e31b2905e07922732818ec2f7b7ad6e4b491c4"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F16R.json",
+      "bytes": 12830,
+      "sha256": "8b10dc6cee0d20c2616fb319b85ed937cfe594fe3a605fed2bd4bf48014f7dae"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F16V.json",
+      "bytes": 12113,
+      "sha256": "340ad521b4de2415dcf3a8565e481fb26df02b39b01709029ab499cc6cf3af57"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F17R.json",
+      "bytes": 17353,
+      "sha256": "4b0072d36cb49cc041e9ca345a8641e036e9e6e2d0027559b7b4a36cd294b746"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F17V.json",
+      "bytes": 15989,
+      "sha256": "f5ac2c85b28fe069622805d3cda32b7c1941fb291d12eba50e14aa12bbe48f5d"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F18R.json",
+      "bytes": 11514,
+      "sha256": "96a3700de8552442a0d98a686460603bdd808d40be3673763c2236a079743664"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F18V.json",
+      "bytes": 10772,
+      "sha256": "47716f2e9616efed69b5a806606f6b9dcf9ac4fb8045a79f0746f0e0d7e5980a"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F19R.json",
+      "bytes": 10799,
+      "sha256": "6c73f6fd7ab5add15032223e9bb183e583ec12a9097cc055c5214a530a027013"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F19V.json",
+      "bytes": 13985,
+      "sha256": "1e9d37be5376e111ae10e31b2fa21476bd853a2b4a106463360f0128f1979b0f"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F1R.json",
+      "bytes": 53525,
+      "sha256": "549e9231c2ec7190091110f492290dac43c909f8ef092871afc92331f5f361ab"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F1V.json",
+      "bytes": 19872,
+      "sha256": "50dd16736f84c0ef98a2a805b77337c565c9eb6b8d13c92bb4d612184b8049b3"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F20R.json",
+      "bytes": 11094,
+      "sha256": "57434a249fa8a093f96451810104c70b9c18c87129f78c8c8124dd103b9b5f79"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F20V.json",
+      "bytes": 11312,
+      "sha256": "2748650a057645c31b9a2c5a8d343f3038b33101111097a63046d2cea66df73b"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F21R.json",
+      "bytes": 10292,
+      "sha256": "5adeb2d5b3b71ceebb30e1d3e45faf39c43ad03d5f8bb40192e328de35a5d2f0"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F21V.json",
+      "bytes": 9452,
+      "sha256": "ba01ef2dfd26003f1d58211726f1e372b6935db5cc2b5a54b544a3b8fb66f10d"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F22R.json",
+      "bytes": 10658,
+      "sha256": "4cbb75c2629600be6a14613d76ce7ad825ebbc7659aee53abeffdf32065658e6"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F22V.json",
+      "bytes": 15928,
+      "sha256": "cedf39cb5f508f9ff517f937542100441b92ef9f44bf754f20c78ff65a6549ae"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F23R.json",
+      "bytes": 9493,
+      "sha256": "e4e4efbe1a6866153595cbd21f0825ab71d500ddb6a74a5a6eece3565529b915"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F23V.json",
+      "bytes": 11597,
+      "sha256": "bd2ff10b3160a271f42bb02bfc8090f7a37880e78036c6a5283461d0f7d380d5"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F24R.json",
+      "bytes": 14637,
+      "sha256": "0ea7fb0a4dbc284072612b98814806cce27d3f21fd2dfbbef337fd0072fbf95d"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F24V.json",
+      "bytes": 15156,
+      "sha256": "fe26731fedcb79d466a9271bb37dc30caec099873bc56a8ae0c791d0009b5b00"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F25R.json",
+      "bytes": 8277,
+      "sha256": "05222e8747fb5bfddf8d8fba0a7dcad9c31c5a054fdd9592f339d6ffcb78aa26"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F25V.json",
+      "bytes": 7614,
+      "sha256": "0029c1c7d6adb7aceb3ebb7d64fd78a05c93d629796761723d741d8f742ec9a0"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F26R.json",
+      "bytes": 9093,
+      "sha256": "88d5d6cbe7bbf028eee772ba6b97b0fdb3c784ad94499c23ae227ae8c17b6d96"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F26V.json",
+      "bytes": 9820,
+      "sha256": "2345cf12afedffc956517c34ae96957cead84772f2a7722074f0db85b738e6b2"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F27R.json",
+      "bytes": 13484,
+      "sha256": "366e291bd3988d09e5526bbb5c2a8c1e2de26334f22bf8b322e55d393571a8e4"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F27V.json",
+      "bytes": 9532,
+      "sha256": "df3c872c12fab9e439ab5ea5bd1f05980e530f4df842a46bd8d8340f0940ee53"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F28R.json",
+      "bytes": 8690,
+      "sha256": "afd005067ecdfd566eb6c1cca1309bfc9a9b43707054d8c853b7384b6b24a9bc"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F28V.json",
+      "bytes": 11190,
+      "sha256": "8ff430edd3a8ff366c03630ca58a7056ae77adb94dbeb1b2a2bc4be9cb3f694f"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F29R.json",
+      "bytes": 10773,
+      "sha256": "3bd0a12bbc2459d2dfa3a6e6d6cfd214a423350453d9825f81d49d8d56a6d94b"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F29V.json",
+      "bytes": 12256,
+      "sha256": "dd4d8a02049371157a22d5d69d39d2fb1c9ffbe30938e522c3ff47efdb9b9061"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F2R.json",
+      "bytes": 17094,
+      "sha256": "a880e9966c80e4827386880cf31b8224c6a1ed2947165d5948c8d1125ade605d"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F2V.json",
+      "bytes": 14459,
+      "sha256": "f636cf478a2f74fec5f23c0db5012c252b0a509d06d02a62c1b43b20f8f4007c"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F30R.json",
+      "bytes": 10763,
+      "sha256": "d99f3ff59f35a497c889a9b2efd81c22d240825cc635ff1cd75eed60a4e2b66a"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F30V.json",
+      "bytes": 9958,
+      "sha256": "f261f8d05c8b41381738d63b8b7ad875cd22ef32e09f0a0e5be1afe13de2b73f"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F31R.json",
+      "bytes": 12741,
+      "sha256": "b6e6a01ca85998e4d7b19239cfe884ae6c09784749e86ab190c06d1208a86970"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F31V.json",
+      "bytes": 9602,
+      "sha256": "0515d9beff2d0732affb1ee073b04b0c87d6b41328ac1129098757a830c3aad6"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F32R.json",
+      "bytes": 14011,
+      "sha256": "0738bd92dc9a0ed4cf586e442308e5e74c93b38e9b41d696f5f5707bb2e26028"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F32V.json",
+      "bytes": 12247,
+      "sha256": "06b9ff8787a3ae705999d3aa9328105f9d7b042f74ce317a94604d77c3115687"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F33R.json",
+      "bytes": 7046,
+      "sha256": "76c72cc2fd566eaad2fe03c7ea5c1f5af1a5bb8bd9aa12c62aa2862c6769396b"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F33V.json",
+      "bytes": 11461,
+      "sha256": "34b99c521b84988bfde5cf7ea356e10ca9e5ee5f29c43337004306a662f67de7"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F34R.json",
+      "bytes": 13672,
+      "sha256": "2bfa91539173cd6d1700919a6fc490ea934ab91df235e51f85d16bff05fe171a"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F34V.json",
+      "bytes": 11108,
+      "sha256": "efb9f5e6640657cf726d6f81593cf18f66284dc38182c1f921661c6f9d62f476"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F35R.json",
+      "bytes": 11759,
+      "sha256": "31eef999ae3b4ace95fcf7853d93b665e727f6f0cd574c12b7552a9bac0a4f8d"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F35V.json",
+      "bytes": 14553,
+      "sha256": "9e4b3c6c1c9f5aa8b7d63cac4ccd5727080f8e932d42aad5fb362f756675c290"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F36R.json",
+      "bytes": 8194,
+      "sha256": "16db48c05497dd400b926dfafb15834d9f0202763e93a4641e91abfc47142881"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F36V.json",
+      "bytes": 10956,
+      "sha256": "bfd14fce9ebfe4ccf77736eb50c68b323f4f752817fdd4eaa9f2868e8735f7cc"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F37R.json",
+      "bytes": 11317,
+      "sha256": "a9f9991d06860421e3977c278ef23c54ecfb14b50ea49157eb557dac97c06cad"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F37V.json",
+      "bytes": 15453,
+      "sha256": "df3ff870776e0d8949fb028ba6593b5977a991a30c7c8a2001fe56be12bc16c1"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F38R.json",
+      "bytes": 6929,
+      "sha256": "a2e5ef74ead2d0a8d5d1eb7dfcec8bf9fc8d9a1b6664b432caa04344dcd98de9"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F38V.json",
+      "bytes": 7887,
+      "sha256": "bbd3775372137aae72b4ee11b7d18767b057716a54d6179f827075cb4571726c"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F39R.json",
+      "bytes": 19501,
+      "sha256": "9551faf42d98928994345f9582ae05aaca0e95a3274920c00a2efc2b423b2725"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F39V.json",
+      "bytes": 13123,
+      "sha256": "1389b5a6931655d46d935b7db554f73986d1f56f79539d65f3cfbf7e75103f0e"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F3R.json",
+      "bytes": 17232,
+      "sha256": "6b693dced5a228324dbfc9360abddd65a269262443a628c887e5344b4ac5ee74"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F3V.json",
+      "bytes": 16664,
+      "sha256": "e8d53676f791e1e6bdc4c7613c931d437376f0a7c08b4b2603fc3ede39fc6fe1"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F40R.json",
+      "bytes": 9514,
+      "sha256": "5f029577cf80f4d86f4f1401eab65f8f01a6bed009094b19a873eec39944a975"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F40V.json",
+      "bytes": 15694,
+      "sha256": "52ede7cde4c5ef11e42a3979e4b136911be62d88adf949632ea3366b5fe0676e"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F41R.json",
+      "bytes": 11599,
+      "sha256": "d6d2e1c83420145e31fad3539af996078c216486c172ca54391d25e6b8981892"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F41V.json",
+      "bytes": 10895,
+      "sha256": "46e21536a2d4ba855bfd15f84b4c1ae5508296886b41c6f0c7fdb44c72c95f4b"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F42R.json",
+      "bytes": 20156,
+      "sha256": "bf19d07ef2f46bafa346f9b6c1bb4ea6f8f0983e7f44ed8cc15ca175d33128ee"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F42V.json",
+      "bytes": 14209,
+      "sha256": "a7aa5fcd381048e6ad08c88c83dc7ccf1025675b03fd6050381d48ee3700d6a3"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F43R.json",
+      "bytes": 14073,
+      "sha256": "c77cebc99958036be678ad4e6b21f3b155c7e56ad1185bf59b51e55556eb8f82"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F43V.json",
+      "bytes": 15792,
+      "sha256": "a264dc7e5a39735b6a02cf3b6256561688965ed75832fc6e1f6138e8c18bff91"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F44R.json",
+      "bytes": 10271,
+      "sha256": "6d78490f65f146aa8591d8b04a347b6fd3c14b5e6a12794c07ab89e4ac39e0c0"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F44V.json",
+      "bytes": 11374,
+      "sha256": "44adb82877b63e594f51aabbd5b7d4f3345a11317f57a96e818ae62096a855be"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F45R.json",
+      "bytes": 10068,
+      "sha256": "4cb3ae351021ff16af17d33b4482161c56eeeec7518b7f07640809a3da1400d7"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F45V.json",
+      "bytes": 10482,
+      "sha256": "4b18f2c68b9291bb4ddcad9b0913885a38900fc655ebbb542684bd6dc4bbd5dc"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F46R.json",
+      "bytes": 13468,
+      "sha256": "b628651d618bb960b281f2aaabfbc3a2adca492b6f30e926810701a24c6cc0d1"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F46V.json",
+      "bytes": 14457,
+      "sha256": "02832e56a884574b53af1c7b89a7cf0e520886187d372a3767417430105e1446"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F47R.json",
+      "bytes": 10181,
+      "sha256": "fba5893729d42849efd7f339931dbbd5166426fd35b125fbde3cb430603c68e5"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F47V.json",
+      "bytes": 12203,
+      "sha256": "4a1e8a5f2b56dd225fcd58747a840f011ec0f99c2eb52bdc36d502cead9672eb"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F48R.json",
+      "bytes": 9685,
+      "sha256": "000273e954f2565422610e92d34e505fd1141421502df71c818c4eb2beb1a250"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F48V.json",
+      "bytes": 12903,
+      "sha256": "24e7db911cb3fbc65851bb30b5f747258f77f7811c7617b5e1cea202110e7a12"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F49R.json",
+      "bytes": 21095,
+      "sha256": "45e49681b3771e1b88c516312408d83c5aa7717756a03c1dc595e705e00e04bf"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F49V.json",
+      "bytes": 40663,
+      "sha256": "a237dfe97e9cff69e577196ea2632ac8b8f8a0cbbea3355bffed8ff3c3ff7fca"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F4R.json",
+      "bytes": 12840,
+      "sha256": "2dbe2d523042f2235f205786f538e663cf39f3cf886413acbf4e9f24491cd22f"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F4V.json",
+      "bytes": 15914,
+      "sha256": "9a4d27c148fbd93665d4ec3984e9ec3e02cee8bba1f2fc3e8cd0d4588684ab85"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F50R.json",
+      "bytes": 11529,
+      "sha256": "9641b7de643130b33dabfb351eeff68a8b8560e038005bd593f544ce9327f22b"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F50V.json",
+      "bytes": 10414,
+      "sha256": "98ebc8b9321055afe610a1db26fe0d3ff32c003da378ec00637b659c9626d056"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F51R.json",
+      "bytes": 11867,
+      "sha256": "e5f0329a2fd64cfe3417b360818a152af750f0f26ca87e7422c90a17a2f9b67e"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F51V.json",
+      "bytes": 11728,
+      "sha256": "f175127ca0c38df66294fe03af690f8d264377be860077942657a05179826cf6"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F52R.json",
+      "bytes": 9087,
+      "sha256": "2272e1639988937db29f89ba9217fdd0f88ca45f96636837e2dc6d29b81d8103"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F52V.json",
+      "bytes": 11179,
+      "sha256": "ba35716d5dc6f13be13e7be3ddb092214e631645b1960e037af2769a94692386"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F53R.json",
+      "bytes": 9253,
+      "sha256": "b99db39b763a00ad524d361a6f94b38e6313d21012776920f835d0d47e770302"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F53V.json",
+      "bytes": 10593,
+      "sha256": "66e82775c2c0d79afc8133d5754ff4f33653e04712c43087844c6fb4cb7046ca"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F54R.json",
+      "bytes": 9988,
+      "sha256": "47982732cd22ffc339323821412df376bfe4a6fdc9a91bbc60e0963a8acfe1e4"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F54V.json",
+      "bytes": 11747,
+      "sha256": "46909701551bbc8692d56c73d6e63922d7999e50daebf97ed954fb9c21926818"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F55R.json",
+      "bytes": 10335,
+      "sha256": "a45bc187ab1899708852992a18191a6f4957b932dcb3eb7f6f913e12f5591473"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F55V.json",
+      "bytes": 10236,
+      "sha256": "e2fadcfd86f732d991a7dd98a85582fdbea2e4df9afb24c45479d5a8376640cf"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F56R.json",
+      "bytes": 17698,
+      "sha256": "09decbeb11caaea560999883da7a65b5af7af0bc64572ec05562a9c05c23db9d"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F56V.json",
+      "bytes": 13100,
+      "sha256": "76ef88faa9609eaa2dd54b316ea7d220acc3ea22264c4c2cecdc79550fbe793d"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F57R.json",
+      "bytes": 9791,
+      "sha256": "1ae7c2695bc9b8aeb469a9b95879e8a1bf41d7389f572acbef9262ed320a8c25"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F57V.json",
+      "bytes": 25503,
+      "sha256": "165292c53d5dcc87f600f40acc2d6da0f5b01fd1b7d6eb60eb649362476eaae2"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F58R.json",
+      "bytes": 21347,
+      "sha256": "abdd38a527974798fab4e03f5e4bdbc456180bade2d20d701f20f2e819a69af9"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F58V.json",
+      "bytes": 23312,
+      "sha256": "fbb9d68af1ef72ac563d90cb7d39ae50f89cd133426b96e179d2ee74ee7f83f1"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F5R.json",
+      "bytes": 10759,
+      "sha256": "f401e11138c4a26ab46a13aa8d1d323d922c09755b765fbb251d456b953ea8c2"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F5V.json",
+      "bytes": 11614,
+      "sha256": "22a18e6c790ca44140a8b8d7b07b36783d4a68d4e04d1163da5180117512a705"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F65R.json",
+      "bytes": 4532,
+      "sha256": "fc18bd468d791f2baeee1f1ac1d955093167c80ffbdaa14d5e13d6347c913e77"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F65V.json",
+      "bytes": 7865,
+      "sha256": "98733bff1ed5760f04f67495adf554b33a47451267a3b91c048ef47679bd84ec"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F66R.json",
+      "bytes": 72185,
+      "sha256": "62301a5cee682d3425ddebf519506fa84f2d1a14afe45c3a0c11e151530b9589"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F66V.json",
+      "bytes": 15044,
+      "sha256": "9a73ce0dac9151506e106669175a2bbeb23f92fa16c8fa3fac1c95429a7a430a"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F67R1.json",
+      "bytes": 21838,
+      "sha256": "1f18861873250aa191393ca87be31366197f4c9d0bb01e4d94b958652953c660"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F67R2.json",
+      "bytes": 71380,
+      "sha256": "32c19f325abde7efb548ea035dff7e8de185c7ee64eb4b8f59eed94e13bae743"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F67V1.json",
+      "bytes": 34156,
+      "sha256": "63971827753c0b72a1e139c44105ded358d065c725882a3c9ccf8e49a0839d97"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F67V2.json",
+      "bytes": 31742,
+      "sha256": "1b8df4dc5f2a73810da2c2156ab29ddb089d0adaa3c6a33aa1ae935d4c86b450"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F68R1.json",
+      "bytes": 32078,
+      "sha256": "cc6cc9d0da8e3181b2f5e45bfe94862607b1f24c7380275a70b949e6e47aae2d"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F68R2.json",
+      "bytes": 35630,
+      "sha256": "f4c5b2e1791284ce899152c36e674999ff661ec0fe10a65d0dde4b2e1abad1ac"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F68R3.json",
+      "bytes": 26859,
+      "sha256": "372207477de21c235bd82a59433da3fc0b73078e324d2292dcfd1c702f06de96"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F68V1.json",
+      "bytes": 23282,
+      "sha256": "53e26307494d851ac4fce69381ebf13715d0f47cad9f228c481b579f80fd8e20"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F68V2.json",
+      "bytes": 29070,
+      "sha256": "159f3521dff63dbf302e61cf5c3c3a843494d053f1c27aff0738e843bc0ef4ac"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F68V3.json",
+      "bytes": 27255,
+      "sha256": "49cf3cf9ea6154b44793e1f394ff3fa325586d7d58ed008d5407177f19d52d8c"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F69R.json",
+      "bytes": 48856,
+      "sha256": "4d850617bad10f7d40bceb815ddfcff112915dc19118b98912080b8209c31f5e"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F69V.json",
+      "bytes": 25129,
+      "sha256": "db3dce8ac7252e9669d548b187ebffadbb72a93e1948c102d33d985834cf3fdd"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F6R.json",
+      "bytes": 12389,
+      "sha256": "df46f6af83a8f4dae0c589114c1626f76e7f6a8953ae23b4f616762ff6f2e776"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F6V.json",
+      "bytes": 19697,
+      "sha256": "c13f47376aa55e0352d1496d5e1b421ab1c6d05e8e79abbedd5d0c814b0c6c43"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F70R1.json",
+      "bytes": 24677,
+      "sha256": "c0adcc9acb7f9ef05fa0a4a9902171b9a93c050de886f638f9791318c332c491"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F70R2.json",
+      "bytes": 23632,
+      "sha256": "630bd724edefc32fd1bd1fdbd5489dc3bd17253c83f0ceabde2ed8784d1de539"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F70V1.json",
+      "bytes": 40226,
+      "sha256": "ccf3845cf504711ee8e345473da1443b103612cbdcb353cb572ae187cb42b061"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F70V2.json",
+      "bytes": 87782,
+      "sha256": "3e910367269b47ac001e4d4ac79687534f366c2ecf45ab9e75e6d6bf767f2bab"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F71R.json",
+      "bytes": 22815,
+      "sha256": "c535e403d225ad5ff726fdfc058c486c7ad768deb2ff484374b525c4155f4956"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F71V.json",
+      "bytes": 23094,
+      "sha256": "46ac227d99bdbb859183d3cd18ea03998f18de1c94296c056d5700e12031360f"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F72R1.json",
+      "bytes": 24252,
+      "sha256": "6e1119a48b94b81b1e98e7d9ed0807f9f706bad4986f230680efd85889bb2ead"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F72R2.json",
+      "bytes": 34780,
+      "sha256": "9fd4acfaea0609e6bb6f4dd9903de6a6e7972082f383f40caca81c88a00f5c29"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F72R3.json",
+      "bytes": 42124,
+      "sha256": "ea6b91b1b02fdc8b25e0c6bf1ccbb6fc4e53c22dd581cecbaf9a6ff3d293ee7f"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F72V1.json",
+      "bytes": 30543,
+      "sha256": "9fd41046baa0f602ed38f55039aa206cb3cae9557cfd778bbbc252147e42f905"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F72V2.json",
+      "bytes": 32831,
+      "sha256": "c8cde7cbc4065f4c7dd06c6b208cea23a2930b7c786c6c4ec9339174f9d6d3ef"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F72V3.json",
+      "bytes": 29362,
+      "sha256": "53a518ae56034b8d06668401f2a1f531816061694db775f542580f8bcf4e2bc3"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F73R.json",
+      "bytes": 27055,
+      "sha256": "34ba22af2b1e119682c2e03bfe157eb73282d665c6469c08edb08bc37875fea4"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F73V.json",
+      "bytes": 29639,
+      "sha256": "ac06a4ab1ffa0b864ed126906e7a143a7baead846fb5a5d7b903240e7fdfd8fc"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F75R.json",
+      "bytes": 41018,
+      "sha256": "e5f678b01ebf9721f78663217cacbd4e70da4efb4011f488b8dc3ff5395aa989"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F75V.json",
+      "bytes": 69464,
+      "sha256": "05584e8aae884c3aa0e311883122f1f7a28092439a6116dd42c0f920fccdab92"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F76R.json",
+      "bytes": 48141,
+      "sha256": "895ed82a21482ba1d092df7c6962ec8b1e53ddf1c2dc4d7013f5a57048ede3f2"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F76V.json",
+      "bytes": 32679,
+      "sha256": "651c187331c93b003cae4cdabb16ef5b0701f7eacb33b11fd4467bbb699ea6b8"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F77R.json",
+      "bytes": 39622,
+      "sha256": "a5ef6c5b7be6cade781fcb3d6a35f164243305de13ad305fdab95e1556ca33ab"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F77V.json",
+      "bytes": 37026,
+      "sha256": "410ff12babc550b1184aeeb37ca34f4638ff44d2aa55567b273a052b3aecbd05"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F78R.json",
+      "bytes": 37588,
+      "sha256": "fa6f2e8234c0becc6eac9021652abe0bc76895471b28a1a9c9306ed3f315f5ef"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F78V.json",
+      "bytes": 27711,
+      "sha256": "9a59ded80f19c18a15819e66e8f300717dd2f89538a225cb433673daf988f392"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F79R.json",
+      "bytes": 35486,
+      "sha256": "e68fc5b4cc43013772746062c749d06f27da3f41b7dd3387de5b45edb60c34e4"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F79V.json",
+      "bytes": 34469,
+      "sha256": "b2844e0c289a656f43dc61099a9c6f8c0eb7eefe8e1bf61fece4c32ef258ebdd"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F7R.json",
+      "bytes": 14075,
+      "sha256": "45eaffccbc9b4bbf86004f30387cc50313243eeaf6ccb034f786fb3a0925790c"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F7V.json",
+      "bytes": 10719,
+      "sha256": "4b8ec2b4a4b0c0dbeff9159bdf12196d316b41c94c87eddd67f09c7fb90605c4"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F80R.json",
+      "bytes": 40457,
+      "sha256": "50a37b597b6ea53888859eb2be9e271353aba6800e67871200913e5946ff4da8"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F80V.json",
+      "bytes": 33418,
+      "sha256": "a01ead219f662d64d8585a35f9b45865351a27a380074251887f06541a26e960"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F81R.json",
+      "bytes": 27090,
+      "sha256": "3411b684ea4ad33efb0e6ec5ee7a513e383158c0393978f3b7b8af599d501b3d"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F81V.json",
+      "bytes": 25166,
+      "sha256": "cce08aa1068add95459f56ac6658878014c7b001bec210b1653915955afe16cf"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F82R.json",
+      "bytes": 42751,
+      "sha256": "0ee81c4cc14bca33a00372464a3ced4e892389f53ab0dd4deb92652c8fa905ae"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F82V.json",
+      "bytes": 40139,
+      "sha256": "14cd34c4f94fea95abdbb103eebf91073ec59ad65d41230b41cbe51cbd9c19ad"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F83R.json",
+      "bytes": 46048,
+      "sha256": "0753eb92c5ae7502697cd2fb25151d9e0743e6a9d7a78090b1e3812813cfa3a6"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F83V.json",
+      "bytes": 32864,
+      "sha256": "95874a94603a251051213bee24997f6c46a1dc06e0abe5b32160f8e1f0525bad"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F84R.json",
+      "bytes": 40556,
+      "sha256": "8c7f0be5c5a04e44ba44b897d02860ba8628d9d434dfe2c2012672fa4d39fc97"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F84V.json",
+      "bytes": 39792,
+      "sha256": "989f614e868736eff3c59c611a51ba7d88a4adc7baf8992e067fa28b634d427c"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F85R1.json",
+      "bytes": 18870,
+      "sha256": "498ec76797b2e9621a27159ff45e7f631212021d12bad08170ff879601f947ae"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F85R2.json",
+      "bytes": 162698,
+      "sha256": "4f8ced0432e25ed3715a2bcc1db6d01d7ef01eb8e2e9442840cada17736630c7"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F86V3.json",
+      "bytes": 37591,
+      "sha256": "414f245118b58c551d41f8f40e88d618b236d01d89da8a3ae6089a815dcf1ccc"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F86V4.json",
+      "bytes": 17205,
+      "sha256": "7e3cfbf71acc6f1de2305e53941b9be3f47176ac04b311512d6b26f007aee3ed"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F86V5.json",
+      "bytes": 21293,
+      "sha256": "ce40a95c0d5dc20ce30beb108feba982ff9576bf03bd3857abe130a0160fd12b"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F86V6.json",
+      "bytes": 23581,
+      "sha256": "868179ca3e3e66a0f19d7507f7cd8bc4c0527b4efd51c03ead9c64afc8d4883e"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F87R.json",
+      "bytes": 9735,
+      "sha256": "c877c24e16d9cacbf61f31e71018721edc38b8ec7556ca2a12875cd31fb2e949"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F87V.json",
+      "bytes": 11776,
+      "sha256": "d2ed04fe2f346218002f5017eca535402eca7b9c80b12bfa42d97c9d0c489323"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F88R.json",
+      "bytes": 30925,
+      "sha256": "9a51cf77fb5714f4d02e004debd9264b4eab36391824c558e6f42f04e9c71e92"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F88V.json",
+      "bytes": 27788,
+      "sha256": "c241d7cd3fab17a4adfbc951b650e1700d8c955eeebf56bdbbb7bd09d0afc722"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F89R1.json",
+      "bytes": 29240,
+      "sha256": "e9f5ba849603c4440859279b2d072d584ad8aa448c6597b187f2d8024e06fa8f"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F89R2.json",
+      "bytes": 53241,
+      "sha256": "c57a0bde1c9c61b6903ce24306f388d7c1b2e57e4570f386dcd6e11fa6261330"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F89V1.json",
+      "bytes": 23597,
+      "sha256": "3fed15cc2a56ebc30186bebb067ac390dc8e015cb125bf6de078f272feb7d9d0"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F89V2.json",
+      "bytes": 42274,
+      "sha256": "50e8eb4807d2c4770b5ad16cce55538b32de4f02ee4099c863396352937be47f"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F8R.json",
+      "bytes": 19432,
+      "sha256": "f1e6d967452a98bda1c0a46d0ab698db7de7e1a991f2f3f9a66725437a329ad7"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F8V.json",
+      "bytes": 17644,
+      "sha256": "0fbe84bc2fd31f781db77fd95aa0188ab43ceb8f431dd76f39f2cbc1fd4085f5"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F90R1.json",
+      "bytes": 8474,
+      "sha256": "6aad758daf584f9f825dbaccdc4aa17b963e471749785d33e3bf2b0a0e014c38"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F90R2.json",
+      "bytes": 7106,
+      "sha256": "24cc1312f2971fd21ae3f5a3319b99777c0757acdc168ff872df05f3ce1f0d61"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F90V1.json",
+      "bytes": 10476,
+      "sha256": "b4788210de69adb9820b8e08608bad0c2eb1e14fbea32e676279dae81bddbb12"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F90V2.json",
+      "bytes": 7969,
+      "sha256": "a5bf6059e0a1a736935ce37046f5ac4b5bc3c386c9bcd015cdd880aaf482faeb"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F93R.json",
+      "bytes": 29922,
+      "sha256": "ccb0c3bd7d617c1032e6b212ae24359b67bf8c080db111e22a93fa131fb5eced"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F93V.json",
+      "bytes": 7693,
+      "sha256": "7d3cdc45b01948d37734fc18365af0b90299e57735ebbdd5f7b4d121d8eb0581"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F94R.json",
+      "bytes": 7847,
+      "sha256": "f6c3779927c15864e5e9341b88c4273ab51e098fc80ec18862f897264c9b7241"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F94V.json",
+      "bytes": 8673,
+      "sha256": "413d6da7a63ab71c0a5312c3ae1865a858792f59d0074b9ffbc420f0aff6261d"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F95R1.json",
+      "bytes": 8526,
+      "sha256": "6c68b262a9df417f5496ca70db5adde08a1137c29ed9edec3a3494f81573154d"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F95R2.json",
+      "bytes": 11943,
+      "sha256": "9ee8ac1901f1c0807100460282e862d68f660c7bddc13ff79eb2760f0412c838"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F95V1.json",
+      "bytes": 9179,
+      "sha256": "dab97bf65b81732eff9e9886de70b4e6dd5a5174b6c31519e112c31c011ae891"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F95V2.json",
+      "bytes": 8206,
+      "sha256": "1c692cf9e4e40eb402920807aaf0fe3b4de62a1d816be4e33a809eff6437af56"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F96R.json",
+      "bytes": 11635,
+      "sha256": "6774d000f8b4aa24ce23ff480fb6e3761618bf53008c6edf231f2d90f9bff3e7"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F96V.json",
+      "bytes": 9181,
+      "sha256": "2c07f605f443fa5454b2a6bad428e3c43a69fb01870397bd8895a6435a6839f7"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F99R.json",
+      "bytes": 42927,
+      "sha256": "bf05daf1f0e70da68b7a9e1c7cac42843dc7c246f31a251c5128284bb921a9c6"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F99V.json",
+      "bytes": 35796,
+      "sha256": "535d918c2c75c8ff1d10458773eea59581295e8d2d6fcae10c1f755d00fcf7d0"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F9R.json",
+      "bytes": 11406,
+      "sha256": "2843c67c8b760eec15544b4f6f949346ed8333b1b77988d3f822595a52600591"
+    },
+    {
+      "path": "data/meaning/meaning_v3_1/F9V.json",
+      "bytes": 21363,
+      "sha256": "5d632988b1c8d34b4d112d87f2737e904fc88bc2f62400f1c72e2cfabcfcef79"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/cluster_summary_v3_2.json",
+      "bytes": 4,
+      "sha256": "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/clusters/cluster_summary_v3_2.json",
+      "bytes": 4755,
+      "sha256": "5ee5a30d875d8e15944306ca568d71ccb12a900c5e2c7ec7f4562befc84ac577"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F100R_vector.json",
+      "bytes": 851,
+      "sha256": "685889c6c37ecacf886470b91e5d39919257ed6342d26e1d2d4b2610ed41ab23"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F100V_vector.json",
+      "bytes": 611,
+      "sha256": "56aa28766cfdc52efcbc72feee1f98e69ebdbbbbd6c3a90c619c9f5ef27d4121"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F101R_vector.json",
+      "bytes": 763,
+      "sha256": "50f318593e248a35a8f8c468a8234ff21bf35ac1e0f8b80b680688693596b775"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F101V_vector.json",
+      "bytes": 1083,
+      "sha256": "d71189b7fc6b9d388793f74f9c9af6658a18e0d35eee03acc40cd9c6739d9bba"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F102R1_vector.json",
+      "bytes": 883,
+      "sha256": "0a985c8e1238201115e00d49ca011255dd511fe781a1c03d2b460a3c8d75cf15"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F102R2_vector.json",
+      "bytes": 848,
+      "sha256": "394f9db8bc5b4bba770f799497290762fbc2da98e72b012342eae9e1f60126b5"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F102V1_vector.json",
+      "bytes": 745,
+      "sha256": "66224c954b7d4421a2fff0be799120b233d27f90c9098749be9d6c5c4a4ddbdc"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F102V2_vector.json",
+      "bytes": 923,
+      "sha256": "343b0e7ded0100dd358c408f4d13af518c9f887f11805d095929d23eea61bf40"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F103R_vector.json",
+      "bytes": 1203,
+      "sha256": "3f3d8810f3f4a1e8b5ae700238b829ce1a1a05b31d869038a9f1bd3020516016"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F103V_vector.json",
+      "bytes": 1026,
+      "sha256": "23706dc76a064368360fbac7e4e7931a7600986d3b872f1ddcf1229cc5edf23d"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F104R_vector.json",
+      "bytes": 942,
+      "sha256": "6558bb51a315d51d907920e43ce9f950998d78357d2109290db913a6ee0c85ee"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F104V_vector.json",
+      "bytes": 1024,
+      "sha256": "59251db9bdb63d4d13eaacea577e9a79bfbca7b99bde2a1e2ea47718b06ae31b"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F105R_vector.json",
+      "bytes": 908,
+      "sha256": "e09e90eef5dd3f76c00346b06e35fa560a8752363bbe9f0c9e4ac274d96ce8b2"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F105V_vector.json",
+      "bytes": 902,
+      "sha256": "480a0cc0c7fee85949af1993d7280a7d1d969e351d9413dd0391d2b1a6df9b17"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F106R_vector.json",
+      "bytes": 948,
+      "sha256": "207df7528dbe8552e5633e125908df9a4472686e29d4ba35f33cb7a178fef794"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F106V_vector.json",
+      "bytes": 1072,
+      "sha256": "e7e4bdcd83e6847c8411a0fad5fc06e0900d947f9df9d113205a67bf3746e8c0"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F107R_vector.json",
+      "bytes": 1045,
+      "sha256": "3de0676f9db2b654567df820c5c3adf9dada4f1aa36527c1b48934feaa94448c"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F107V_vector.json",
+      "bytes": 1047,
+      "sha256": "d7bed86b87996367fe52b69a5f7afed2f67dbf88ea8bb254dc60a39d22b9574a"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F108R_vector.json",
+      "bytes": 1012,
+      "sha256": "7847fc7d17ca84dab7efa635893c74817fdbc2101707711e559b132a1a71ba3d"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F108V_vector.json",
+      "bytes": 908,
+      "sha256": "8350395a2823ee64df55ed7d70ae6918eeaec1ea455ab0baaa8a4dca9c19b8fc"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F10R_vector.json",
+      "bytes": 714,
+      "sha256": "cf8537155643555994085937e02bdbf947afe5ed6c0cfb4737c7e8f44023a546"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F10V_vector.json",
+      "bytes": 719,
+      "sha256": "51ae17c5d6606313e58df8b78f03ff55da5849a2cda987bbeb18155abfa4416a"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F111R_vector.json",
+      "bytes": 981,
+      "sha256": "e4df66850bc12f63cd8ffcc45255d112e11ba10c8dd59fc55ad842f270d2dc2e"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F111V_vector.json",
+      "bytes": 984,
+      "sha256": "0b9c84b4b5beef67fefbfa02def4742e7010746ed5ac731ef2e17a8bbbe309a1"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F112R_vector.json",
+      "bytes": 928,
+      "sha256": "d5d23cc489f2a5758138963c8719d3429e4abe742ff009d1b4971bbaf40979ca"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F112V_vector.json",
+      "bytes": 1092,
+      "sha256": "98cb33ee461f4638443353210bbfacdd28a58c642e732d5f400aae261b2de500"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F113R_vector.json",
+      "bytes": 932,
+      "sha256": "3b947344208b9e7ffeb4b819425b429f0efa88bc425e900f1b61caadb58c0a62"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F113V_vector.json",
+      "bytes": 1126,
+      "sha256": "7bf91ea4aab0ba5d8d9d5a7d35fc9d69ad1f0be5a184402d6c4123c8acf99d81"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F114R_vector.json",
+      "bytes": 1024,
+      "sha256": "5d3f0c85371ee9746729a5755fdbabf2252724558c5e6155a9f5de11b4dd9694"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F114V_vector.json",
+      "bytes": 982,
+      "sha256": "3af45027b7f6b676d7fa2ad1147f0b556ddfd1f3e89f19d17a660c711f31b7cc"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F115R_vector.json",
+      "bytes": 995,
+      "sha256": "3091f4c0613a211e9704c25f44511726a3f8cb6c631926bc17b34b777ab3cc34"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F115V_vector.json",
+      "bytes": 930,
+      "sha256": "e35eb613eae627adec4886a784ae00320e219f62bfe0ca053c3da1b8f00842ce"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F116R_vector.json",
+      "bytes": 960,
+      "sha256": "f8ea9542f43d081c84b08745dd98ddd5244235b6a9097cbc7ffcbb7659b94a27"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F116V_vector.json",
+      "bytes": 874,
+      "sha256": "0cc19d03b9ff1ad2aa936e2c798edf20b001f46767f48aebff310e811399fbe6"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F11R_vector.json",
+      "bytes": 702,
+      "sha256": "d5462aeddd022f17390c212246a3c3842742e7f639c48d26b084a068b6f7b9ac"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F11V_vector.json",
+      "bytes": 600,
+      "sha256": "b6b31164c2ba9c0307a006cc4cb0e89b7e7e5f99f871e1b08b4f05acb9bbac3c"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F13R_vector.json",
+      "bytes": 756,
+      "sha256": "d2a0687424e58c5612c4481477d546d84b875018d5d1898105472e31aa657334"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F13V_vector.json",
+      "bytes": 685,
+      "sha256": "04563c69b38eb12c53ba38c465132f53e0e4388c083344eb6667e918ddc29725"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F14R_vector.json",
+      "bytes": 653,
+      "sha256": "9562332da3ee783c26d58c09610252b7cfdf6cdb58b092a9b373d4134d52a95a"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F14V_vector.json",
+      "bytes": 721,
+      "sha256": "09d75bd9099209d6aeb0641857fbeb0515251a5026ad1a8a85e4981f2dc8e738"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F15R_vector.json",
+      "bytes": 746,
+      "sha256": "3482e025a072a9515fadc1fa45f8e0056508514ce6d1ed9b9151fac529e7462a"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F15V_vector.json",
+      "bytes": 641,
+      "sha256": "cf479916e12391a13680fa9e2852bb4da8175a756abbc5538d9f50cd83be281d"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F16R_vector.json",
+      "bytes": 660,
+      "sha256": "8b1af83cb5e2b59fa7457f63f4b0a92b7ea1a257acaac5d129b5c7b4a8b32231"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F16V_vector.json",
+      "bytes": 667,
+      "sha256": "b35cf721d4c78e145640565137ec3fa9c89a53812ef9843766ab9ef492f3d34c"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F17R_vector.json",
+      "bytes": 816,
+      "sha256": "63b957ca583402aee66bb315e1dde195955ef99fcd5d68ca09ccac878bd14342"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F17V_vector.json",
+      "bytes": 787,
+      "sha256": "4b2c303780e2b6deabf66ea48726c70c85e23465d8b30d9f9a0abaa014c1f819"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F18R_vector.json",
+      "bytes": 739,
+      "sha256": "2058a0fd0c6fbc935d08be4e14d448c6338eba28887904af4ee34c9753e90d1b"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F18V_vector.json",
+      "bytes": 682,
+      "sha256": "2cd19183cc71a95a55d83ae23a945f87b1111acbde34cf5f98af94bb2bde8c4b"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F19R_vector.json",
+      "bytes": 721,
+      "sha256": "bbc9b7e43bea47971e95f48e0479427d512954190a8c7694a24ee634676a602d"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F19V_vector.json",
+      "bytes": 659,
+      "sha256": "2a25d3eae20d217991731dbd2dcddb2662cf0d35cf8c7224e8a6e4ba18ea409b"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F1R_vector.json",
+      "bytes": 1021,
+      "sha256": "2cf127cd3b109fbacb71472e4066dda3f04c134d17ff51536eb3ae2f13ae3471"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F1V_vector.json",
+      "bytes": 885,
+      "sha256": "a1a36c4f2aaf69a15d0dec9e0470183523f6a824af1fe24d1b1724bd347193fa"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F20R_vector.json",
+      "bytes": 658,
+      "sha256": "77ec7d299ec5181056dc545c635401a5d692c64785b0c86d179ce72a108d8478"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F20V_vector.json",
+      "bytes": 644,
+      "sha256": "e968a023f4aa5cc299d25bd6ac6375d18f485ba90bd6ceda4cf863572b0298dd"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F21R_vector.json",
+      "bytes": 673,
+      "sha256": "f5bd9828f5e9dfc20c9a19b6bc5a6c8e9e2e269fa12282285e9f296428f0bc7f"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F21V_vector.json",
+      "bytes": 672,
+      "sha256": "5e37f94a05c7116418f38db472a9a615ba435c84394f4080e49bf6422bdb9713"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F22R_vector.json",
+      "bytes": 765,
+      "sha256": "6f070f8c108f0454d5075034d3d76233d2e6a7013280f2d2868adde36a7e9d3a"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F22V_vector.json",
+      "bytes": 820,
+      "sha256": "9791785d6bff1726baab86251caaba9c442e94e7665dcec218a71d8694eff27b"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F23R_vector.json",
+      "bytes": 698,
+      "sha256": "2b8e179f58edea8e8904449f65f39015955a2c126ed3374fa6862241716bb873"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F23V_vector.json",
+      "bytes": 736,
+      "sha256": "3cc24d3ea98362aa7be5ca304386293380f3d86224b51ca1cfa70f168763351e"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F24R_vector.json",
+      "bytes": 726,
+      "sha256": "fa4821aac75721e399902a20aa1e006cf8183f2532435491553be36833c5c012"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F24V_vector.json",
+      "bytes": 828,
+      "sha256": "19f780a76aa628c11f9be72f26bcbb1fe5c042d8a3b1651d5a6ec7d8c9452dfa"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F25R_vector.json",
+      "bytes": 707,
+      "sha256": "ca5368f640dde7a9c490dd75b2bf50052787a44fc6bba944e210a4675beaa207"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F25V_vector.json",
+      "bytes": 694,
+      "sha256": "eeaf30df096047d0668b3dac2a75743c3056aa0c4c33bd15ed87b9b0435eeab3"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F26R_vector.json",
+      "bytes": 638,
+      "sha256": "e0921d54b790b810eb94864cfe9c68a35c246e99c6f677dee5c9a78399a3d24f"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F26V_vector.json",
+      "bytes": 566,
+      "sha256": "978888546255ddd0c15f3e36cdcbed4df25feb75410f6b72640cb80e97463d59"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F27R_vector.json",
+      "bytes": 670,
+      "sha256": "1e1e50298aee10764f024b8d518b49c3c65079ece156b09e3ea57d96e120a680"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F27V_vector.json",
+      "bytes": 612,
+      "sha256": "b187d1adf3bfbc46208825c0745091b427d03bd837c7971aa120c3d48e63b39e"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F28R_vector.json",
+      "bytes": 657,
+      "sha256": "a7adfbcf217c34eb4cab5b1fdb5ba09e8a0549f72b3c83170c5e3213b4ad9c7c"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F28V_vector.json",
+      "bytes": 583,
+      "sha256": "31abb2d62322795294a67768c994643ce51640beeb08492261ec5af6c54f6e9d"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F29R_vector.json",
+      "bytes": 729,
+      "sha256": "fef7b76347f766cb7e7630bdf5bb59fa6557c0bbc4cb74fbc847405eaae72738"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F29V_vector.json",
+      "bytes": 690,
+      "sha256": "df4fc0921084488287fe081f7f8664a38395f68d5532277db7f88813a320c936"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F2R_vector.json",
+      "bytes": 954,
+      "sha256": "c7845a97d9ce691df40871c2cc28bd4a0991cfff5431e06a03cfe9d96e9241d8"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F2V_vector.json",
+      "bytes": 857,
+      "sha256": "54a648fcc2bc21175f05e883a154dba769f090fc4c2a1f2d2cd36db5eb2f2279"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F30R_vector.json",
+      "bytes": 714,
+      "sha256": "9386facd1990a7e39ea9d583dd887baf4f84edea87b6d7364b8811b70d1e6ebb"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F30V_vector.json",
+      "bytes": 658,
+      "sha256": "4b9874c9f416566d19443c5d6bb86060fe06298e3aac45dc975974317a58dfe2"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F31R_vector.json",
+      "bytes": 736,
+      "sha256": "3b296abf85712adaee879d5b40086052d9e0f8b792983048888ae912c3ad4f93"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F31V_vector.json",
+      "bytes": 702,
+      "sha256": "306ddeab871bdb7194c281d38470a659f1c5bfc20deaef1c8cde3dbbac24d948"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F32R_vector.json",
+      "bytes": 733,
+      "sha256": "b55f124aa10beb1f2ac8a3d7a814839dd789ffaba0d21e2e6adf6d3d31febe9b"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F32V_vector.json",
+      "bytes": 882,
+      "sha256": "0d4165d686c7f6fb8910a360edcb7f1c8aa700afffcde5fdd4965dca63eb6c19"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F33R_vector.json",
+      "bytes": 572,
+      "sha256": "9d0f1fffa1b07fdc3f46f21da4ae472c3ac012b1046744c919ae031533f0a619"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F33V_vector.json",
+      "bytes": 656,
+      "sha256": "31520847c8d163646eb1fc570087299850cdde04ed203a5a8089312a423e6165"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F34R_vector.json",
+      "bytes": 903,
+      "sha256": "c0a0bd0d3b64b08702c674ddd4ec50240074d59bea01accdc38967c54c64558d"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F34V_vector.json",
+      "bytes": 750,
+      "sha256": "9d9532b8cead98ed7507c9a786d1443345ec0665238e2a5c065943447b81325a"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F35R_vector.json",
+      "bytes": 783,
+      "sha256": "0e85fda9673e5f95358078a06636e05efcf34382fc9aa482d2bbda14cb3770e5"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F35V_vector.json",
+      "bytes": 799,
+      "sha256": "88c2317f79fbb756cc6e14072ce3b14925e682a629195d3e6c7075e39c8c85d1"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F36R_vector.json",
+      "bytes": 679,
+      "sha256": "b5e3f2da6aedc7cc611bfc72ea7b323c4d9cc243bc19b49452dbad75c7e059bc"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F36V_vector.json",
+      "bytes": 701,
+      "sha256": "0eb2a3294e1e2364a801a8940e8920b79b062684c4178c09487d8c721844b12e"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F37R_vector.json",
+      "bytes": 729,
+      "sha256": "4bcff79af42c75b7d3c2e759c3546c0d1e9c207c1bdd675dd4df4236766dbc64"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F37V_vector.json",
+      "bytes": 761,
+      "sha256": "eabd6ac6369807d93dd87b8d608dd94c9d8c22cdd1458ff462cde9e3c6e7ce41"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F38R_vector.json",
+      "bytes": 582,
+      "sha256": "678a5fe95c75245af9f122ff12801bb83162315985e77358cf5bd665d3007b55"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F38V_vector.json",
+      "bytes": 656,
+      "sha256": "224a66a9743c5278e81e9da85d7a276fcda62d6fed93d85bfec4c2a9cc7fa5d2"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F39R_vector.json",
+      "bytes": 802,
+      "sha256": "dd6a005266ab0c081cef3f0c344da9ba3a8c771e63c353b831bd9b3c3b1230a9"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F39V_vector.json",
+      "bytes": 655,
+      "sha256": "2806eb4117f3db88eb1d88e13e82091797cc037a78904e330d228c67e6dc6df0"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F3R_vector.json",
+      "bytes": 847,
+      "sha256": "501e94b39b2b5276766d5acb3b30bf2da2f3cb2d014abb9adaf448a4efcda9b7"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F3V_vector.json",
+      "bytes": 798,
+      "sha256": "39a93a3c6c65f844d76184e99ef06a189d5558d9a34d34c82e86dda892ba51d1"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F40R_vector.json",
+      "bytes": 753,
+      "sha256": "c088fb58059eedc1b92324d74caf681aa13281d1d4911b543ffd9b1178121d62"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F40V_vector.json",
+      "bytes": 805,
+      "sha256": "664309e6da83bc3886e6e6f0d06430ae27ad09c381e5a908aad9672dc75a0b6a"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F41R_vector.json",
+      "bytes": 598,
+      "sha256": "86d7ea42f083284365d1c864d244bd28fd3c9a4b447cf73763194ff1f3a19bd8"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F41V_vector.json",
+      "bytes": 689,
+      "sha256": "dd76e8dc10d10909c06854b1df3a1645e3c9c626df355126633e4f4291d667cd"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F42R_vector.json",
+      "bytes": 835,
+      "sha256": "57b7b8b3668fcd3fdb0cfbfc0a4f3096e860f28aee43883cb97375e86b98dc28"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F42V_vector.json",
+      "bytes": 782,
+      "sha256": "996d90effb9995c22c730a445c044b6cbc66b47188bb1b6ee7ce56e2aa4e01c4"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F43R_vector.json",
+      "bytes": 688,
+      "sha256": "f50defbad3532a159fcc2906f5005ce7818a26d876fa860d993ccf31c21f28e1"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F43V_vector.json",
+      "bytes": 754,
+      "sha256": "5bd5343bcb86e85776f5126db96e98529823e9e7254f899ec7cc17fc5807a58f"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F44R_vector.json",
+      "bytes": 608,
+      "sha256": "7dee368b4bb7fcddabef64c315c2062de57f1ce6d67eee56f40fa184d57eb12b"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F44V_vector.json",
+      "bytes": 716,
+      "sha256": "6a1dc0f545ea707b5e7220e18855cef2739881a2235c80237254dd56958939f4"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F45R_vector.json",
+      "bytes": 686,
+      "sha256": "c79ee06b99c2b0699c2a80379370ba69f2ec21d9907a58ebaef83aa24791c419"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F45V_vector.json",
+      "bytes": 680,
+      "sha256": "2470796129346646407150481319c55deffe8cd5a3299c2d0b53fee334a64b06"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F46R_vector.json",
+      "bytes": 728,
+      "sha256": "47d6371aa3ada4ca14422b5f245f0b12b698ad53169b638b00548a18f7348541"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F46V_vector.json",
+      "bytes": 688,
+      "sha256": "fa85bf159d18ec540d29422477a14cdc2c9587067dc68a9da96f93f3da9ce720"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F47R_vector.json",
+      "bytes": 651,
+      "sha256": "4acd16b27bb0bdae026ab20b9199cc6df2a44ef5185054c918da1d24dd1cca99"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F47V_vector.json",
+      "bytes": 729,
+      "sha256": "f6d8e953c6d9f82b7c3478d0fdee4431b173e8c78e44657bf0d391715b4f6c76"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F48R_vector.json",
+      "bytes": 626,
+      "sha256": "70f07bc56a212cfebf81fe8f43a0fa9d8815874c93f7d7f01f40a0b7d3b4cc35"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F48V_vector.json",
+      "bytes": 740,
+      "sha256": "270a840b05b3547f344c2d9490305996832b24822ccfc9315e6ded747810660e"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F49R_vector.json",
+      "bytes": 1044,
+      "sha256": "b92accb83c99c4a59d533a3f0012dca4912da20eafa78b1a2e5241e51cb11954"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F49V_vector.json",
+      "bytes": 1162,
+      "sha256": "c19a16aa6fda782669efa4394ef6868bf9c3ff2b5938b470c191615f4f69e03e"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F4R_vector.json",
+      "bytes": 758,
+      "sha256": "77174331d3d6e83ec31ce6e8b9243351628d2e06340aeca73afd416b88f5dd30"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F4V_vector.json",
+      "bytes": 921,
+      "sha256": "4559e1b4ac26f0a770cf43a412878b2f038e11d23aadfeb11ca86d4b85a6efc3"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F50R_vector.json",
+      "bytes": 645,
+      "sha256": "5252c05df5fa8db69065b9f4fffbea0ab44fef572fdf31a41181f6ad566295c5"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F50V_vector.json",
+      "bytes": 586,
+      "sha256": "1bafeb31fdb487a15f3a38d91fa1ad97ea92661120afacad0f47ff6a0ce8ba4a"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F51R_vector.json",
+      "bytes": 667,
+      "sha256": "df103a4df18a26935fb172631fc9665fc2fe06fa8b9224be78b6ba83ee199967"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F51V_vector.json",
+      "bytes": 799,
+      "sha256": "417963cd0aedea5b35f7bac65cfe8586a03c47b1014f6df0c372925798dce8d7"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F52R_vector.json",
+      "bytes": 651,
+      "sha256": "f0e947fada072c17adc2d6656acd81ce8c77f1ae8633562782251f92196011a3"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F52V_vector.json",
+      "bytes": 666,
+      "sha256": "c332f9f4d7c8d9ee91dfdad617117c5c28422bf28d47b62f08d34a8b23326772"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F53R_vector.json",
+      "bytes": 637,
+      "sha256": "a2d2cac7c6792597ea7a4880230ace7b9ef1692997ebf46d335339d486aaba34"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F53V_vector.json",
+      "bytes": 639,
+      "sha256": "826d99d2c3f8e160d1989bbaa134014b55342f24dfd1ecfb1c54881d39ca38df"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F54R_vector.json",
+      "bytes": 656,
+      "sha256": "33345c34536b70c63ad7f5bca66f30147d03fdcd7c11462edc9c1762b256ac03"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F54V_vector.json",
+      "bytes": 683,
+      "sha256": "bfb367e36a19285c9a9940863c0d85d4c2d7ec3afe754784c145a805efd9f107"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F55R_vector.json",
+      "bytes": 612,
+      "sha256": "ee52ac12b3f4660768b6a3263e1bdc31bcd269c1e9fa8013def704ef57840f5e"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F55V_vector.json",
+      "bytes": 700,
+      "sha256": "526fe41bc68c99df83cb5859c9917ca4857d6baa3ab75afaf7b57bedca8fbf95"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F56R_vector.json",
+      "bytes": 858,
+      "sha256": "42e1f32a77089e2088657204927c5124110ad2ad09a765ff8a9f02641a3bdaae"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F56V_vector.json",
+      "bytes": 858,
+      "sha256": "8af6c8848521fb0e58be4b67c907346b379223bc1f92ffc2f4ff4aa1c09cdd39"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F57R_vector.json",
+      "bytes": 596,
+      "sha256": "14669414e4fa8d2e71a1387a315508021a0130162ec9722c3c0ee9bd01349841"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F57V_vector.json",
+      "bytes": 785,
+      "sha256": "b01018f048e8914e34e518ae0975c3593918de2dae38915c7fb6f51abad3eead"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F58R_vector.json",
+      "bytes": 842,
+      "sha256": "357b6d566d3b4e785393022a9dcd55f0688ce85201065b5ca3b91fb074b2c27d"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F58V_vector.json",
+      "bytes": 1016,
+      "sha256": "5b9b1a4a8e7579c0ad4842c2b7afd8a209e44a5d9bfba80eb2a1dd7f0e1c48b8"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F5R_vector.json",
+      "bytes": 733,
+      "sha256": "798c8124a3f9e214e02660ba6518a9f943aa2709bafb51d6145966924bf8ef71"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F5V_vector.json",
+      "bytes": 721,
+      "sha256": "fdfa03e68dc3b131bf2e1be56df31f06f26338071f17fe9d8bd3c40f17c20f3c"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F65R_vector.json",
+      "bytes": 502,
+      "sha256": "90f0f8fd178d11e4d303cbc744a637a82d488723ad1c580041079008bf6cafd4"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F65V_vector.json",
+      "bytes": 583,
+      "sha256": "0dcac3627081422559b32027185c78e2126001d65f0cdfe64dc977df71fed6a6"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F66R_vector.json",
+      "bytes": 1041,
+      "sha256": "8473ee98d3481ad55a2f0eefab567093af06162a7a4da42e434cc508a764e544"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F66V_vector.json",
+      "bytes": 743,
+      "sha256": "81e3791a0e23dd2353badfb9179fe57f8401a6653010c2e888c20a434146f94f"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F67R1_vector.json",
+      "bytes": 801,
+      "sha256": "f70dfea2558a12625219fa758a0235b0c0f90f1cedd7b00132e3898844804080"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F67R2_vector.json",
+      "bytes": 1123,
+      "sha256": "60a76e6f0bc55bcf35f7843e076dcc778f9551d93204d5a91fd1a37e439f4a49"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F67V1_vector.json",
+      "bytes": 832,
+      "sha256": "4b8a46cbf293d5b609e562000b5843ba22a0cca789fe36509b5bc3e4812800cf"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F67V2_vector.json",
+      "bytes": 858,
+      "sha256": "3b1cc2cf62613ec34757195e20a36535803619ecfc70ebab3cddb9ab8b44daad"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F68R1_vector.json",
+      "bytes": 831,
+      "sha256": "f6cddfa0f0cf35ba95b8adbd700bc0af301bfd76e10e82d390c68bae26b1184e"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F68R2_vector.json",
+      "bytes": 824,
+      "sha256": "f57ab0cafd50407859f87dacaf9fcf5e88ec60ff03f58518e89b9e87919b7fc0"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F68R3_vector.json",
+      "bytes": 837,
+      "sha256": "ce81c6f30b51f1b0db7d5a6b156063eac20bf8155d597e25d2ab9ccf8ef76b8a"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F68V1_vector.json",
+      "bytes": 815,
+      "sha256": "e9a912c5ab28fc5ab700f0e2142ae6f14e1ab87e66cf51504508969bbc1b83e4"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F68V2_vector.json",
+      "bytes": 931,
+      "sha256": "83a6c0dde753a7948378ef0a1a66d4fb92053c8bfe5adf2ef21ca6910663b10e"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F68V3_vector.json",
+      "bytes": 1011,
+      "sha256": "032d93b1abf92df45cba420f89a13adea6011017fcc33879a7384131670e4e4a"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F69R_vector.json",
+      "bytes": 1024,
+      "sha256": "d91b1119e81a4726fc1230fe773d393b3c9f56bf0bd2a9e539e11f6a4d0dcf7a"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F69V_vector.json",
+      "bytes": 668,
+      "sha256": "769ee1c50e3ec0cde6dfb9f37b6910e41346164ded22ad368cc33a49b7e97844"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F6R_vector.json",
+      "bytes": 753,
+      "sha256": "5b924ba8c450dad04d694282943d3cf2a6b5f17c7b749ffd18922a12b66ea924"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F6V_vector.json",
+      "bytes": 822,
+      "sha256": "9a48743d2ac17a2b8722f1f2b5c097b1518f0cd2164281d608aa7ca735c574b8"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F70R1_vector.json",
+      "bytes": 732,
+      "sha256": "504b622416e8f6735af28234ae45e105866a5fe03604a48ba5815ebda593b244"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F70R2_vector.json",
+      "bytes": 920,
+      "sha256": "08874dbe89c2d1d662aa9795435f4fa4df707a3f6ada2b8019d07302b8d22989"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F70V1_vector.json",
+      "bytes": 872,
+      "sha256": "1ec322fdf2aa7ffd54bcad9bc8d373c93bc8f3a321ff5916b47a08ce8c1dc635"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F70V2_vector.json",
+      "bytes": 978,
+      "sha256": "4e3545eb27a59560fd318bf8faf9a138afd3fa8f9b8022916988a6878928ff19"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F71R_vector.json",
+      "bytes": 754,
+      "sha256": "255a74c357e24ca8aa64464b1da3d5cbc5673dbee23c6bdaaca15100dbf96e01"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F71V_vector.json",
+      "bytes": 759,
+      "sha256": "552ba9bb017309e63237a8c4a57bdefc3935d1dabdcce9cfb7240b8dd3eb6b2e"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F72R1_vector.json",
+      "bytes": 720,
+      "sha256": "79e656e8329ebac34c969d49159ed46c68362e74e5357809230965bcb9b75e1f"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F72R2_vector.json",
+      "bytes": 739,
+      "sha256": "e1ba2ee731ed26a3709cd56860a8ebbc159c2a99ef6f0d76a650a00dce15fde8"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F72R3_vector.json",
+      "bytes": 941,
+      "sha256": "889f501a0735e1d642b11f431533f7205b2eaa123ea7c78b0d3fd1aae58c9cfc"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F72V1_vector.json",
+      "bytes": 747,
+      "sha256": "ae46e5998cd7fa9c44ea9c993f62faf4f623cea222313ce9ff94617f949ac3e6"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F72V2_vector.json",
+      "bytes": 814,
+      "sha256": "b95ab64a0590abfe88ebd01053d5d265b3a0d9d0c99ca71e6998850db552f744"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F72V3_vector.json",
+      "bytes": 776,
+      "sha256": "15f086eec05e650657f164a3f930d5412372fb005fa38427ce8cac66269b2886"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F73R_vector.json",
+      "bytes": 647,
+      "sha256": "cf99bb3ec93f1c7cffd61bf88aa3b6c0f0a26e8ebe6af26afb2632d31a4cb31e"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F73V_vector.json",
+      "bytes": 807,
+      "sha256": "088efd1f20cf8bca0996addf380a5a14ce7bc88e7b963ed75aa9c7d1137ff490"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F75R_vector.json",
+      "bytes": 1012,
+      "sha256": "a3219c360ada3d2d493e7d40d799823b5462122c39259cfcfb1a85f916ba72aa"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F75V_vector.json",
+      "bytes": 1158,
+      "sha256": "131848ae1456ffca06f7cb20f61d79a4ef29f5b3ed957ca194f1a8c309c29062"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F76R_vector.json",
+      "bytes": 1073,
+      "sha256": "c03cfb6563375e3348181277241e53b811dc12e191c6703856f04fb1c6a94899"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F76V_vector.json",
+      "bytes": 964,
+      "sha256": "e1c07e9a863bba2c9d93982ccdde35833f22e838c1d99bb46714dbba173c4199"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F77R_vector.json",
+      "bytes": 1010,
+      "sha256": "48c8463f5fe2cad939349a4c728a56ed9a66eca579f8c24ca87d094ea6d7a399"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F77V_vector.json",
+      "bytes": 954,
+      "sha256": "459ceb536182ab5e44bab292b7a042481ee01da4a6281f7811ce91a065717e09"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F78R_vector.json",
+      "bytes": 1057,
+      "sha256": "f52bcbbb590a6ca113e286515b99ecd33ff3bc61adb4e25cc54455de83c64179"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F78V_vector.json",
+      "bytes": 864,
+      "sha256": "8ffde8bd7345a4a7ad6bf996eb06859a5c4d1a47f9b1fab61ef81cac35b3cc79"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F79R_vector.json",
+      "bytes": 925,
+      "sha256": "d48315b6020585d3fba7c972b9679c9c2281af047f96a151b48d953f2f2b5bc9"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F79V_vector.json",
+      "bytes": 883,
+      "sha256": "4da131d1fa90f8a5c8b85c475a991ebe5aeaa288b1e38c092d54e8bd1efab486"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F7R_vector.json",
+      "bytes": 895,
+      "sha256": "54dc2e2800ffa41b7dd0f966dc42376919c4fe76dd104b4808275a0df73cf8cc"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F7V_vector.json",
+      "bytes": 672,
+      "sha256": "483b47ec45d83247f39f34f6ec44cab4a0bef405c0e7c4fa601c00f6bf98c5a5"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F80R_vector.json",
+      "bytes": 1037,
+      "sha256": "602049a368f6be053a945704c0e18a52d4c9c6a0b0b678b278ae3a1303b76d9f"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F80V_vector.json",
+      "bytes": 1021,
+      "sha256": "df19e9d820b97f695d15fdbbcbddf8976681762b2078c3a3e34a2c2aefad57fd"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F81R_vector.json",
+      "bytes": 890,
+      "sha256": "bc913ecec4df1c00402396b3faaeeb2635d6425c34d696d5b07d0cda659a05d7"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F81V_vector.json",
+      "bytes": 861,
+      "sha256": "209b0baeb77f5b7f9b2d048f9cabfac09a58b7978e97260b80983420de0830b7"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F82R_vector.json",
+      "bytes": 1114,
+      "sha256": "35dc9d5915e16b45e48984b597d8fcb55298d28caa14feaf8f9fbfe1a21d9bd9"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F82V_vector.json",
+      "bytes": 1127,
+      "sha256": "ff230dce4b45e0a23088babc5f8386732f7fb6fcb838883778556d5920e75d14"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F83R_vector.json",
+      "bytes": 1084,
+      "sha256": "9bead5085fd8425de59a314029267cfa1841eb84cb488e7256edc9a2660d7e28"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F83V_vector.json",
+      "bytes": 1007,
+      "sha256": "80a3381ea2a2c3f229251925ac5ff8ea5670cfff624862768fe36396f018b2e8"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F84R_vector.json",
+      "bytes": 1087,
+      "sha256": "0d6eb3af54e252b2cec409feab5f906a3038b183af18e5b284631e7fe37ccd8d"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F84V_vector.json",
+      "bytes": 1215,
+      "sha256": "0a1c464b5b71499e98364b88449dc4b1e85d1e7c0cb0b564f990cdcce9389735"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F85R1_vector.json",
+      "bytes": 924,
+      "sha256": "e38dfa915ce1294a41c4cf713685c4159f12ee12e5d04c7c151adac7729b9bff"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F85R2_vector.json",
+      "bytes": 1267,
+      "sha256": "63b5a684e9dd6445b66c54adabb18cdd98b3859c9451025a9ac6ffdffd88836c"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F86V3_vector.json",
+      "bytes": 1143,
+      "sha256": "8b0f8da5c96194d3e4c8ad3ff94a2cf3195b85aac392ba206ec486b3e738acec"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F86V4_vector.json",
+      "bytes": 752,
+      "sha256": "a58cc7c203705a5a933cfacc1e02643025f8226cd1b2a406dd8005b8757a056e"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F86V5_vector.json",
+      "bytes": 865,
+      "sha256": "b6840f62e74179fbfd8424dbccbe327ed47fc6b94b925d3767e49d625b3648da"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F86V6_vector.json",
+      "bytes": 977,
+      "sha256": "9d1eead2d44ac835cd4913be2bbc4fec023f6fa287c4e354d4df144fa6c218a1"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F87R_vector.json",
+      "bytes": 636,
+      "sha256": "5f232521beb7ad1e542cf9d2467aa667e8185fc5a7da5d84cbacbcbfa8e345b0"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F87V_vector.json",
+      "bytes": 730,
+      "sha256": "d57c395da1461f51fa641dee9e0d3c4d4bc76be337aaa433f81311f13d854de8"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F88R_vector.json",
+      "bytes": 846,
+      "sha256": "d15286d8a498706c9e26b25b1e5723ff2239f38f4d3fcf49b8e7a45d2336eedc"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F88V_vector.json",
+      "bytes": 822,
+      "sha256": "a4839544dceca65e38ddce82cfe2f3bdc36bd2e1e91e0de15099fe2375ecbc02"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F89R1_vector.json",
+      "bytes": 914,
+      "sha256": "0d0ad727a543a9ed2aeed89e49c352a27e730db8eb9a2f3362a56be83051bbfa"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F89R2_vector.json",
+      "bytes": 1032,
+      "sha256": "fcd9e43f07568f4eb596b9b306f1b3ea7dc1c32a0dbe398bd3e1bbe6501a0e22"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F89V1_vector.json",
+      "bytes": 831,
+      "sha256": "9097871b29f504364181f9f8f35d7a246fe2c4eefddb56edf22ed57ec5bead11"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F89V2_vector.json",
+      "bytes": 901,
+      "sha256": "ccc2e3f93b7b3b7a00fcf5c9ffe7d25be54f3fcba72ece00803d976057239ff9"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F8R_vector.json",
+      "bytes": 848,
+      "sha256": "22d960a61e0e560363771f4f10a7e7ffb5de4094d42b54ae694934afca06b292"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F8V_vector.json",
+      "bytes": 964,
+      "sha256": "9995bc3048a61412d9fe3fda482a7d67333b22433cbaadebc3a3dfb23d601332"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F90R1_vector.json",
+      "bytes": 598,
+      "sha256": "3ec880731e39ba8ab3e2f9ed09ae203255fac00cc82c69c37602f48775b24340"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F90R2_vector.json",
+      "bytes": 633,
+      "sha256": "ab64af514d7b74955c596d6ca243d3d6faa864d6409777f4c664cbada5d124b4"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F90V1_vector.json",
+      "bytes": 644,
+      "sha256": "111d5084d22f92a5a99d26a075df50955390f3b08c6de308e23f298aad6b747c"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F90V2_vector.json",
+      "bytes": 539,
+      "sha256": "4dc2fe88d05132ed5614aa8616c87e424298078734ee2f409fd178659f124209"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F93R_vector.json",
+      "bytes": 847,
+      "sha256": "86fb3981ab1b49baad37436448b562d5c255d435a1f5310a4152677650b82952"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F93V_vector.json",
+      "bytes": 642,
+      "sha256": "4f2074ec3710c463f7473fe5553d2d0660fa87f0b138c85d7389bd327a1ab163"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F94R_vector.json",
+      "bytes": 614,
+      "sha256": "f3a62eb3c541ec7fe43ef1955b22fb44947f044749ad8948af6d1cd7955bf097"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F94V_vector.json",
+      "bytes": 701,
+      "sha256": "88f345c7ed16d84b2cd885bb6f87bc6aa0fa2564b56d106428286a4a28f77d1a"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F95R1_vector.json",
+      "bytes": 634,
+      "sha256": "1794da1977fee780c28bef8c82293261720a62a5512fef90d68e1e19515f31f9"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F95R2_vector.json",
+      "bytes": 678,
+      "sha256": "a813cae69137b9fc12e6a62586a4dec0b3fb0c95f19d06480e6ab793b671ef88"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F95V1_vector.json",
+      "bytes": 641,
+      "sha256": "445f2f94f51bfb23ef0ea6da75c9b7d971ccdcda13568e3d637081967f28b0c8"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F95V2_vector.json",
+      "bytes": 647,
+      "sha256": "3222ec80a0d98cfc0fe57ff418718ef1c87aa5d664d35ad6576fbe5bb8cd1db2"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F96R_vector.json",
+      "bytes": 702,
+      "sha256": "3cb5fcbbff2b80da22b35c02d248364ebbc8b770254b78dd9abfee8a7ad91ed6"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F96V_vector.json",
+      "bytes": 685,
+      "sha256": "4f340b480febc508c56991988cd16adeef8f0d426308ae5ac836594c9fb71b16"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F99R_vector.json",
+      "bytes": 880,
+      "sha256": "82ecc02cac4bb8656b45268e3747781e43d994302a9ff39f02414dbd2df8572d"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F99V_vector.json",
+      "bytes": 938,
+      "sha256": "4cd346f5bf131b96ea7c2a4af8825074551100377c78ceda5b9266abc773e73e"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F9R_vector.json",
+      "bytes": 761,
+      "sha256": "43b1a21072624a6cc01780786d987e4691501e79af32b5a5a3cbb1d57afcbb2a"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/folios/F9V_vector.json",
+      "bytes": 948,
+      "sha256": "54ab54145ae44cf6f19acbe6b5ec23fbdbfe0c3fce5719e3aec6c093fa404117"
+    },
+    {
+      "path": "data/meaning/meaning_v3_2/page_vectors_index.json",
+      "bytes": 61453,
+      "sha256": "e70eef752a5d26242eaebbe2df7a45cfbe6c3ea423db37503cc728b42378fe63"
+    },
+    {
+      "path": "data/meaning/meaning_v3_3/cluster_motifs_v3_3.json",
+      "bytes": 4,
+      "sha256": "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
+    },
+    {
+      "path": "data/meaning/meaning_v3_3/cluster_theme_v3_3.json",
+      "bytes": 4,
+      "sha256": "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
+    },
+    {
+      "path": "data/meaning/meaning_v3_3/semantic_links_v3_3.json",
+      "bytes": 123,
+      "sha256": "ed25a902825381e6669d6a53d7016be5ad96c65b5e134741d18c55c2d53eff58"
+    },
+    {
+      "path": "data/meaning/meaning_v3_4/global_theme_map_v3_4.json",
+      "bytes": 133,
+      "sha256": "7886fe896f5d234f0e56e2a5164cd20bc8d17f812e6436e34121930b7ad0eedb"
+    },
+    {
+      "path": "data/meaning/meaning_v3_4/master_convergence_v3_4.json",
+      "bytes": 189,
+      "sha256": "f7d477cfee5fb49137b7cb7663e8153f02343d58e1e166fc06d08c8da9c7b79e"
+    },
+    {
+      "path": "data/meaning/meaning_v3_4/semantic_mesh_v3_4.json",
+      "bytes": 165,
+      "sha256": "293bb89c849fb0e682d276122c1381b464fd0f306f7e86c633909036fa706a8b"
+    },
+    {
+      "path": "data/meaning/meaning_v3_5/meaning_index_v3_5.json",
+      "bytes": 340,
+      "sha256": "32307fd54d7a9e6b9d217e711547b37a4c81b8d33a337559bd420fc358495ecc"
+    },
+    {
+      "path": "data/meaning/meaning_v3_6/continuity_graph_v3_6.json",
+      "bytes": 162,
+      "sha256": "05527c2acea6506ccc836d0d98ea9af777097a02fd1e32840d2a3af3525e7628"
+    },
+    {
+      "path": "data/meaning/meaning_v3_6/folio_transitions_v3_6.json",
+      "bytes": 27,
+      "sha256": "80bc17f4f6bdc929fd975ac0086d0bdaa13852881c818860c7df1933ac8e968d"
+    },
+    {
+      "path": "data/meaning/meaning_v3_6/meaning_flow_v3_6.json",
+      "bytes": 186,
+      "sha256": "f470ee29a9b41597d681ebc3107c173bc169c3bd806ec5385c18782aa565049b"
+    },
+    {
+      "path": "data/meaning/meaning_v3_7/atlas_graph_v3_7.json",
+      "bytes": 158,
+      "sha256": "10f3669a1fdfdc9f536631f992a334096aedabd58fa7e86ec9ced7b58646585f"
+    },
+    {
+      "path": "data/meaning/meaning_v3_7/atlas_legend_v3_7.json",
+      "bytes": 1360,
+      "sha256": "9101089b2b6457c8f2af85745a75e66e13fb2c3ef40bb7c4bafb98bb6ef95cec"
+    },
+    {
+      "path": "data/meaning/meaning_v3_7/meaning_atlas_v3_7.json",
+      "bytes": 348,
+      "sha256": "49802ae7f4274d113c80200f2700d97a66fb92a2534e4d68e2db5cde68f59b55"
+    },
+    {
+      "path": "data/meaning/meaning_v3_8/horizon_intersections_v3_8.json",
+      "bytes": 196,
+      "sha256": "7ec6fc351f59d8a4640c9ec393bcef7d5395e1229ce12c19b1653e5212ac9fb8"
+    },
+    {
+      "path": "data/meaning/meaning_v3_8/horizon_map_v3_8.json",
+      "bytes": 117,
+      "sha256": "466306756951a6b35b043c798a8a19267123efe3a21fff1d6fcaae0153d834cd"
+    },
+    {
+      "path": "data/meaning/meaning_v3_8/meaning_pressure_v3_8.json",
+      "bytes": 187,
+      "sha256": "6c16362ec4d0e0c317f71e5ede826bca2a76f0f9443d0d646e92be0a9fbe9146"
+    },
+    {
+      "path": "data/meaning/meaning_v3_8/semantic_horizon_v3_8.json",
+      "bytes": 187,
+      "sha256": "ea211e533be4a1393fddba4849726014238d6462e6b2d0fae0f71009bd82380b"
+    },
+    {
+      "path": "data/meaning/meaning_v3_9/semantic_forecast_v3_9.json",
+      "bytes": 134,
+      "sha256": "376c4912a15ccf7bf3e52434c2c2294d4473462010044b1b7b3d3a8c0bafb714"
+    },
+    {
+      "path": "data/meaning/meaning_v3_9/semantic_weather_v3_9.json",
+      "bytes": 187,
+      "sha256": "56d76b7ff1aea44903c2ec2d587c05cdc6171c6061385cf3c56351b449dde80a"
+    },
+    {
+      "path": "data/meaning/meaning_v3_9/weather_field_v3_9.json",
+      "bytes": 177,
+      "sha256": "cb4d546334c614570b15e51c9a99fe4981f574c88c8c3ea4ba99c14042bac6f0"
+    },
+    {
+      "path": "data/meaning/meaning_v3_9/weather_map_v3_9.json",
+      "bytes": 157,
+      "sha256": "3a6eb4155f2734bb55dd1ccc807d762ff6544e536e4529a12bbb2c216a9341d7"
+    },
+    {
+      "path": "data/meaning/meaning_v4_0/resonance_clusters_v4_0.json",
+      "bytes": 4,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "path": "data/meaning/meaning_v4_0/resonance_field_v4_0.json",
+      "bytes": 72,
+      "sha256": "7b073f5a1109620e933cdb40960340f18d8d04d49b68a385436f7d43e388201c"
+    },
+    {
+      "path": "data/meaning/meaning_v4_0/resonance_map_v4_0.json",
+      "bytes": 4,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "path": "data/meaning/meaning_v4_0/resonance_stability_v4_0.json",
+      "bytes": 54,
+      "sha256": "07e371762b6ac9d5093e750a7019260a53ed2f935aa5e3f7637772e382379895"
+    },
+    {
+      "path": "data/meaning/meaning_v4_0/semantic_vortex_v4_0.json",
+      "bytes": 538,
+      "sha256": "bc13a9352a6265c70523fb5b52aea0121c919899984a403c917eaeb3a145c65f"
+    },
+    {
+      "path": "data/meaning/meaning_v4_0/vortex_bands_v4_0.json",
+      "bytes": 131,
+      "sha256": "7c01fed6ceebc3a520b1dba0c3f80f8ab79d50d17b78aa8eb78a256e6a06fed0"
+    },
+    {
+      "path": "data/meaning/meaning_v4_1/isobar_field_v4_1.json",
+      "bytes": 230,
+      "sha256": "bb29aaf5b1596d55b6965ca911e1b85726402f04b6ed10625c42ab0828220d23"
+    },
+    {
+      "path": "data/meaning/meaning_v4_1/isobar_legend_v4_1.json",
+      "bytes": 1586,
+      "sha256": "b5b310329f6bbab36d4dde3ed36892d5abd15ea5ab005387351cbd28ddce08e4"
+    },
+    {
+      "path": "data/meaning/meaning_v4_1/isobar_map_v4_1.json",
+      "bytes": 293,
+      "sha256": "dd1c6e32bbe868426d4f399333cc5406c4bf5f053a9c0d53a2a938aec376cc04"
+    },
+    {
+      "path": "data/meaning/meaning_v4_1/semantic_isobars_v4_1.json",
+      "bytes": 157,
+      "sha256": "7bd6e2240315b98a75552df8f63da298342031c21aaa2c8304d0d32a53440d82"
+    },
+    {
+      "path": "data/meaning/meaning_v4_2/flow_field_v4_2.json",
+      "bytes": 212,
+      "sha256": "ebd2234180be030007fc27cfb3c33877da14c6889c279e41dcd891cd70e476fd"
+    },
+    {
+      "path": "data/meaning/meaning_v4_2/flow_segments_v4_2.json",
+      "bytes": 151,
+      "sha256": "4acc7e01ef2dfcaaf2ca18fe5156b3f76baa3d48235079d33d66f8ddc3423115"
+    },
+    {
+      "path": "data/meaning/meaning_v4_2/flow_topology_v4_2.json",
+      "bytes": 158,
+      "sha256": "f382da56766cfc91797caa3b9a7389e56aeaed3ba3ef9055d3366706a5b3be45"
+    },
+    {
+      "path": "data/meaning/meaning_v4_2/semantic_flow_v4_2.json",
+      "bytes": 152,
+      "sha256": "a0d9cb82e479c75ff2287d33ab696b6e43af746c9a98a0817bf4c572ccdf4f1e"
+    },
+    {
+      "path": "data/meaning/meaning_v4_3/meaning_wave_v4_3.json",
+      "bytes": 4,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "path": "data/meaning/meaning_v4_3/wave_lattice_v4_3.json",
+      "bytes": 4,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "path": "data/meaning/meaning_v4_3/wave_spectrum_v4_3.json",
+      "bytes": 153,
+      "sha256": "e0654a4271d2fecf69d8eb11718e8f7440bde209eca5be0045160c06e0ec7b0f"
+    },
+    {
+      "path": "data/meaning/meaning_v4_4/resonance_bands_v4_4.json",
+      "bytes": 173,
+      "sha256": "2ee768f96927563cc1f724b28730876a50403ca9dfbb5cb980bb77c0dd6fa957"
+    },
+    {
+      "path": "data/meaning/meaning_v4_4/resonance_field_v4_4.json",
+      "bytes": 198,
+      "sha256": "0a36e627850fc31ce7594c71ac7f9d3469898789f72dcd284132a5967cd403ad"
+    },
+    {
+      "path": "data/meaning/meaning_v4_4/resonance_summary_v4_4.json",
+      "bytes": 182,
+      "sha256": "d610e73cc7a8fa5b35df7040091be0d2b7d170233c6fdb0a7bcdf56e029562b0"
+    },
+    {
+      "path": "data/meaning/meaning_v4_4/semantic_resonance_v4_4.json",
+      "bytes": 131,
+      "sha256": "a0f94970f20ec9e0d46bbebd79dc32fe12c5d16f8d2bb884adf6bbf78c7ff060"
+    },
+    {
+      "path": "data/meaning/meaning_v4_5/harmony_index_v4_5.json",
+      "bytes": 164,
+      "sha256": "b5e10d8edd37ae426f5f4dbbdc9e353fa41e90c1a30e4ca931436b5746920fb5"
+    },
+    {
+      "path": "data/meaning/meaning_v4_5/harmony_windows_v4_5.json",
+      "bytes": 122,
+      "sha256": "87ed46f69f8b684f9556a16b6b7c1147ced4dd099e25aced070a23d179128f4f"
+    },
+    {
+      "path": "data/meaning/meaning_v4_5/semantic_harmony_v4_5.json",
+      "bytes": 443,
+      "sha256": "cc80c5f445043f0a3b43ac8c968f4898cebd2db127fd3639cef8e940ffada97e"
+    },
+    {
+      "path": "data/meaning/meaning_v4_7/convergence_summary_v4_7.json",
+      "bytes": 20,
+      "sha256": "e46048bdda148176042803a18a63011fac0ff89139c7668ccba1b1ee0e7535e5"
+    },
+    {
+      "path": "data/meaning/meaning_v4_7/field_components_v4_7.json",
+      "bytes": 20,
+      "sha256": "e46048bdda148176042803a18a63011fac0ff89139c7668ccba1b1ee0e7535e5"
+    },
+    {
+      "path": "data/meaning/meaning_v4_7/field_lattice_v4_7.json",
+      "bytes": 20,
+      "sha256": "e46048bdda148176042803a18a63011fac0ff89139c7668ccba1b1ee0e7535e5"
+    },
+    {
+      "path": "data/meaning/meaning_v4_7/meaning_field_v4_7.json",
+      "bytes": 112,
+      "sha256": "3ef8a95c700b6ddfe17173f49b06b54ddf77d6e8260b1ea73e734f10bb9c3bea"
+    },
+    {
+      "path": "data/meaning/meaning_v4_8/collapse_summary_v4_8.json",
+      "bytes": 322,
+      "sha256": "6f2c4b25b7926bab1358ca7a57910940ac69cf0c2fe2537b9c9b40ab01550327"
+    },
+    {
+      "path": "data/meaning/meaning_v4_8/meaning_vector_v4_8.json",
+      "bytes": 271,
+      "sha256": "5807d1a25f35c7cd8e4e9bf45b9e5356456f9a99fd0df7a87e00f21b308e2eeb"
+    },
+    {
+      "path": "data/meaning/meaning_v4_8/vector_clusters_v4_8.json",
+      "bytes": 183,
+      "sha256": "52fba5fd9e49b741f2bfe5b45893d6da6b90e55703c6013d9c5619e845e705a0"
+    },
+    {
+      "path": "data/meaning/meaning_v4_8/vector_map_v4_8.json",
+      "bytes": 113,
+      "sha256": "ac4395164ef6ee010ccc5ff789b486da32cd248780f13a4680df48d593191137"
+    },
+    {
+      "path": "data/meaning/meaning_v4_9/attractor_clusters_v4_9.json",
+      "bytes": 551,
+      "sha256": "e56b8421936f1a5cebe41c4ab76506120e334060776595efe82df829c83a8f40"
+    },
+    {
+      "path": "data/meaning/meaning_v4_9/attractor_lattice_v4_9.json",
+      "bytes": 475,
+      "sha256": "4e4249ec6b1a35813a7dea614a12e9df3a74273933621801dcc88c526f1fcb1e"
+    },
+    {
+      "path": "data/meaning/meaning_v4_9/attractor_summary_v4_9.json",
+      "bytes": 498,
+      "sha256": "7840ea05ec6aa6e9dc3d356036aa5af4ef43f002991c3b46fe4784181b6351a1"
+    },
+    {
+      "path": "data/meaning/meaning_v4_9/semantic_attractor_map_v4_9.json",
+      "bytes": 1312,
+      "sha256": "db4fd6b1474232e1b69fce806304f563f7775a4f129eb21463668a0e09bb9cd0"
+    },
+    {
+      "path": "data/meaning/meaning_v5_0/translation_sentences_v5_0.json",
+      "bytes": 352,
+      "sha256": "49b793f4b4a00a0539e9b6736bce371af440d74c87610443c2f1686a39c5ebaa"
+    },
+    {
+      "path": "data/meaning/meaning_v5_0/translation_summary_v5_0.json",
+      "bytes": 159,
+      "sha256": "87a6e257964bee01bf45b7f04f90eef488c93e7ceac22dd81fee3286e6fc1bd9"
+    },
+    {
+      "path": "data/meaning/meaning_v5_0/translation_surface_v5_0.json",
+      "bytes": 438,
+      "sha256": "1a58bddd948e9205f87e7b777636453038c6b86493ab3d8e6b194c7c3c2dbe48"
+    },
+    {
+      "path": "data/meaning/meaning_v5_0/translation_windows_v5_0.json",
+      "bytes": 986,
+      "sha256": "7d2f723bb132d676fdb65f0b77dadb651f2affabb4ada2eb0b1a503262dbc860"
+    },
+    {
+      "path": "data/meaning/meaning_v5_1/fusion_clusters_v5_1.json",
+      "bytes": 4,
+      "sha256": "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
+    },
+    {
+      "path": "data/meaning/meaning_v5_1/fusion_map_v5_1.json",
+      "bytes": 24,
+      "sha256": "b6d0e28809a5f571c0bf0f4ee49eafc093c6cbb7d32267e78473f5c17dd46405"
+    },
+    {
+      "path": "data/meaning/meaning_v5_1/fusion_sentences_v5_1.json",
+      "bytes": 25,
+      "sha256": "d636ae01717196feb07989f4aac7c8d102fdadff31d3d363477f0615a1b0efc3"
+    },
+    {
+      "path": "data/meaning/meaning_v5_1/fusion_summary_v5_1.json",
+      "bytes": 178,
+      "sha256": "7ac8afd4e415ef3778ed2e4b8d8d54b3c0d0827a3f1a6240aa5d18bb2e43685c"
+    },
+    {
+      "path": "data/meaning/meaning_v5_2/bond_clusters_v5_2.json",
+      "bytes": 191,
+      "sha256": "caaaa2320307a1e13eb01298533e30fcb19ee88acf087cdb82d398968d106ba9"
+    },
+    {
+      "path": "data/meaning/meaning_v5_2/bond_graph_v5_2.json",
+      "bytes": 220,
+      "sha256": "07bce0fccc3ba4a88037b65e0191d273a78da014fe3f0741a78cab98dcb52c44"
+    },
+    {
+      "path": "data/meaning/meaning_v5_2/bonding_summary_v5_2.json",
+      "bytes": 405,
+      "sha256": "9248ef9e9f9cded5e6abd494981fbcc04c85cd7bab8c6ad5fcbc38e3dc40ab40"
+    },
+    {
+      "path": "data/meaning/meaning_v5_2/semantic_bonds_v5_2.json",
+      "bytes": 224,
+      "sha256": "0ff7d7ab25702fc79e352a8177c87fd3c1ce34fdc0a8c9417b3f6bdc676ebf89"
+    },
+    {
+      "path": "data/meaning/meaning_v5_3/field_graph_v5_3.json",
+      "bytes": 43,
+      "sha256": "beaf0e69f9d026fd7bae521930f6b0d600ea63534cbbabdb693c33a6494fa780"
+    },
+    {
+      "path": "data/meaning/meaning_v5_3/field_summary_v5_3.json",
+      "bytes": 103,
+      "sha256": "63b36b39098485ba4a45a9e0929688600cbf11e633f722866ee23399fdd17b05"
+    },
+    {
+      "path": "data/meaning/meaning_v5_3/paragraph_fields_v5_3.json",
+      "bytes": 802,
+      "sha256": "cd86efcd2d7a938979d71cc27f7eeec782c0a349c11dcda1b9903102e1184cf7"
+    },
+    {
+      "path": "data/meaning/meaning_v5_4/page_fields_v5_4.json",
+      "bytes": 478,
+      "sha256": "91e1a6afafbaa7a94f8e67c2b2322ff567c41e85f313c146c831ebfda69274f5"
+    },
+    {
+      "path": "data/meaning/meaning_v5_4/page_graph_v5_4.json",
+      "bytes": 99,
+      "sha256": "73c098a69300b29a5f419a8aaec5c1617f6e968ff4b8b0903335e058576111f2"
+    },
+    {
+      "path": "data/meaning/meaning_v5_4/page_summary_v5_4.json",
+      "bytes": 343,
+      "sha256": "f8adb8980a93ab612c5d3299d0837ce15722cbff4201645cb0882f3931695c6d"
+    },
+    {
+      "path": "data/meaning/meaning_v5_5/hybrid_manuscript_graph_v5_5b.json",
+      "bytes": 905,
+      "sha256": "4ed5aea5cf6cc6908d0ddc9aa836baca7e272d51cb8730755859261cbfc777f7"
+    },
+    {
+      "path": "data/meaning/meaning_v5_5/hybrid_manuscript_summary_v5_5b.json",
+      "bytes": 2358,
+      "sha256": "fc758bc1e41326b49149adf068103ab6fa6453e77eabaf1df2c40bede132ece0"
+    },
+    {
+      "path": "data/meaning/meaning_v5_5/manuscript_graph_v5_5.json",
+      "bytes": 590,
+      "sha256": "0f2f3ccec5e8fb95bbcc8a1c4c0fca85362816e475de72523007cf4d2ed18b7a"
+    },
+    {
+      "path": "data/meaning/meaning_v5_5/manuscript_summary_v5_5.json",
+      "bytes": 705,
+      "sha256": "7466aae37d08b2be987ad583a1c2d82ca08e79489bd784be66444b623bf812b0"
+    },
+    {
+      "path": "data/meaning/meaning_v5_6/manuscript_force_field_v5_6.json",
+      "bytes": 567,
+      "sha256": "1ff71ab5686934b9a24fb1a5216ac0292797451f1b54ac1cc67fe84d95d18db2"
+    },
+    {
+      "path": "data/meaning/meaning_v5_6/manuscript_force_summary_v5_6.json",
+      "bytes": 1387,
+      "sha256": "ee21edbb150ac55f15e605819f037ea3ffc33855ea813b2deef6b01533ffbada"
+    },
+    {
+      "path": "data/meaning/meaning_v6_0/hybrid_glyph_field_summary_v6_0.json",
+      "bytes": 2891,
+      "sha256": "5d584bc446bb8f1d0c3a9c6d999726584346d253a084ac5c32f006831ab033aa"
+    },
+    {
+      "path": "data/meaning/meaning_v6_0/hybrid_glyph_field_v6_0.json",
+      "bytes": 1012,
+      "sha256": "293ce9015dd8efa2f2af53d36a97980437bbe3e6ec7e61bc8dfe4d32a80c634f"
+    },
+    {
+      "path": "data/meaning/meaning_v6_1/hybrid_glyph_expansion_summary_v6_1.json",
+      "bytes": 3197,
+      "sha256": "9e816d8252d4cabe9272ebd097500e71150b4d15dc98adc16d599913a67e5f4c"
+    },
+    {
+      "path": "data/meaning/meaning_v6_1/hybrid_glyph_expansion_v6_1.json",
+      "bytes": 2342,
+      "sha256": "ed269bb457d5f6025a2f2c3cea3e5baf95935d9435069ade557f832f0ea1ddfd"
+    },
+    {
+      "path": "data/meaning/meaning_v7_0/hybrid_glyph_lattice_summary_v7_0.json",
+      "bytes": 4944,
+      "sha256": "4d1591294d1aac5c9ec4d4a70f713bbb0f97cad9f243ed72cb9518ad710d84eb"
+    },
+    {
+      "path": "data/meaning/meaning_v7_0/hybrid_glyph_lattice_v7_0.json",
+      "bytes": 3905,
+      "sha256": "aab9bb9af4bcabc48a16ce8f0c4adb6e72db78f43226648d1b130dd6bf12fcf1"
+    },
+    {
+      "path": "data/meaning/meaning_v7_1/hybrid_image_lattice_summary_v7_1.json",
+      "bytes": 5944,
+      "sha256": "4a764437269bbf625003f87687f57f70da3aa139aba498a577b9e4251268f955"
+    },
+    {
+      "path": "data/meaning/meaning_v7_1/hybrid_image_lattice_v7_1.json",
+      "bytes": 4753,
+      "sha256": "d4cbac89edd1e2f14308914aa52c6d6f83983df1a3411090d5bbd5589590670a"
+    },
+    {
+      "path": "data/meaning/meaning_v8_0/hybrid_manifold_summary_v8_0.json",
+      "bytes": 8136,
+      "sha256": "e1c8aa7cf78a42bf9619e65d46da0f96012129836cd1995387876f3ba0d9a447"
+    },
+    {
+      "path": "data/meaning/meaning_v8_0/hybrid_manifold_v8_0.json",
+      "bytes": 5970,
+      "sha256": "875050176f9723c162264c158a3f3b8ef0581c4e0e5597a1a9bc040feb48e72c"
+    }
+  ]
+}

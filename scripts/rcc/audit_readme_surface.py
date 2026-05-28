@@ -21,6 +21,10 @@ REQUIRED_MARKERS = [
     "Unified Validation Layer",
     "Public Non-Claim Locks",
     "Release Lineage",
+    "Voynich OS v12.3 - Output Manifest and Alias Layer",
+    "Do not move evidence before naming it",
+    "state/manifests/voynich_output_manifest_v12_3.json",
+    "reports/showcase/voynich_os_showcase_v12_3.md",
     "Modeling is not decipherment",
     "Structure is not translation",
     "Clusters are not meaning",
@@ -34,6 +38,16 @@ FORBIDDEN_OVERCLAIMS = [
     "The manuscript runs",
     "This is the first computational proof",
     "fully-structured proto-operating system"
+]
+
+REQUIRED_FILES = [
+    "state/manifests/voynich_output_manifest_v12_3.json",
+    "reports/output_manifest/latest_output_manifest_v12_3.md",
+    "reports/output_manifest/latest_output_manifest_v12_3.json",
+    "docs/context/path_aliases_v12_3.json",
+    "reports/reorg/path_alias_plan_v12_3.md",
+    "reports/showcase/voynich_os_showcase_v12_3.md",
+    "visuals/output_manifest/v12_3_output_manifest_layer.svg"
 ]
 
 def main() -> int:
@@ -55,19 +69,34 @@ def main() -> int:
         if phrase in text:
             errors.append(f"README contains forbidden overclaim: {phrase}")
 
+    for rel in REQUIRED_FILES:
+        if not (ROOT / rel).exists():
+            errors.append(f"missing v12.3 required file: {rel}")
+
+    manifest_path = ROOT / "state/manifests/voynich_output_manifest_v12_3.json"
+    if manifest_path.exists():
+        manifest = json.loads(manifest_path.read_text(encoding="utf-8-sig"))
+        if manifest.get("schema") != "voynich-os-output-manifest-v12.3":
+            errors.append("v12.3 manifest schema mismatch")
+        if manifest.get("totals", {}).get("files", 0) <= 0:
+            errors.append("v12.3 manifest reports zero files")
+        if manifest.get("claim_boundary", {}).get("does_not_prove") is None:
+            errors.append("v12.3 manifest missing does_not_prove boundary")
+
     if "â" in text:
         warnings.append("README may contain mojibake character: â")
 
     passed = not errors
 
     report = {
-        "schema": "voynich-os-readme-audit-v12.2.2",
+        "schema": "voynich-os-readme-audit-v12.3",
         "timestamp_utc": datetime.now(timezone.utc).isoformat(),
         "passed": passed,
         "errors": errors,
         "warnings": warnings,
         "required_markers": len(REQUIRED_MARKERS),
         "forbidden_overclaims": len(FORBIDDEN_OVERCLAIMS),
+        "required_files": len(REQUIRED_FILES)
     }
 
     out_dir = ROOT / "reports/readme"
@@ -87,6 +116,7 @@ def main() -> int:
     md.append(f"- warnings: {len(warnings)}")
     md.append(f"- required_markers: {len(REQUIRED_MARKERS)}")
     md.append(f"- forbidden_overclaims_checked: {len(FORBIDDEN_OVERCLAIMS)}")
+    md.append(f"- v12_3_required_files_checked: {len(REQUIRED_FILES)}")
     md.append("")
     md.append("## Errors")
     md.append("")
@@ -100,7 +130,7 @@ def main() -> int:
     md.append("")
     md.append("## Non-claim lock")
     md.append("")
-    md.append("README audits and mini repo audits improve context alignment. They do not prove decipherment, translation, runtime correctness, or production readiness.")
+    md.append("README audits and output manifests improve context alignment and artifact observability. They do not prove decipherment, translation, runtime correctness, or production readiness.")
     md.append("")
 
     (out_dir / "latest_readme_mini_repo_audit.md").write_text(

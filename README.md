@@ -356,3 +356,52 @@ Recommended goals:
 - Define professional route aliases before any folder migration.
 - Keep legacy paths stable until reproducibility is preserved.
 - Preserve modeling-is-not-decipherment locks.
+---
+
+<!-- VOYNICH_OS_V12_3_OUTPUT_MANIFEST_START -->
+
+## Voynich OS v12.3 - Output Manifest and Alias Layer
+
+v12.3 converts the generated artifact surface into an auditable evidence map before any professional folder migration.
+
+Core rule:
+
+- Do not move evidence before naming it.
+- Do not rename output families before hashing them.
+- Do not showcase generated artifacts without claim boundaries.
+- Do not treat diagnostics as decipherment.
+
+### Primary outputs
+
+| Output | Purpose |
+|---|---|
+| `state/manifests/voynich_output_manifest_v12_3.json` | Full output-family manifest with counts, hashes, roles, aliases, and claim boundaries. |
+| `state/manifests/families/` | Per-family file inventories and hashes. |
+| `reports/output_manifest/latest_output_manifest_v12_3.md` | Human-readable output manifest report. |
+| `reports/output_manifest/latest_output_manifest_v12_3.json` | Machine-readable output manifest report. |
+| `docs/context/path_aliases_v12_3.json` | Professional aliases for current paths. |
+| `reports/reorg/path_alias_plan_v12_3.md` | No-move-before-manifest migration plan. |
+| `reports/showcase/voynich_os_showcase_v12_3.md` | Public showcase brief for what the repo can demonstrate. |
+| `visuals/output_manifest/v12_3_output_manifest_layer.svg` | Visual artifact chain diagram. |
+
+### What v12.3 proves
+
+- The repo can inventory its generated artifact families.
+- The repo can hash file surfaces.
+- The repo can expose professional route aliases without moving active paths.
+- The repo can attach claim boundaries to each artifact family.
+- The repo can produce a showcase-ready evidence brief without overclaiming.
+
+### What v12.3 does not prove
+
+- decipherment;
+- translation;
+- literal operating-system identity;
+- authorial intent;
+- validated semantic meaning.
+
+### Next recommended version
+
+Voynich OS v12.4 - Showcase Evidence Package and Visual Atlas
+
+<!-- VOYNICH_OS_V12_3_OUTPUT_MANIFEST_END -->

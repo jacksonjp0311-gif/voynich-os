@@ -1,0 +1,34 @@
+{
+  "family_id": "ledger_jsonl",
+  "title": "Ledger JSONL files",
+  "current_path": "data/ledger",
+  "professional_alias": "ledgers/",
+  "role": "Append-style ledger and run-history surfaces.",
+  "claim_boundary": "Ledgers record process history, not correctness proof.",
+  "file_count": 2,
+  "total_bytes": 1373,
+  "sample_hashes": [
+    {
+      "path": "data/ledger/voynich_all_one_ledger.jsonl",
+      "bytes": 1039,
+      "sha256": "eab19527532d2834aeea220c324dd0d969add315a4d48b583102f71fc58575db"
+    },
+    {
+      "path": "data/ledger/voynich_upstream_ledger.jsonl",
+      "bytes": 334,
+      "sha256": "091d513a872f5b9e5ffd0ba650b20a3ddccfae40afe6cc92fd7b1506514221eb"
+    }
+  ],
+  "all_files": [
+    {
+      "path": "data/ledger/voynich_all_one_ledger.jsonl",
+      "bytes": 1039,
+      "sha256": "eab19527532d2834aeea220c324dd0d969add315a4d48b583102f71fc58575db"
+    },
+    {
+      "path": "data/ledger/voynich_upstream_ledger.jsonl",
+      "bytes": 334,
+      "sha256": "091d513a872f5b9e5ffd0ba650b20a3ddccfae40afe6cc92fd7b1506514221eb"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "schema": "voynich-os-path-aliases-v12.3",
+  "timestamp_utc": "2026-05-28T16:10:48.597601+00:00",
+  "purpose": "Define professional route aliases before moving any active generated output directories.",
+  "aliases": [
+    {
+      "current_path": "data/corpus/",
+      "professional_alias": "datasets/corpus/",
+      "status": "preserve_current_path",
+      "reason": "Source corpus path is active and should remain stable until package-level migration is planned.",
+      "claim_boundary": "Corpus presence is not translation or decipherment."
+    },
+    {
+      "current_path": "data/folio_outputs/",
+      "professional_alias": "outputs/folio_graphs/",
+      "status": "alias_only_no_move",
+      "reason": "Generated folio JSON artifacts must be manifested before any folder migration.",
+      "claim_boundary": "Folio graph outputs are diagnostics, not proof of manuscript meaning."
+    },
+    {
+      "current_path": "data/meaning/",
+      "professional_alias": "outputs/semantic_diagnostics/",
+      "status": "alias_only_no_move",
+      "reason": "Meaning/vector outputs are structurally important but semantically bounded.",
+      "claim_boundary": "Meaning vectors are diagnostics, not validated semantic readings."
+    },
+    {
+      "current_path": "data/manuscript_v12_0/",
+      "professional_alias": "outputs/manuscript_state/",
+      "status": "alias_only_no_move",
+      "reason": "Manuscript-level synthesis state requires stable provenance.",
+      "claim_boundary": "Manuscript state is synthesis output, not proof of decipherment."
+    },
+    {
+      "current_path": "data/ledger/",
+      "professional_alias": "ledgers/",
+      "status": "alias_only_no_move",
+      "reason": "Ledger path is active; future move requires backward-compatible route update.",
+      "claim_boundary": "Ledger continuity records process history, not correctness proof."
+    },
+    {
+      "current_path": "export_v4_5/",
+      "professional_alias": "legacy/export_v4_5/",
+      "status": "preserve_until_legacy_migration",
+      "reason": "Legacy export surface should not be moved until route aliases and references are audited.",
+      "claim_boundary": "Legacy output preservation is reproducibility support, not validation."
+    },
+    {
+      "current_path": "import_v4_5/",
+      "professional_alias": "legacy/import_v4_5/",
+      "status": "preserve_until_legacy_migration",
+      "reason": "Legacy import surface should not be moved until route aliases and references are audited.",
+      "claim_boundary": "Legacy input preservation is reproducibility support, not validation."
+    }
+  ],
+  "migration_allowed": false,
+  "migration_rule": "No active generated folder may be moved until manifests, aliases, README surfaces, and tests all pass.",
+  "claim_boundary": "Path aliases improve navigation and migration planning; they do not validate outputs or decipher the manuscript."
+}
