@@ -7,10 +7,22 @@ from datetime import datetime, timezone
 ROOT = Path(__file__).resolve().parents[2]
 
 REQUIRED_MARKERS = [
-    "Voynich OS v12.2 - RCC Nexus Professional Spine",
+    "Voynich OS v12.2.1 - Main README Nexus Discipline Mirror",
     "RCC tells the agent what the repository means",
     "RCC-N tells the agent where it is",
     "Validation tells the agent whether reality agreed",
+    "Human Director Box",
+    "PART I - Human README",
+    "PART II - RCC Nexus README",
+    "PART III - AI Agent README",
+    "README + Mini Repo Audit Map",
+    "AI Failure Learning Ledger",
+    "Agent Geometry Layer",
+    "Process Alignment Layer",
+    "Full Directory Box",
+    "Unified Validation Layer",
+    "Public Non-Claim Locks",
+    "Release Lineage",
     "Modeling is not decipherment",
     "Structure is not translation",
     "Clusters are not meaning",
@@ -38,11 +50,12 @@ def main() -> int:
     passed = not errors
 
     report = {
-        "schema": "voynich-os-readme-audit-v12.2",
+        "schema": "voynich-os-readme-audit-v12.2.1",
         "timestamp_utc": datetime.now(timezone.utc).isoformat(),
         "passed": passed,
         "errors": errors,
-        "warnings": warnings
+        "warnings": warnings,
+        "required_markers": len(REQUIRED_MARKERS)
     }
 
     out_dir = ROOT / "reports/readme"
@@ -56,9 +69,11 @@ def main() -> int:
     md = []
     md.append("# Voynich OS README / Mini Repo Audit")
     md.append("")
+    md.append(f"- schema: {report['schema']}")
     md.append(f"- passed: {str(passed).lower()}")
     md.append(f"- errors: {len(errors)}")
     md.append(f"- warnings: {len(warnings)}")
+    md.append(f"- required_markers: {len(REQUIRED_MARKERS)}")
     md.append("")
     md.append("## Errors")
     md.append("")
@@ -69,6 +84,10 @@ def main() -> int:
     md.append("")
     for w in warnings:
         md.append(f"- {w}")
+    md.append("")
+    md.append("## Non-claim lock")
+    md.append("")
+    md.append("README audits and mini repo audits improve context alignment. They do not prove decipherment, translation, runtime correctness, or production readiness.")
     md.append("")
 
     (out_dir / "latest_readme_mini_repo_audit.md").write_text(
