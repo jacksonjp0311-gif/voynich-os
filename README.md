@@ -467,3 +467,104 @@ For AI agents and human reviewers:
 Optional test command:
 
     python -m pytest -q
+
+---
+
+<!-- VOYNICH_OS_V12_2_RCC_NEXUS_PROFESSIONAL_SPINE -->
+
+## Voynich OS v12.2 - RCC Nexus Professional Spine
+
+Voynich OS now uses an RCC-N v1.7-inspired repository navigation layer.
+
+Public spine:
+
+- RCC tells the agent what the repository means.
+- RCC-N tells the agent where it is.
+- Validation tells the agent whether reality agreed.
+
+### Current profile
+
+RCC-N adoption profile: Standard
+
+Reason: Voynich OS has a large generated artifact surface, public interpretive risk, corpus provenance requirements, and reproducibility requirements. The repo is not yet Full because output manifests and regeneration contracts are still being built.
+
+### Human Director Box
+
+Voynich OS is a governed symbolic-analysis workbench:
+
+corpus -> folio parsing -> graph/state outputs -> meaning/vector diagnostics -> manuscript state -> ledgers -> audits -> RCC Nexus navigation -> reproducibility reports
+
+### What this repository is
+
+This repository is an experimental computational substrate for modeling Voynich Manuscript transcription structures as graph/state/process artifacts.
+
+### What this repository is not
+
+This repository does not prove decipherment.
+
+This repository does not prove translation.
+
+This repository does not prove literal operating-system identity.
+
+This repository does not prove authorial intent.
+
+### RCC Nexus files
+
+| File | Role |
+|---|---|
+| README_90_SECONDS.md | Compressed onboarding surface |
+| AGENTS.md | Agent operating contract |
+| docs/context/repository_context_index.json | Repository meaning and route map |
+| docs/context/rcc_nexus_index.json | RCC-N profile and governance index |
+| rcc/nexus/README.md | RCC Nexus local orientation |
+| rcc/nexus/route_map.json | Machine-readable route map |
+| rcc/nexus/task_routing_matrix.md | Task-to-validation routing |
+| rcc/nexus/rcc_nexus_protocol.md | Nexus protocol |
+| rcc/nexus/agent_handoff_contract.md | Agent handoff rules |
+| scripts/rcc/check_rcc_nexus.py | RCC-N checker |
+| scripts/rcc/audit_readme_surface.py | README / mini repo audit scanner |
+| reports/reorg/professional_directory_plan_v12_2.md | Non-destructive professional reorganization plan |
+
+### Professional directory spine
+
+| Surface | Purpose |
+|---|---|
+| data/ | Corpus and generated outputs; preserved for reproducibility |
+| engine/ | Existing processing engine; future migration candidate to src/voynich_os/ |
+| docs/ | Claim boundaries, reproducibility, context, architecture, reflection |
+| rcc/ | RCC Nexus route maps and agent handoff |
+| scripts/ | Audits, validation, normalization, RCC checks |
+| reports/ | RCC reports, README audits, reorg plans, release reports |
+| state/ | State files and audit state |
+| logs/ | Execution logs |
+| tests/ | Executable tests |
+| artifacts/ | Future run artifacts and evidence packages |
+| sources/ | Future source provenance cards |
+| visuals/ | Future charts and visual evidence |
+
+### Required validation
+
+    python scripts/voynich_repo_audit.py
+    python scripts/rcc/check_rcc_nexus.py
+    python scripts/rcc/audit_readme_surface.py
+    python -m pytest -q
+
+### Current non-claim locks
+
+- Modeling is not decipherment.
+- Structure is not translation.
+- Clusters are not meaning.
+- Documentation is not correctness.
+- RCC-N navigation is not validation.
+- Validation remains required.
+
+### Next recommended version
+
+Voynich OS v12.3 - Output Manifest and Alias Layer
+
+Goals:
+
+- create manifests for every generated output family;
+- record input hash, output counts, generation status, and claim boundary;
+- define professional route aliases before any folder migration;
+- keep legacy paths stable until reproducibility is preserved.

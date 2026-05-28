@@ -1,0 +1,36 @@
+{
+  "schema": "voynich-os-rcc-route-map-v12.2",
+  "routes": [
+    {
+      "task": "understand_repo",
+      "read_first": ["README.md", "README_90_SECONDS.md", "AGENTS.md", "docs/context/repository_context_index.json"],
+      "validate": ["python scripts/rcc/check_rcc_nexus.py"]
+    },
+    {
+      "task": "edit_claim_boundary",
+      "read_first": ["docs/CLAIM_BOUNDARY.md", "docs/AI_CONTEXT.md", "README.md"],
+      "validate": ["python scripts/rcc/audit_readme_surface.py", "python scripts/rcc/check_rcc_nexus.py"]
+    },
+    {
+      "task": "edit_corpus_or_outputs",
+      "read_first": ["docs/REPRODUCIBILITY.md", "data/README.md", "scripts/voynich_repo_audit.py"],
+      "validate": ["python scripts/normalize_json_utf8.py", "python scripts/voynich_repo_audit.py", "python -m pytest -q"]
+    },
+    {
+      "task": "edit_engine",
+      "read_first": ["engine/README.md", "tests/README.md", "docs/REPRODUCIBILITY.md"],
+      "validate": ["python -m pytest -q", "python scripts/voynich_repo_audit.py"]
+    },
+    {
+      "task": "edit_rcc_nexus",
+      "read_first": ["rcc/nexus/README.md", "docs/context/rcc_nexus_index.json", "rcc/nexus/task_routing_matrix.md"],
+      "validate": ["python scripts/rcc/check_rcc_nexus.py", "python scripts/rcc/audit_readme_surface.py"]
+    },
+    {
+      "task": "professional_reorg",
+      "read_first": ["reports/reorg/professional_directory_plan_v12_2.md", "docs/context/repository_context_index.json", "rcc/nexus/route_map.json"],
+      "validate": ["python scripts/rcc/check_rcc_nexus.py", "python scripts/rcc/audit_readme_surface.py", "python -m pytest -q"]
+    }
+  ],
+  "non_claim_boundary": "Route maps improve navigation. They do not prove correctness, decipherment, translation, or validation."
+}

@@ -1,0 +1,16 @@
+{
+  "schema": "voynich-os-professional-directory-plan-v12.2",
+  "mode": "non_destructive_professional_spine",
+  "mass_rename_allowed": false,
+  "reason": "Existing generated JSON and state paths must remain stable until output manifests and route aliases exist.",
+  "future_layer": "Voynich OS v12.3 - Output Manifest and Alias Layer",
+  "mappings": [
+    {"current": "engine/", "future": "src/voynich_os/", "action": "preserve_and_document"},
+    {"current": "data/folio_outputs/", "future": "outputs/folio_graphs/", "action": "preserve_manifest_next"},
+    {"current": "data/meaning/", "future": "outputs/semantic_diagnostics/", "action": "preserve_manifest_next"},
+    {"current": "data/ledger/", "future": "ledgers/", "action": "preserve_manifest_next"},
+    {"current": "export_v4_5/", "future": "legacy/export_v4_5/", "action": "preserve_until_alias_exists"},
+    {"current": "import_v4_5/", "future": "legacy/import_v4_5/", "action": "preserve_until_alias_exists"}
+  ],
+  "non_claim_boundary": "Professional structure is navigation governance, not validation or decipherment."
+}

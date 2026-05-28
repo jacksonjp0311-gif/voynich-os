@@ -1,0 +1,66 @@
+{
+  "schema": "RCC-N-v1.7-nexus-index",
+  "repository": {
+    "name": "voynich-os",
+    "root": ".",
+    "rcc_base": "RCC-v1.3",
+    "nexus_version": "RCC-N-v1.7",
+    "adoption_profile": "Standard",
+    "last_verified": "2026-05-28",
+    "verification_mode": "self+tests+audit",
+    "checker_maturity": "Q1-static-nexus-check"
+  },
+  "operational_core": {
+    "rcc_tells_agent_what_repository_means": true,
+    "rccn_tells_agent_where_it_is": true,
+    "validation_tells_agent_whether_reality_agreed": true,
+    "declared_geometry_is_documentation": true,
+    "measured_geometry_is_evidence": true,
+    "profiled_geometry_is_adoptable_governance": true
+  },
+  "profile_selection": {
+    "risk": 0.55,
+    "complexity": 0.55,
+    "validation_need": 0.60,
+    "federation_need": 0.20,
+    "public_claim_surface": 0.70,
+    "governance_need_score": 0.535,
+    "selected_profile": "Standard",
+    "selection_reason": "Large artifact surface and public interpretive risk require route maps, context indexes, mini READMEs, and validation commands. Full profile is deferred until output manifests and regeneration contracts exist.",
+    "lightest_sufficient_profile": true
+  },
+  "minimal_viable_rccn": {
+    "public_spine_present": true,
+    "readme_trisection_present": true,
+    "ai_agent_section_present": true,
+    "major_echo_locations_present": true,
+    "validation_commands_declared": true,
+    "non_claim_locks_present": true,
+    "done_criteria_present": true
+  },
+  "utility_evidence": {
+    "claims_rccn_improves_maintenance": false,
+    "baseline_comparison_present": false,
+    "task_trace_present": false,
+    "validation_outcome_present": true,
+    "cost_accounting_present": false,
+    "utility_status": "not_claimed"
+  },
+  "gen_boundary": {
+    "rccn_is_repository_profile": true,
+    "gen_profile_name": "GEN-R",
+    "rccn_v1_7_is_not_gen_v1_0": true
+  },
+  "non_claim_locks": {
+    "profile_adoption_is_not_validation": true,
+    "minimal_compliance_is_not_full_compliance": true,
+    "utility_claims_require_baseline_comparison": true,
+    "governance_cost_must_be_disclosed_for_utility_claims": true,
+    "correction_is_not_deletion": true,
+    "rccn_is_repository_profile_not_full_gen": true,
+    "validation_remains_required": true,
+    "modeling_is_not_decipherment": true,
+    "structure_is_not_translation": true,
+    "clusters_are_not_meaning": true
+  }
+}

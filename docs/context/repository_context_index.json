@@ -1,0 +1,76 @@
+{
+  "schema": "voynich-os-repository-context-index-v12.2",
+  "repository": {
+    "name": "voynich-os",
+    "root": ".",
+    "current_checkpoint": "Voynich OS v12.2 - RCC Nexus Professional Spine",
+    "purpose": "Experimental symbolic-analysis repository for Voynich Manuscript transcription structures.",
+    "safe_claim": "Voynich OS tests whether Voynich transcription structures can be represented as symbolic graph/state/process systems and whether those models emit stable, inspectable, reproducible diagnostic artifacts.",
+    "non_claim_boundary": [
+      "does_not_prove_decipherment",
+      "does_not_prove_translation",
+      "does_not_prove_operating_system_identity",
+      "clusters_are_not_literal_meaning",
+      "modeling_is_not_validation"
+    ]
+  },
+  "major_surfaces": {
+    "data": {
+      "role": "Corpus, generated folio outputs, meaning/vector layers, ledgers, and manuscript states.",
+      "status": "active_legacy_surface_preserved",
+      "future_professional_name": "datasets_and_outputs"
+    },
+    "engine": {
+      "role": "Existing processing engine surface.",
+      "status": "active_legacy_surface_preserved",
+      "future_professional_name": "src/voynich_os"
+    },
+    "docs": {
+      "role": "Claim boundary, reproducibility, context, architecture, and reflection documents.",
+      "status": "professional_surface"
+    },
+    "rcc": {
+      "role": "RCC Nexus route maps, protocols, and agent handoff surfaces.",
+      "status": "professional_surface"
+    },
+    "scripts": {
+      "role": "Audit, normalization, RCC, validation, and future pipeline scripts.",
+      "status": "professional_surface"
+    },
+    "reports": {
+      "role": "RCC reports, README audits, release reports, reorganization plans.",
+      "status": "professional_surface"
+    },
+    "state": {
+      "role": "State files and audit state.",
+      "status": "active_state_surface"
+    },
+    "logs": {
+      "role": "Execution logs.",
+      "status": "active_log_surface"
+    },
+    "tests": {
+      "role": "Executable validation tests.",
+      "status": "professional_surface"
+    },
+    "artifacts": {
+      "role": "Future generated run artifacts and evidence packages.",
+      "status": "new_professional_surface"
+    },
+    "sources": {
+      "role": "Future source provenance and manuscript/transcription source cards.",
+      "status": "new_professional_surface"
+    },
+    "visuals": {
+      "role": "Future charts, diagrams, and public visual evidence surfaces.",
+      "status": "new_professional_surface"
+    }
+  },
+  "validation": {
+    "repo_audit": "python scripts/voynich_repo_audit.py",
+    "rcc_nexus": "python scripts/rcc/check_rcc_nexus.py",
+    "readme_audit": "python scripts/rcc/audit_readme_surface.py",
+    "tests": "python -m pytest -q",
+    "json_hygiene": "python scripts/normalize_json_utf8.py"
+  }
+}
