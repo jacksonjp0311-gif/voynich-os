@@ -417,3 +417,53 @@ The manuscript is best understood as a symbolic \textbf{operating system}.
 \end{document}
 Author: James Paul Jackson  
 License: MIT  
+
+---
+
+<!-- VOYNICH_OS_V12_1_GOVERNANCE_PATCH -->
+
+## Voynich OS v12.1 â€” Evidence Boundary and AI Context
+
+Voynich OS should be interpreted as an experimental symbolic-analysis framework for the Voynich Manuscript transcription corpus.
+
+The repository models Voynich transcription structures as computational artifacts: folio lines, tokens, graph nodes, relation/state objects, feature vectors, clusters, ledgers, and manuscript-level summaries.
+
+### Claim boundary
+
+Voynich OS does **not** prove that the Voynich Manuscript is an operating system.
+
+Voynich OS does **not** prove decipherment.
+
+Voynich OS does **not** prove translation.
+
+Voynich OS does **not** prove authorial intent.
+
+The safe claim is:
+
+Voynich OS tests whether Voynich transcription structures can be represented as symbolic graph/state/process systems and whether those models emit stable, inspectable, reproducible diagnostic artifacts.
+
+### Interpretation locks
+
+- Modeling is not decipherment.
+- Structure is not translation.
+- Recurrence is not proof.
+- Clusters are not literal meanings.
+- Meaning vectors are structural diagnostics, not validated semantic readings.
+- Generated outputs require reproducibility metadata before being treated as evidence.
+
+### RCC / AI navigation
+
+For AI agents and human reviewers:
+
+- Read docs/CLAIM_BOUNDARY.md before strengthening any claim.
+- Read docs/REPRODUCIBILITY.md before treating outputs as evidence.
+- Read docs/AI_CONTEXT.md before making automated edits.
+- Prefer tests, manifests, audit scripts, and provenance over speculative interpretation.
+
+### v12.1 audit command
+
+    python scripts/voynich_repo_audit.py
+
+Optional test command:
+
+    python -m pytest -q
