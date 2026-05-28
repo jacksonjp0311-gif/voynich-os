@@ -7,12 +7,15 @@ from datetime import datetime, timezone
 ROOT = Path(__file__).resolve().parents[2]
 
 REQUIRED_MARKERS = [
-    "Voynich OS v12.2.2 - Public README Professional Replacement",
+    "Current checkpoint: **Voynich OS v12.5.1 - README Alignment and Roadmap Seal**",
+    "Previous seal: **Voynich OS v12.5 - Reproducibility Replay Contract**",
     "Voynich OS v12.3 - Output Manifest and Alias Layer",
     "Voynich OS v12.4 - Showcase Evidence Package and Visual Atlas",
     "Voynich OS v12.5 - Reproducibility Replay Contract",
-    "Do not call an artifact reproducible until its replay command is declared",
-    "observed_not_yet_replay_mapped",
+    "Voynich OS v12.6 - Replay Evidence Package",
+    "Roadmap Seal",
+    "v12.5 proves replay readiness classification",
+    "v12.6 is required before claiming replay evidence",
     "reports/replay/replay_contract_v12_5.json",
     "visuals/replay/v12_5_replay_contract.svg",
     "Modeling is not decipherment",
@@ -39,7 +42,9 @@ REQUIRED_FILES = [
     "docs/context/replay_contract_index_v12_5.json",
     "visuals/replay/v12_5_replay_contract.svg",
     "releases/replay_contract_v12_5/README.md",
-    "releases/replay_contract_v12_5/replay_contract_v12_5.json"
+    "releases/replay_contract_v12_5/replay_contract_v12_5.json",
+    "reports/readme/readme_alignment_v12_5_1.json",
+    "reports/readme/readme_alignment_v12_5_1.md"
 ]
 
 def load_json(rel: str):
@@ -75,8 +80,14 @@ def main() -> int:
             errors.append("v12.5 replay contract schema mismatch")
         if contract.get("summary", {}).get("total_contracts", 0) <= 0:
             errors.append("v12.5 replay contract has no contracts")
-        if "observed_not_yet_replay_mapped" not in contract.get("summary", {}).get("classification_counts", {}):
-            warnings.append("v12.5 contract found no observed_not_yet_replay_mapped class")
+
+    alignment_path = ROOT / "reports/readme/readme_alignment_v12_5_1.json"
+    if alignment_path.exists():
+        alignment = load_json("reports/readme/readme_alignment_v12_5_1.json")
+        if alignment.get("schema") != "voynich-os-readme-alignment-v12.5.1":
+            errors.append("v12.5.1 README alignment schema mismatch")
+        if alignment.get("next_recommended_version") != "Voynich OS v12.6 - Replay Evidence Package":
+            errors.append("v12.5.1 next recommended version mismatch")
 
     if "â" in text:
         warnings.append("README may contain mojibake character: â")
@@ -84,7 +95,7 @@ def main() -> int:
     passed = not errors
 
     report = {
-        "schema": "voynich-os-readme-audit-v12.5",
+        "schema": "voynich-os-readme-audit-v12.5.1",
         "timestamp_utc": datetime.now(timezone.utc).isoformat(),
         "passed": passed,
         "errors": errors,
@@ -125,7 +136,7 @@ def main() -> int:
     md.append("")
     md.append("## Non-claim lock")
     md.append("")
-    md.append("README audits, manifests, showcase packages, and replay contracts improve repository observability. They do not prove decipherment, translation, runtime correctness, or production readiness.")
+    md.append("README audits, manifests, showcase packages, replay contracts, and alignment seals improve repository observability. They do not prove decipherment, translation, runtime correctness, full reproducibility, or production readiness.")
     md.append("")
 
     (out_dir / "latest_readme_mini_repo_audit.md").write_text(

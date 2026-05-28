@@ -1,17 +1,19 @@
 # Voynich OS - Evidence-Bounded Symbolic Manuscript Runtime
 
 ![RCC-N](https://img.shields.io/badge/RCC--N-passing-brightgreen)
-![README Audit](https://img.shields.io/badge/README%20audit-professionalized-brightgreen)
+![README Audit](https://img.shields.io/badge/README%20audit-v12.5%20passing-brightgreen)
 ![Tests](https://img.shields.io/badge/tests-4%20passed-brightgreen)
 ![Claim Boundary](https://img.shields.io/badge/claim%20boundary-locked-blue)
 ![Profile](https://img.shields.io/badge/RCC--N%20profile-Standard-purple)
-![Manifest Status](https://img.shields.io/badge/output%20manifests-next-orange)
+![Manifest Status](https://img.shields.io/badge/output%20manifest-v12.3-brightgreen)
+![Replay Contract](https://img.shields.io/badge/replay%20contract-v12.5-blue)
+![Showcase](https://img.shields.io/badge/showcase-v12.4-purple)
 
 Repository: `voynich-os`
 
-Current checkpoint: **Voynich OS v12.2.2 - Public README Professional Replacement**
+Current checkpoint: **Voynich OS v12.5.1 - README Alignment and Roadmap Seal**
 
-Previous seal: **Voynich OS v12.2.1 - Main README Nexus Discipline Mirror**
+Previous seal: **Voynich OS v12.5 - Reproducibility Replay Contract**
 
 Voynich OS is a local-first, evidence-bounded symbolic-analysis runtime for studying Voynich Manuscript transcription structures through corpus files, folio outputs, graph/state JSON, meaning/vector diagnostics, manuscript state, ledgers, audits, and RCC-N style repository navigation.
 
@@ -35,6 +37,10 @@ This repository is now in the **v12 public Voynich research spine**.
 | v12.2 RCC Nexus Professional Spine | Can humans and agents navigate the repo safely? | `rcc/nexus/route_map.json` |
 | v12.2 Professional Directory Plan | How should folders evolve without breaking reproducibility? | `reports/reorg/professional_directory_plan_v12_2.md` |
 | v12.2.2 Public README Professional Replacement | Does the public README open with evidence-bounded professional framing? | `README.md` |
+| v12.3 Output Manifest and Alias Layer | Which output families exist, how many files do they contain, and what boundaries apply? | `state/manifests/voynich_output_manifest_v12_3.json` |
+| v12.4 Showcase Evidence Package and Visual Atlas | Can the manifested artifact field be shown publicly without overclaiming? | `releases/showcase_v12_4/README.md` |
+| v12.5 Reproducibility Replay Contract | Which artifacts are replayable now, source-anchored, or observed but not replay-mapped? | `reports/replay/replay_contract_v12_5.json` |
+| v12.5.1 README Alignment and Roadmap Seal | Does the public README top-level identity match the current evidence stack? | `README.md` |
 
 Current public finding: Voynich OS can be studied as an evidence-bounded symbolic-process modeling substrate. It can emit inspectable corpus, graph, state, vector, cluster, and audit artifacts. It does **not** prove decipherment, translation, authorial intent, or literal operating-system identity.
 
@@ -344,18 +350,22 @@ Machine-readable lock IDs:
 | v12.2 | RCC Nexus professional spine, AGENTS contract, context indexes, route map, mini READMEs, checkers. |
 | v12.2.1 | Main README Nexus discipline mirror and public operating-memory surface. |
 | v12.2.2 | Public README professional replacement with evidence-bounded opening. |
+| v12.3 | Output manifest and alias layer: artifact families counted, hashed, bounded, and route-aliased. |
+| v12.4 | Showcase evidence package and visual atlas: artifact field made public-demo ready. |
+| v12.5 | Reproducibility replay contract: artifact surfaces classified by replay readiness. |
+| v12.5.1 | README alignment and roadmap seal: public top-level README synchronized with v12.3-v12.5 evidence stack. |
 
 ## Next Recommended Version
 
-Voynich OS v12.3 - Output Manifest and Alias Layer
+Voynich OS v12.6 - Replay Evidence Package
 
 Recommended goals:
 
-- Create manifests for every generated output family.
-- Record input hash, output counts, generation status, and claim boundary.
-- Define professional route aliases before any folder migration.
-- Keep legacy paths stable until reproducibility is preserved.
-- Preserve modeling-is-not-decipherment locks.
+- Execute all `replayable_now` contracts from `reports/replay/replay_contract_v12_5.json`.
+- Record pass/fail, command, expected property, observed property, and drift status.
+- Keep `observed_not_yet_replay_mapped` families visible as repair targets.
+- Do not claim full reproducibility until generated families have replay commands.
+- Preserve replay-success-is-not-decipherment locks.
 ---
 
 <!-- VOYNICH_OS_V12_3_OUTPUT_MANIFEST_START -->

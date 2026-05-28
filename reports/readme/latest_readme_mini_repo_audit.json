@@ -1,10 +1,13 @@
 {
-  "schema": "voynich-os-readme-audit-v12.5",
-  "timestamp_utc": "2026-05-28T16:18:35.544368+00:00",
-  "passed": true,
-  "errors": [],
+  "schema": "voynich-os-readme-audit-v12.5.1",
+  "timestamp_utc": "2026-05-28T16:31:39.065713+00:00",
+  "passed": false,
+  "errors": [
+    "README missing marker: v12.5 proves replay readiness classification",
+    "README missing marker: v12.6 is required before claiming replay evidence"
+  ],
   "warnings": [],
-  "required_markers": 12,
+  "required_markers": 15,
   "forbidden_overclaims": 6,
-  "required_files": 9
+  "required_files": 11
 }
