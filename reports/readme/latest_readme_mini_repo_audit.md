@@ -1,12 +1,12 @@
 # Voynich OS README / Mini Repo Audit
 
-- schema: voynich-os-readme-audit-v12.3
+- schema: voynich-os-readme-audit-v12.4
 - passed: true
 - errors: 0
 - warnings: 0
-- required_markers: 22
+- required_markers: 23
 - forbidden_overclaims_checked: 6
-- v12_3_required_files_checked: 7
+- required_files_checked: 14
 
 ## Errors
 
@@ -16,4 +16,4 @@
 
 ## Non-claim lock
 
-README audits and output manifests improve context alignment and artifact observability. They do not prove decipherment, translation, runtime correctness, or production readiness.
+README audits, output manifests, and showcase packages improve context alignment and artifact observability. They do not prove decipherment, translation, runtime correctness, or production readiness.

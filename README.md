@@ -405,3 +405,52 @@ Core rule:
 Voynich OS v12.4 - Showcase Evidence Package and Visual Atlas
 
 <!-- VOYNICH_OS_V12_3_OUTPUT_MANIFEST_END -->
+---
+
+<!-- VOYNICH_OS_V12_4_SHOWCASE_START -->
+
+## Voynich OS v12.4 - Showcase Evidence Package and Visual Atlas
+
+v12.4 packages the v12.3 output manifest into a public demonstration surface.
+
+Core rule:
+
+- Showcase repository observability, not decipherment.
+- Show artifact families, counts, hashes, aliases, and claim boundaries.
+- Keep visual evidence bounded.
+- Do not turn charts into semantic proof.
+
+### Primary outputs
+
+| Output | Purpose |
+|---|---|
+| `releases/showcase_v12_4/README.md` | Public showcase package README. |
+| `releases/showcase_v12_4/showcase_evidence_package_v12_4.json` | Machine-readable showcase evidence package. |
+| `reports/showcase/v12_4/latest_showcase_evidence_package_v12_4.md` | Human-readable showcase report. |
+| `reports/showcase/v12_4/latest_showcase_evidence_package_v12_4.json` | Machine-readable showcase report. |
+| `docs/showcase/showcase_atlas_v12_4.md` | Visual atlas documentation. |
+| `docs/context/showcase_index_v12_4.json` | Showcase route index. |
+| `visuals/showcase/v12_4/showcase_evidence_atlas.svg` | Showcase evidence atlas graphic. |
+
+### What v12.4 proves
+
+- The repo can package its output manifest into a public showcase.
+- The repo can create a visual atlas from manifested artifact families.
+- The repo can explain what the evidence demonstrates.
+- The repo can explain what the evidence does not demonstrate.
+- The repo can communicate clearly without returning to overclaiming language.
+
+### What v12.4 does not prove
+
+- decipherment;
+- translation;
+- literal operating-system identity;
+- authorial intent;
+- validated semantic meaning;
+- historical truth.
+
+### Next recommended version
+
+Voynich OS v12.5 - Reproducibility Replay Contract
+
+<!-- VOYNICH_OS_V12_4_SHOWCASE_END -->

@@ -1,0 +1,191 @@
+{
+  "schema": "voynich-os-showcase-evidence-package-v12.4",
+  "timestamp_utc": "2026-05-28T16:13:45.784675+00:00",
+  "checkpoint": "Voynich OS v12.4 - Showcase Evidence Package and Visual Atlas",
+  "source_manifest": "state/manifests/voynich_output_manifest_v12_3.json",
+  "source_manifest_schema": "voynich-os-output-manifest-v12.3",
+  "purpose": "Package selected manifest evidence, visual atlas, route aliases, and claim boundaries into a public showcase layer.",
+  "public_demonstration_claim": "Voynich OS can demonstrate a governed artifact chain: corpus, generated outputs, diagnostic vectors, manuscript state, ledgers, audits, RCC route maps, output manifests, aliases, and showcase surfaces.",
+  "totals": {
+    "families": 10,
+    "files": 1019,
+    "bytes": 38670707
+  },
+  "top_families_by_file_count": [
+    {
+      "family_id": "meaning_json",
+      "title": "Meaning/vector JSON files",
+      "file_count": 546,
+      "total_bytes": 5224973,
+      "current_path": "data/meaning",
+      "professional_alias": "outputs/semantic_diagnostics/",
+      "claim_boundary": "Meaning vectors and clusters are diagnostics, not literal meanings."
+    },
+    {
+      "family_id": "corpus_txt",
+      "title": "Corpus text files",
+      "file_count": 229,
+      "total_bytes": 3382292,
+      "current_path": "data/corpus",
+      "professional_alias": "datasets/corpus/",
+      "claim_boundary": "Corpus files are source material for modeling; they are not decipherment."
+    },
+    {
+      "family_id": "folio_outputs_json",
+      "title": "Folio output JSON files",
+      "file_count": 226,
+      "total_bytes": 29949665,
+      "current_path": "data/folio_outputs",
+      "professional_alias": "outputs/folio_graphs/",
+      "claim_boundary": "Folio outputs are symbolic diagnostics, not translation."
+    },
+    {
+      "family_id": "docs_md",
+      "title": "Documentation Markdown files",
+      "file_count": 7,
+      "total_bytes": 89218,
+      "current_path": "docs",
+      "professional_alias": "docs/",
+      "claim_boundary": "Documentation guides interpretation; it is not evidence by itself."
+    },
+    {
+      "family_id": "manuscript_state_json",
+      "title": "Manuscript-level state JSON files",
+      "file_count": 2,
+      "total_bytes": 2806,
+      "current_path": "data/manuscript_v12_0",
+      "professional_alias": "outputs/manuscript_state/",
+      "claim_boundary": "Manuscript-level state is synthesis output, not proof of authorial intent."
+    },
+    {
+      "family_id": "ledger_jsonl",
+      "title": "Ledger JSONL files",
+      "file_count": 2,
+      "total_bytes": 1373,
+      "current_path": "data/ledger",
+      "professional_alias": "ledgers/",
+      "claim_boundary": "Ledgers record process history, not correctness proof."
+    },
+    {
+      "family_id": "state_audits",
+      "title": "State audit JSON files",
+      "file_count": 2,
+      "total_bytes": 1061,
+      "current_path": "state/audits",
+      "professional_alias": "state/audits/",
+      "claim_boundary": "Audit state records observed repo properties, not manuscript interpretation."
+    },
+    {
+      "family_id": "readme_reports",
+      "title": "README audit reports",
+      "file_count": 2,
+      "total_bytes": 617,
+      "current_path": "reports/readme",
+      "professional_alias": "reports/readme/",
+      "claim_boundary": "README audits validate public framing, not manuscript meaning."
+    },
+    {
+      "family_id": "rcc_reports",
+      "title": "RCC Nexus reports",
+      "file_count": 2,
+      "total_bytes": 604,
+      "current_path": "reports/rcc_nexus",
+      "professional_alias": "reports/rcc_nexus/",
+      "claim_boundary": "RCC-N validates navigation, not code correctness or decipherment."
+    },
+    {
+      "family_id": "corpus_json",
+      "title": "Corpus JSON files",
+      "file_count": 1,
+      "total_bytes": 18098,
+      "current_path": "data/corpus",
+      "professional_alias": "datasets/corpus/",
+      "claim_boundary": "Corpus JSON is source/metadata structure, not semantic proof."
+    }
+  ],
+  "aliases": [
+    {
+      "current_path": "data/corpus/",
+      "professional_alias": "datasets/corpus/",
+      "status": "preserve_current_path",
+      "reason": "Source corpus path is active and should remain stable until package-level migration is planned.",
+      "claim_boundary": "Corpus presence is not translation or decipherment."
+    },
+    {
+      "current_path": "data/folio_outputs/",
+      "professional_alias": "outputs/folio_graphs/",
+      "status": "alias_only_no_move",
+      "reason": "Generated folio JSON artifacts must be manifested before any folder migration.",
+      "claim_boundary": "Folio graph outputs are diagnostics, not proof of manuscript meaning."
+    },
+    {
+      "current_path": "data/meaning/",
+      "professional_alias": "outputs/semantic_diagnostics/",
+      "status": "alias_only_no_move",
+      "reason": "Meaning/vector outputs are structurally important but semantically bounded.",
+      "claim_boundary": "Meaning vectors are diagnostics, not validated semantic readings."
+    },
+    {
+      "current_path": "data/manuscript_v12_0/",
+      "professional_alias": "outputs/manuscript_state/",
+      "status": "alias_only_no_move",
+      "reason": "Manuscript-level synthesis state requires stable provenance.",
+      "claim_boundary": "Manuscript state is synthesis output, not proof of decipherment."
+    },
+    {
+      "current_path": "data/ledger/",
+      "professional_alias": "ledgers/",
+      "status": "alias_only_no_move",
+      "reason": "Ledger path is active; future move requires backward-compatible route update.",
+      "claim_boundary": "Ledger continuity records process history, not correctness proof."
+    },
+    {
+      "current_path": "export_v4_5/",
+      "professional_alias": "legacy/export_v4_5/",
+      "status": "preserve_until_legacy_migration",
+      "reason": "Legacy export surface should not be moved until route aliases and references are audited.",
+      "claim_boundary": "Legacy output preservation is reproducibility support, not validation."
+    },
+    {
+      "current_path": "import_v4_5/",
+      "professional_alias": "legacy/import_v4_5/",
+      "status": "preserve_until_legacy_migration",
+      "reason": "Legacy import surface should not be moved until route aliases and references are audited.",
+      "claim_boundary": "Legacy input preservation is reproducibility support, not validation."
+    }
+  ],
+  "claim_locks": [
+    "Modeling is not decipherment.",
+    "Structure is not translation.",
+    "Clusters are not meaning.",
+    "Generated outputs are task-bounded artifacts, not universal proof.",
+    "Output manifests prove artifact observability, not decipherment or translation.",
+    "Validation remains required."
+  ],
+  "does_not_prove": [
+    "decipherment",
+    "translation",
+    "literal_operating_system_identity",
+    "authorial_intent",
+    "validated_semantic_meaning",
+    "historical_truth",
+    "production_readiness"
+  ],
+  "showcase_chain": [
+    "corpus",
+    "folio_outputs",
+    "meaning_vector_diagnostics",
+    "manuscript_state",
+    "ledgers",
+    "repo_audits",
+    "rcc_nexus",
+    "output_manifest",
+    "path_aliases",
+    "showcase_package",
+    "visual_atlas"
+  ],
+  "next_layer": {
+    "recommended": "Voynich OS v12.5 - Reproducibility Replay Contract",
+    "reason": "After outputs are showcased, the next proof layer should define which artifacts can be regenerated, by which command, from which inputs, with which expected hashes or tolerances."
+  }
+}
