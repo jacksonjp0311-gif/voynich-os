@@ -11,9 +11,9 @@
 
 Repository: `voynich-os`
 
-Current checkpoint: **Voynich OS v12.5.1 - README Alignment and Roadmap Seal**
+Current checkpoint: **Voynich OS v12.5.2 - README Drift Guard and Validation Stop Gate**
 
-Previous seal: **Voynich OS v12.5 - Reproducibility Replay Contract**
+Previous seal: **Voynich OS v12.5.1 - README Alignment and Roadmap Seal**
 
 Voynich OS is a local-first, evidence-bounded symbolic-analysis runtime for studying Voynich Manuscript transcription structures through corpus files, folio outputs, graph/state JSON, meaning/vector diagnostics, manuscript state, ledgers, audits, and RCC-N style repository navigation.
 
@@ -354,6 +354,7 @@ Machine-readable lock IDs:
 | v12.4 | Showcase evidence package and visual atlas: artifact field made public-demo ready. |
 | v12.5 | Reproducibility replay contract: artifact surfaces classified by replay readiness. |
 | v12.5.1 | README alignment and roadmap seal: public top-level README synchronized with v12.3-v12.5 evidence stack. |
+| v12.5.2 | README drift guard and validation stop gate: failed validation blocks commit/push promotion. |
 
 ## Next Recommended Version
 
@@ -366,6 +367,37 @@ Recommended goals:
 - Keep `observed_not_yet_replay_mapped` families visible as repair targets.
 - Do not claim full reproducibility until generated families have replay commands.
 - Preserve replay-success-is-not-decipherment locks.
+
+---
+
+<!-- VOYNICH_OS_ROADMAP_SEAL_START -->
+
+## Roadmap Seal
+
+| Version | Phase | Proof surface |
+|---|---|---|
+| v12.2.2 | Claim-boundary stabilization | Public README no longer opens with overclaiming language. |
+| v12.3 | Artifact observability | Manifested artifact families, counts, hashes, aliases, and boundaries. |
+| v12.4 | Showcase readiness | Public evidence package and visual atlas. |
+| v12.5 | Replay classification | Replayable, source-anchored, and observed-not-mapped contract classes. |
+| v12.5.1 | README alignment | Public README top-level identity synchronized with the evidence stack. |
+| v12.5.2 | Drift guard | README/state drift and failed validation now block promotion. |
+| v12.6 | Replay evidence | Execute replayable contracts and report pass/fail evidence. |
+| v12.7 | Release candidate | Freeze release notes, visuals, validation logs, and public claim boundary. |
+| v12.8 | Corpus provenance cards | Source humility, transcription boundaries, and corpus provenance. |
+| v12.9 | Baseline/control layer | Compare outputs against simple controls and ordinary baselines. |
+| v13.0 | Research release candidate | Public package: what this proves, what this does not prove, and what remains open. |
+
+Current proof posture:
+
+- v12.5 proves replay readiness classification.
+- v12.5 does not prove full replay completion.
+- v12.5.1 proves README/evidence-stack alignment.
+- v12.5.2 proves failed validation can block commit/push promotion.
+- v12.6 is required before claiming replay evidence.
+
+<!-- VOYNICH_OS_ROADMAP_SEAL_END -->
+
 ---
 
 <!-- VOYNICH_OS_V12_3_OUTPUT_MANIFEST_START -->

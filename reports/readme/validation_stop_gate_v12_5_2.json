@@ -1,0 +1,38 @@
+{
+  "schema": "voynich-os-validation-stop-gate-v12.5.2",
+  "timestamp_utc": "2026-05-28T16:42:29.844290+00:00",
+  "passed": true,
+  "errors": [],
+  "commands": [
+    {
+      "command": "python scripts/voynich_repo_audit.py",
+      "returncode": 0,
+      "stdout": "{\n  \"artifact\": \"Voynich OS repo audit\",\n  \"version\": \"v12.1\",\n  \"timestamp_utc\": \"2026-05-28T16:42:28.579927+00:00\",\n  \"repo_root\": \"C:\\\\Users\\\\jacks\\\\OneDrive\\\\Desktop\\\\voynich-os\",\n  \"claim_boundary\": \"Modeling is not decipherment; structure is not translation; clusters are diagnostics, not literal meaning.\",\n  \"counts\": {\n    \"corpus_txt_files\": 229,\n    \"corpus_json_files\": 1,\n    \"folio_output_json_files\": 226,\n    \"meaning_json_files\": 546,\n    \"ledger_jsonl_files\": 2,\n    \"docs_md_files\": 9\n  },\n  \"hashes\": {\n    \"data/corpus/voynich_corpus_ivtff.txt\": \"3f3f2af18cde10efe75c582f49b07b651c3397022fcbfa5854fecc424c121afa\"\n  },\n  \"required_docs\": {\n    \"CLAIM_BOUNDARY.md\": true,\n    \"REPRODUCIBILITY.md\": true,\n    \"AI_CONTEXT.md\": true\n  }\n}\n\nWrote: state\\audits\\voynich_repo_audit_v12_1.json\n",
+      "stderr": "",
+      "passed": true
+    },
+    {
+      "command": "python scripts/rcc/check_rcc_nexus.py",
+      "returncode": 0,
+      "stdout": "{\n  \"schema\": \"voynich-os-rcc-nexus-check-v12.2\",\n  \"timestamp_utc\": \"2026-05-28T16:42:28.695975+00:00\",\n  \"passed\": true,\n  \"errors\": [],\n  \"warnings\": [],\n  \"major_dirs_checked\": 15,\n  \"mini_readme_coverage\": 1.0,\n  \"adoption_profile\": \"Standard\",\n  \"claim_boundary\": \"RCC-N navigation is not validation; modeling is not decipherment.\"\n}\n",
+      "stderr": "",
+      "passed": true
+    },
+    {
+      "command": "python scripts/rcc/audit_readme_surface.py",
+      "returncode": 0,
+      "stdout": "{\n  \"schema\": \"voynich-os-readme-audit-v12.5.2\",\n  \"timestamp_utc\": \"2026-05-28T16:42:28.765550+00:00\",\n  \"passed\": true,\n  \"errors\": [],\n  \"warnings\": [],\n  \"required_markers\": 16,\n  \"forbidden_overclaims\": 6,\n  \"forbidden_stale_markers\": 2,\n  \"required_files\": 12\n}\n",
+      "stderr": "",
+      "passed": true
+    },
+    {
+      "command": "python -m pytest -q",
+      "returncode": 0,
+      "stdout": "....                                                                     [100%]\n4 passed in 0.40s\n",
+      "stderr": "",
+      "passed": true
+    }
+  ],
+  "rule": "Commit and push are forbidden unless this gate passes.",
+  "claim_boundary": "Validation gates prove repository-governance coherence only, not decipherment, translation, or semantic truth."
+}
