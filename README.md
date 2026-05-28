@@ -454,3 +454,57 @@ Core rule:
 Voynich OS v12.5 - Reproducibility Replay Contract
 
 <!-- VOYNICH_OS_V12_4_SHOWCASE_END -->
+---
+
+<!-- VOYNICH_OS_V12_5_REPLAY_CONTRACT_START -->
+
+## Voynich OS v12.5 - Reproducibility Replay Contract
+
+v12.5 classifies the artifact field by replay readiness.
+
+Core rule:
+
+- Do not call an artifact reproducible until its replay command is declared.
+- Do not call an observed artifact regenerated unless replay evidence exists.
+- Do not treat hash stability as semantic truth.
+- Do not treat replay success as decipherment.
+
+### Replay classes
+
+| Class | Meaning |
+|---|---|
+| `replayable_now` | A command exists now and can regenerate or verify the artifact surface. |
+| `source_anchored_verify_hash` | The artifact is source material; replay means verifying hash stability. |
+| `observed_not_yet_replay_mapped` | The artifact exists and is manifested, but its generator command is not yet declared. |
+
+### Primary outputs
+
+| Output | Purpose |
+|---|---|
+| `reports/replay/replay_contract_v12_5.json` | Machine-readable replay contract. |
+| `reports/replay/replay_contract_v12_5.md` | Human-readable replay contract. |
+| `docs/replay/replay_contract_v12_5.md` | Documentation copy of replay contract. |
+| `docs/context/replay_contract_index_v12_5.json` | Replay contract route index. |
+| `visuals/replay/v12_5_replay_contract.svg` | Replay classification visual. |
+| `releases/replay_contract_v12_5/README.md` | Release-facing replay contract package. |
+
+### What v12.5 proves
+
+- The repo can distinguish observed artifacts from replayable artifacts.
+- The repo can name replay commands for current validation and showcase surfaces.
+- The repo can identify generated families that still need replay mapping.
+- The repo can define reproducibility honestly without overclaiming.
+
+### What v12.5 does not prove
+
+- decipherment;
+- translation;
+- semantic truth;
+- literal operating-system identity;
+- full reproducibility of every generated output family.
+
+### Next recommended version
+
+Voynich OS v12.6 - Replay Evidence Package
+
+<!-- VOYNICH_OS_V12_5_REPLAY_CONTRACT_END -->

@@ -1,0 +1,140 @@
+{
+  "schema": "voynich-os-replay-contract-v12.5",
+  "timestamp_utc": "2026-05-28T16:18:34.819202+00:00",
+  "checkpoint": "Voynich OS v12.5 - Reproducibility Replay Contract",
+  "source_manifest": "state/manifests/voynich_output_manifest_v12_3.json",
+  "source_showcase_package": "releases/showcase_v12_4/showcase_evidence_package_v12_4.json",
+  "purpose": "Classify artifact surfaces by replay readiness before claiming reproducibility.",
+  "summary": {
+    "total_contracts": 9,
+    "classification_counts": {
+      "source_anchored_verify_hash": 1,
+      "replayable_now": 5,
+      "observed_not_yet_replay_mapped": 3
+    },
+    "replayable_contracts": 5,
+    "observed_not_yet_replay_mapped": 3
+  },
+  "contracts": [
+    {
+      "contract_id": "source_corpus_hash",
+      "surface": "data/corpus/voynich_corpus_ivtff.txt",
+      "classification": "source_anchored_verify_hash",
+      "command": "python scripts/voynich_repo_audit.py",
+      "expected_output": "state/audits/voynich_repo_audit_v12_1.json",
+      "expected_property": "hashes.data/corpus/voynich_corpus_ivtff.txt",
+      "expected_value": "3f3f2af18cde10efe75c582f49b07b651c3397022fcbfa5854fecc424c121afa",
+      "claim_boundary": "Corpus hash verification proves source stability only, not decipherment.",
+      "status": "declared",
+      "repair_target": null
+    },
+    {
+      "contract_id": "repo_audit_replay",
+      "surface": "state/audits/voynich_repo_audit_v12_1.json",
+      "classification": "replayable_now",
+      "command": "python scripts/voynich_repo_audit.py",
+      "expected_output": "state/audits/voynich_repo_audit_v12_1.json",
+      "expected_property": "artifact",
+      "expected_value": "Voynich OS repo audit",
+      "claim_boundary": "Repo audit replay proves observable repo counts and required docs only.",
+      "status": "declared",
+      "repair_target": null
+    },
+    {
+      "contract_id": "rcc_nexus_replay",
+      "surface": "reports/rcc_nexus/latest_rcc_nexus_check.json",
+      "classification": "replayable_now",
+      "command": "python scripts/rcc/check_rcc_nexus.py",
+      "expected_output": "reports/rcc_nexus/latest_rcc_nexus_check.json",
+      "expected_property": "passed",
+      "expected_value": true,
+      "claim_boundary": "RCC-N replay proves navigation-surface validity only.",
+      "status": "declared",
+      "repair_target": null
+    },
+    {
+      "contract_id": "readme_audit_replay",
+      "surface": "reports/readme/latest_readme_mini_repo_audit.json",
+      "classification": "replayable_now",
+      "command": "python scripts/rcc/audit_readme_surface.py",
+      "expected_output": "reports/readme/latest_readme_mini_repo_audit.json",
+      "expected_property": "passed",
+      "expected_value": true,
+      "claim_boundary": "README audit replay proves public framing checks only.",
+      "status": "declared",
+      "repair_target": null
+    },
+    {
+      "contract_id": "output_manifest_replay",
+      "surface": "state/manifests/voynich_output_manifest_v12_3.json",
+      "classification": "replayable_now",
+      "command": "python scripts/manifests/generate_output_manifest_v12_3.py",
+      "expected_output": "state/manifests/voynich_output_manifest_v12_3.json",
+      "expected_property": "schema",
+      "expected_value": "voynich-os-output-manifest-v12.3",
+      "claim_boundary": "Manifest replay proves artifact observability only.",
+      "status": "declared",
+      "repair_target": null
+    },
+    {
+      "contract_id": "showcase_package_replay",
+      "surface": "releases/showcase_v12_4/showcase_evidence_package_v12_4.json",
+      "classification": "replayable_now",
+      "command": "python scripts/showcase/build_showcase_package_v12_4.py",
+      "expected_output": "releases/showcase_v12_4/showcase_evidence_package_v12_4.json",
+      "expected_property": "schema",
+      "expected_value": "voynich-os-showcase-evidence-package-v12.4",
+      "claim_boundary": "Showcase replay proves package regeneration only.",
+      "status": "declared",
+      "repair_target": null
+    },
+    {
+      "contract_id": "folio_outputs_family",
+      "surface": "data/folio_outputs/",
+      "classification": "observed_not_yet_replay_mapped",
+      "command": null,
+      "expected_output": "data/folio_outputs/",
+      "expected_property": "file_count",
+      "expected_value": 226,
+      "claim_boundary": "Observed folio outputs are manifested but not yet replay-command mapped.",
+      "status": "declared",
+      "repair_target": "Add or recover generator command and expected replay tolerance."
+    },
+    {
+      "contract_id": "meaning_vectors_family",
+      "surface": "data/meaning/",
+      "classification": "observed_not_yet_replay_mapped",
+      "command": null,
+      "expected_output": "data/meaning/",
+      "expected_property": "file_count",
+      "expected_value": 546,
+      "claim_boundary": "Observed meaning/vector diagnostics are manifested but not yet replay-command mapped.",
+      "status": "declared",
+      "repair_target": "Add or recover generator command and expected replay tolerance."
+    },
+    {
+      "contract_id": "manuscript_state_family",
+      "surface": "data/manuscript_v12_0/",
+      "classification": "observed_not_yet_replay_mapped",
+      "command": null,
+      "expected_output": "data/manuscript_v12_0/",
+      "expected_property": "file_count",
+      "expected_value": 1,
+      "claim_boundary": "Observed manuscript state is manifested but not yet replay-command mapped.",
+      "status": "declared",
+      "repair_target": "Add or recover generator command and expected replay tolerance."
+    }
+  ],
+  "claim_locks": [
+    "Replay classification is not decipherment.",
+    "Replay success is not translation.",
+    "Hash stability is not semantic truth.",
+    "Observed artifacts are not automatically reproducible artifacts.",
+    "A missing replay command is a repair target, not a failure of the whole repository.",
+    "Validation remains required."
+  ],
+  "next_layer": {
+    "recommended": "Voynich OS v12.6 - Replay Evidence Package",
+    "reason": "After declaring replay contracts, run the replayable contracts and record pass/fail evidence, drift, and repair targets."
+  }
+}
